@@ -1317,6 +1317,29 @@ ALL_FALLBACK_DOMAINS = FALLBACK_SCIENCE_DOMAINS
 ALL_ALLOWED_DOMAINS = ALL_PRIMARY_DOMAINS
 
 
+def normalized_domain(url_or_source):
+    raw = safe_text(url_or_source).lower()
+    if "://" in raw:
+        raw = urlparse(raw).netloc
+    return raw.split(":")[0].removeprefix("www.").strip().rstrip("/")
+
+
+def is_domain_allowed(url, domains):
+    domain = normalized_domain(url)
+    return any(domain == d or domain.endswith("." + d) for d in domains)
+
+
+def primary_domain_allowed(url, region=None):
+    return is_domain_allowed(url, ALL_PRIMARY_DOMAINS)
+
+
+def fallback_domain_allowed(url, region=None):
+    return is_domain_allowed(url, ALL_FALLBACK_DOMAINS)
+
+
+def allowed_source_for_region(url, region=None):
+    return primary_domain_allowed(url, region) or fallback_domain_allowed(url, region)
+
 
 GOOGLE_NEWS_QUERIES = {
     "Science": [
@@ -3864,6 +3887,29 @@ def self_test():
     assert clustered[0]["event_cluster_size"] >= 1
     assert canonical_topic("black hole") == "Astrophysics"
     assert "#Astronomy" in category_hashtags(sample) and "#Science" in category_hashtags({**sample, "topic": "Physics", "institution": ""})
+
+    # Discovery/source contract regression tests. These functions are part of
+    # the proven Tech Newsroom architecture and must exist before any network
+    # discovery path is allowed to run.
+    assert normalized_domain("https://www.nature.com/news/article") == "nature.com"
+    assert is_domain_allowed("https://science.nasa.gov/science-research/", ["science.nasa.gov"])
+    assert primary_domain_allowed("https://science.nasa.gov/news/article", "Science")
+    assert primary_domain_allowed("https://www.nature.com/articles/test", "Science")
+    assert allowed_source_for_region("https://pubmed.ncbi.nlm.nih.gov/12345678/", "Science")
+    assert not allowed_source_for_region("https://example.com/science/story", "Science")
+
+    regression_item = {
+        "title": "New telescope observations reveal a distant exoplanet",
+        "url": "https://www.nature.com/articles/example",
+        "published_dt": NOW_BD - timedelta(hours=2),
+        "region": "Science",
+    }
+    assert candidate_basic_allowed(regression_item), "Valid primary science candidate was rejected"
+
+    # Keep the source universe contract explicit: V1 promises 50 primary
+    # science domains even though only a subset may expose working RSS feeds.
+    assert len(PRIMARY_SCIENCE_DOMAINS) == 50
+
     logger.info("TheScienceNewsroom V1 self-test passed.")
 
 

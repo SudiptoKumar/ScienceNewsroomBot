@@ -527,3 +527,18 @@ Every updated ZIP should pass:
 ```
 
 A release should not be packaged as final when these checks fail.
+
+## V1.1 Reliability Fix
+
+The first GitHub Actions production run completed without a workflow error but published zero stories because the science fork was missing three source-validation functions inherited from the proven Tech Newsroom architecture:
+
+```text
+normalized_domain()
+primary_domain_allowed()
+fallback_domain_allowed()
+allowed_source_for_region()
+```
+
+Without those functions, RSS candidates and Exa candidates failed during discovery with `NameError`, leaving the ranking pool empty.
+
+V1.1 restores the same source-validation layer used by the Tech bot and adds regression tests so this specific failure is caught by `--self-test` before a future production run.
