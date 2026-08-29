@@ -1,4 +1,4 @@
-# TheScienceNewsroom V1
+# TheScienceNewsroom V1.2
 
 > Automated science-news intelligence for Telegram, powered by GitHub Actions, Exa, and Cerebras, using the same proven runtime architecture as the Tech Newsroom bot with a science-specific editorial intelligence layer.
 
@@ -441,7 +441,17 @@ JPEG
 Telegram Rich Message
 ```
 
-If no usable source image exists, a branded fallback Science News card is generated.
+If no usable source image exists, the bot now uses a three-level fallback:
+
+```text
+article image candidates
+        ↓
+source logo / favicon
+        ↓
+large centered source publication name
+```
+
+Article-image discovery checks RSS media, Open Graph, Twitter image metadata, `itemprop=image`, JSON-LD article images, and HTML article images. Multiple candidates are tried instead of trusting the first URL. Source logos are discovered from the publication homepage, icon metadata, direct favicon paths, and a favicon service fallback. If all logo paths fail, the publication name is rendered prominently in the center of the 1200×675 fallback card.
 
 ## Persistent State
 
@@ -500,7 +510,7 @@ Before release, the source is also checked with:
 python -m py_compile main.py
 ```
 
-The self-test covers HTML rendering, sentence completeness, science taxonomy, hashtags, canonical URLs, event clustering, and the `@ScienceNewsroom` image-branding contract.
+The self-test covers HTML rendering, sentence completeness, Markdown-artifact cleanup, science taxonomy, hashtags, canonical URLs, event clustering, image-candidate extraction, fallback image generation, and the `@ScienceNewsroom` image-branding contract.
 
 ## Normal Run
 

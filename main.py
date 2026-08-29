@@ -582,6 +582,11 @@ def trim_source_text(text, limit):
 def clean_generated_text(text):
     text = safe_text(text)
 
+    # Prevent visible Markdown artifacts. The Telegram renderer uses its own
+    # HTML layer, so generated Markdown emphasis markers must never survive.
+    text = re.sub(r"\*{1,3}", "", text)
+    text = re.sub(r"`{1,3}", "", text)
+
     # Prevent visible truncation artifacts.
     text = re.sub(r"\.{2,}", ".", text)
     text = text.replace("\u2026", "")
@@ -1965,17 +1970,52 @@ def remember_posted_event(story):
 # ARTICLE EXTRACTION
 # ============================================================
 
-def find_og_image(
+def _unique_image_urls(urls, base_url=""):
+    seen = set()
+    result = []
+    for value in urls:
+        raw = safe_text(value)
+        if not raw:
+            continue
+        absolute = urljoin(base_url or "", raw)
+        parsed = urlparse(absolute)
+        if parsed.scheme not in {"http", "https"}:
+            continue
+        key = absolute.split("#", 1)[0]
+        if key not in seen:
+            seen.add(key)
+            result.append(key)
+    return result
+
+
+def _jsonld_image_values(value):
+    values = []
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        for item in value:
+            values.extend(_jsonld_image_values(item))
+        return values
+    if isinstance(value, dict):
+        for key in ("url", "contentUrl", "image"):
+            item = value.get(key)
+            if isinstance(item, str):
+                values.append(item)
+            elif isinstance(item, (dict, list)):
+                values.extend(_jsonld_image_values(item))
+    return values
+
+
+def find_image_candidates(
     url,
     page_html=None,
     final_url=None,
+    initial_url="",
 ):
-    try:
-        base_url = (
-            final_url
-            or url
-        )
+    candidates = []
+    base_url = final_url or url
 
+    try:
         if page_html is None:
             response = session.get(
                 url,
@@ -1985,42 +2025,80 @@ def find_og_image(
                 },
                 timeout=20,
             )
-
             if response.status_code >= 400:
-                return ""
-
+                return [initial_url] if initial_url else []
             page_html = response.text
             base_url = response.url
 
-        soup = BeautifulSoup(
-            page_html,
-            "html.parser",
-        )
+        if initial_url:
+            candidates.append(initial_url)
 
+        soup = BeautifulSoup(page_html, "html.parser")
+
+        # Highest-signal article image metadata first.
         for attrs in (
             {"property": "og:image"},
             {"property": "og:image:url"},
             {"name": "twitter:image"},
+            {"name": "twitter:image:src"},
+            {"itemprop": "image"},
         ):
-            tag = soup.find(
-                "meta",
-                attrs=attrs,
-            )
+            for tag in soup.find_all("meta", attrs=attrs):
+                content = safe_text(tag.get("content"))
+                if content:
+                    candidates.append(content)
 
-            if tag and tag.get(
-                "content"
-            ):
-                return urljoin(
-                    base_url,
-                    safe_text(
-                        tag["content"]
-                    ),
-                )
+        for tag in soup.find_all("link"):
+            rel = {safe_text(x).lower() for x in tag.get("rel", [])}
+            if {"image_src"} & rel:
+                href = safe_text(tag.get("href"))
+                if href:
+                    candidates.append(href)
 
-    except Exception:
-        pass
+        # JSON-LD article image metadata, including nested ImageObject values.
+        for script in soup.find_all("script", attrs={"type": re.compile(r"application/ld\\+json", re.I)}):
+            raw = script.string or script.get_text(" ", strip=True)
+            if not raw:
+                continue
+            try:
+                payload = json.loads(raw)
+            except Exception:
+                continue
+            objects = payload if isinstance(payload, list) else [payload]
+            for obj in objects:
+                if isinstance(obj, dict):
+                    candidates.extend(_jsonld_image_values(obj.get("image")))
+                    main_entity = obj.get("mainEntity")
+                    if isinstance(main_entity, dict):
+                        candidates.extend(_jsonld_image_values(main_entity.get("image")))
 
-    return ""
+        # Last HTML fallback: article/content images with srcset support.
+        for tag in soup.select("article img, main img, figure img, img")[:40]:
+            src = safe_text(tag.get("src"))
+            if src:
+                candidates.append(src)
+            for attr in ("data-src", "data-original", "data-lazy-src"):
+                value = safe_text(tag.get(attr))
+                if value:
+                    candidates.append(value)
+            srcset = safe_text(tag.get("srcset") or tag.get("data-srcset"))
+            if srcset:
+                parts = [x.strip().split(" ")[0] for x in srcset.split(",") if x.strip()]
+                candidates.extend(parts)
+
+        return _unique_image_urls(candidates, base_url)
+    except Exception as exc:
+        logger.warning("Image candidate extraction failed %s: %s", url, exc)
+        return _unique_image_urls(candidates, base_url)
+
+
+def find_og_image(
+    url,
+    page_html=None,
+    final_url=None,
+):
+    candidates = find_image_candidates(url, page_html, final_url)
+    return candidates[0] if candidates else ""
 
 
 def extract_article(
@@ -2048,14 +2126,14 @@ def extract_article(
                 favor_precision=True,
             )
 
-            image_url = (
-                item.get("image")
-                or find_og_image(
-                    url,
-                    page_html,
-                    response.url,
-                )
+            image_candidates = find_image_candidates(
+                url,
+                page_html,
+                response.url,
+                initial_url=item.get("image", ""),
             )
+            item["_image_candidates"] = image_candidates
+            image_url = image_candidates[0] if image_candidates else ""
 
             if text and len(safe_text(text)) >= 500:
                 return (
@@ -2089,16 +2167,13 @@ def extract_article(
                 )
             )
 
-            image_url = (
-                item.get("image")
-                or safe_text(
-                    getattr(
-                        result,
-                        "image",
-                        "",
-                    )
-                )
+            exa_image = safe_text(getattr(result, "image", ""))
+            prior = item.get("_image_candidates", [])
+            candidates = _unique_image_urls(
+                [*prior, item.get("image", ""), exa_image]
             )
+            item["_image_candidates"] = candidates
+            image_url = candidates[0] if candidates else ""
 
             if text:
                 return (
@@ -2803,82 +2878,6 @@ def find_font(
     return None
 
 
-def download_image(
-    url,
-    referer,
-):
-    if not url:
-        return None
-
-    try:
-        response = session.get(
-            url,
-            headers={
-                **HEADERS,
-                "Referer": referer,
-            },
-            timeout=20,
-            stream=True,
-        )
-
-        if response.status_code >= 400:
-            return None
-
-        content_type = (
-            response.headers.get(
-                "content-type",
-                "",
-            )
-            .lower()
-        )
-
-        if (
-            content_type
-            and not content_type.startswith(
-                "image/"
-            )
-        ):
-            return None
-
-        buf = BytesIO()
-
-        for chunk in response.iter_content(
-            65536
-        ):
-            if not chunk:
-                continue
-
-            buf.write(
-                chunk
-            )
-
-            if buf.tell() > 8_000_000:
-                return None
-
-        buf.seek(0)
-
-        image = Image.open(
-            buf
-        )
-        image.load()
-
-        if (
-            image.width < 400
-            or image.height < 250
-        ):
-            return None
-
-        return image.convert(
-            "RGB"
-        )
-
-    except Exception as exc:
-        logger.warning(
-            "Image download failed: %s",
-            exc,
-        )
-        return None
-
 
 def crop_cover(
     image,
@@ -2939,36 +2938,247 @@ def image_average_brightness(
 
 
 def display_source_name(source):
-    """Return a reader-friendly publication label for the image chip."""
+    """Return a reader-friendly publication label for the image fallback."""
     raw = safe_text(source).strip()
-    if not raw:
-        return "Source"
+    return raw or "Science News"
 
-    aliases = {
-        "Nature": "Nature",
-        "Science": "Science",
-        "Science News": "Science News",
-        "New Scientist": "New Scientist",
-        "Scientific American": "Scientific American",
-        "Quanta Magazine": "Quanta Magazine",
-        "Phys.org": "Phys.org",
-        "Physics World": "Physics World",
-        "C&EN": "C&EN",
-        "Chemistry World": "Chemistry World",
-        "NASA Science": "NASA Science",
-        "ESA": "ESA",
-        "ESO": "ESO",
-        "NOIRLab": "NOIRLab",
-        "STScI": "STScI",
-        "JPL": "JPL",
-        "arXiv": "arXiv",
-        "PubMed": "PubMed",
-        "bioRxiv": "bioRxiv",
-        "ChemRxiv": "ChemRxiv",
-    }
-    if raw in aliases:
-        return aliases[raw]
-    return raw
+
+def _source_domain_from_story(source, article_url):
+    article_host = urlparse(safe_text(article_url)).netloc.lower().removeprefix("www.")
+    if article_host:
+        return article_host
+
+    source_lower = safe_text(source).lower().strip()
+    for domain, name in SOURCE_NAMES.items():
+        if source_lower == safe_text(name).lower():
+            return domain
+    return ""
+
+
+def source_logo_candidates(source, article_url):
+    domain = _source_domain_from_story(source, article_url)
+    if not domain:
+        return []
+
+    homepage = f"https://{domain}/"
+    candidates = []
+
+    try:
+        response = session.get(
+            homepage,
+            headers={**HEADERS, "Referer": article_url or homepage},
+            timeout=15,
+        )
+        if response.status_code < 400:
+            soup = BeautifulSoup(response.text, "html.parser")
+            base_url = response.url
+
+            for tag in soup.find_all("link"):
+                rel = {safe_text(x).lower() for x in tag.get("rel", [])}
+                if rel & {"icon", "shortcut", "apple-touch-icon", "apple-touch-icon-precomposed"}:
+                    href = safe_text(tag.get("href"))
+                    if href:
+                        candidates.append(urljoin(base_url, href))
+
+            for attrs in (
+                {"property": "og:logo"},
+                {"name": "og:logo"},
+                {"itemprop": "logo"},
+            ):
+                for tag in soup.find_all("meta", attrs=attrs):
+                    content = safe_text(tag.get("content"))
+                    if content:
+                        candidates.append(urljoin(base_url, content))
+
+            for script in soup.find_all("script", attrs={"type": re.compile(r"application/ld\\+json", re.I)}):
+                raw = script.string or script.get_text(" ", strip=True)
+                if not raw:
+                    continue
+                try:
+                    payload = json.loads(raw)
+                except Exception:
+                    continue
+                objects = payload if isinstance(payload, list) else [payload]
+                for obj in objects:
+                    if isinstance(obj, dict):
+                        publisher = obj.get("publisher")
+                        if isinstance(publisher, dict):
+                            candidates.extend(_jsonld_image_values(publisher.get("logo")))
+
+    except Exception as exc:
+        logger.warning("Source logo discovery failed %s: %s", source, exc)
+
+    candidates.extend([
+        f"https://{domain}/favicon.ico",
+        f"https://{domain}/favicon.png",
+        f"https://www.google.com/s2/favicons?domain={quote(domain)}&sz=256",
+    ])
+
+    return _unique_image_urls(candidates, homepage)
+
+
+def download_image(
+    url,
+    referer,
+    min_width=400,
+    min_height=250,
+):
+    if not url:
+        return None
+
+    try:
+        response = session.get(
+            url,
+            headers={
+                **HEADERS,
+                "Referer": referer,
+            },
+            timeout=20,
+            stream=True,
+        )
+
+        if response.status_code >= 400:
+            return None
+
+        content_type = (
+            response.headers.get(
+                "content-type",
+                "",
+            )
+            .lower()
+        )
+
+        if (
+            content_type
+            and not content_type.startswith(
+                "image/"
+            )
+        ):
+            return None
+
+        buf = BytesIO()
+
+        for chunk in response.iter_content(
+            65536
+        ):
+            if not chunk:
+                continue
+
+            buf.write(
+                chunk
+            )
+
+            if buf.tell() > 8_000_000:
+                return None
+
+        buf.seek(0)
+
+        image = Image.open(
+            buf
+        )
+        image.load()
+
+        if (
+            image.width < min_width
+            or image.height < min_height
+        ):
+            return None
+
+        return image.convert(
+            "RGB"
+        )
+
+    except Exception as exc:
+        logger.warning(
+            "Image download failed: %s",
+            exc,
+        )
+        return None
+
+
+def download_logo(
+    url,
+    referer,
+):
+    """Download a source logo, accepting small favicon-sized assets."""
+    image = download_image(
+        url,
+        referer,
+        min_width=24,
+        min_height=24,
+    )
+    if image is None:
+        return None
+
+    if image.width < 512 or image.height < 512:
+        scale = min(768 / image.width, 768 / image.height)
+        if scale > 1:
+            image = image.resize(
+                (max(1, int(image.width * scale)), max(1, int(image.height * scale))),
+                Image.Resampling.LANCZOS,
+            )
+    return image
+
+
+def _rounded_logo_on_fallback(logo, size=(420, 260)):
+    target_w, target_h = size
+    if logo.width <= 0 or logo.height <= 0:
+        return None
+    ratio = min(target_w / logo.width, target_h / logo.height)
+    new_size = (max(1, int(logo.width * ratio)), max(1, int(logo.height * ratio)))
+    return logo.resize(new_size, Image.Resampling.LANCZOS).convert("RGBA")
+
+
+def make_source_fallback(source, logo=None):
+    """Create a polished source-branded fallback when article imagery is unavailable."""
+    canvas = Image.new("RGB", (1200, 675), (25, 35, 47))
+    draw = ImageDraw.Draw(canvas)
+
+    # Subtle visual hierarchy without depending on external assets.
+    draw.rectangle((40, 40, 1160, 635), outline=(55, 74, 92), width=3)
+
+    if logo is not None:
+        logo_rgba = _rounded_logo_on_fallback(logo)
+        if logo_rgba is not None:
+            x = (1200 - logo_rgba.width) // 2
+            y = 155
+            canvas_rgba = canvas.convert("RGBA")
+            canvas_rgba.alpha_composite(logo_rgba, (x, y))
+            canvas = canvas_rgba.convert("RGB")
+            return canvas
+
+    source_text = display_source_name(source)
+    font_path = find_font(bold=True)
+    font = ImageFont.truetype(font_path, 76) if font_path else ImageFont.load_default()
+
+    words = source_text.split()
+    lines = []
+    current = ""
+    max_chars = 18
+    for word in words:
+        trial = f"{current} {word}".strip()
+        if current and len(trial) > max_chars:
+            lines.append(current)
+            current = word
+        else:
+            current = trial
+    if current:
+        lines.append(current)
+    if not lines:
+        lines = ["Science News"]
+
+    line_boxes = [draw.textbbox((0, 0), line, font=font) for line in lines]
+    line_heights = [box[3] - box[1] for box in line_boxes]
+    total_h = sum(line_heights) + 18 * (len(lines) - 1)
+    y = (675 - total_h) / 2 - 4
+
+    for line, box, line_h in zip(lines, line_boxes, line_heights):
+        w = box[2] - box[0]
+        x = (1200 - w) / 2
+        draw.text((x, y), line, font=font, fill=(245, 248, 250))
+        y += line_h + 18
+
+    return canvas
 
 
 def branded_card(
@@ -2976,10 +3186,7 @@ def branded_card(
     source,
     source_position="left",
 ):
-    """Crop the image and add only the channel chip.
-
-    The publication/source name is not rendered on the photo.
-    """
+    """Crop the image and add only the channel chip."""
     base = crop_cover(
         photo
     ).convert(
@@ -3056,50 +3263,42 @@ def prepare_image(
     story,
     index,
 ):
-    image = download_image(
-        story.get(
-            "image_url",
-            "",
-        ),
-        story["url"],
-    )
+    image = None
+    image_candidates = []
+    image_candidates.extend(story.get("_image_candidates", []) or [])
+    image_candidates.extend(story.get("image_candidates", []) or [])
+    if story.get("image_url"):
+        image_candidates.append(story.get("image_url"))
+    if story.get("image"):
+        image_candidates.append(story.get("image"))
+    image_candidates = _unique_image_urls(image_candidates)
 
-    image_was_missing = image is None
+    for candidate in image_candidates:
+        image = download_image(candidate, story["url"])
+        if image is not None:
+            break
+
+    fallback_kind = "article"
 
     if image is None:
-        image = Image.new(
-            "RGB",
-            (1200, 675),
-            (28, 38, 50),
-        )
+        for logo_url in source_logo_candidates(
+            story.get("source", "Science News"),
+            story.get("url", ""),
+        ):
+            logo = download_logo(logo_url, story.get("url", ""))
+            if logo is not None:
+                image = make_source_fallback(story.get("source", "Science News"), logo)
+                fallback_kind = "logo"
+                break
 
-        font_path = find_font(
-            bold=True
-        )
-
-        if font_path:
-            font = ImageFont.truetype(
-                font_path,
-                48,
-            )
-        else:
-            font = ImageFont.load_default()
-
-        draw = ImageDraw.Draw(
-            image
-        )
-
-        draw.text(
-            (50, 50),
-            "Science News",
-            font=font,
-            fill="white",
-        )
+    if image is None:
+        image = make_source_fallback(story.get("source", "Science News"))
+        fallback_kind = "text"
 
     branded = branded_card(
         image,
         story.get("source", "Source"),
-        source_position="center" if image_was_missing else "left",
+        source_position="center" if fallback_kind != "article" else "left",
     )
 
     path = f"/tmp/news_{index}.jpg"
@@ -3111,94 +3310,12 @@ def prepare_image(
         optimize=True,
     )
 
-    return path
-
-
-# ============================================================
-# TELEGRAM RICH MESSAGES
-# ============================================================
-
-def telegram_call(
-    method,
-    data=None,
-    files=None,
-):
-    url = (
-        f"https://api.telegram.org/"
-        f"bot{TELEGRAM_BOT_TOKEN}/"
-        f"{method}"
+    logger.info(
+        "Image selected for %s: %s",
+        story.get("source", "Source"),
+        fallback_kind,
     )
-
-    last = {
-        "ok": False,
-        "description": "Unknown error",
-    }
-
-    for attempt in range(
-        1,
-        6,
-    ):
-        try:
-            response = session.post(
-                url,
-                data=data or {},
-                files=files,
-                timeout=90,
-            )
-
-            result = response.json()
-
-            if result.get(
-                "ok"
-            ):
-                return result
-
-            last = result
-
-            if response.status_code == 429:
-                retry_after = int(
-                    result.get(
-                        "parameters",
-                        {},
-                    ).get(
-                        "retry_after",
-                        5,
-                    )
-                )
-
-                logger.warning(
-                    "Telegram 429; waiting %ss",
-                    retry_after,
-                )
-
-                time.sleep(
-                    max(
-                        1,
-                        retry_after,
-                    )
-                )
-                continue
-
-            if response.status_code >= 500:
-                time.sleep(
-                    2 * attempt
-                )
-                continue
-
-            break
-
-        except Exception as exc:
-            last = {
-                "ok": False,
-                "description": str(exc),
-            }
-
-            time.sleep(
-                2 * attempt
-            )
-
-    return last
-
+    return path
 
 
 def send_bot_api_fallback(image_path, rich_html):
@@ -3521,6 +3638,7 @@ def process_story_candidate(item):
         image_url
         or item.get("image")
     )
+    story["_image_candidates"] = list(item.get("_image_candidates", []))
 
     grounded, bad_number = numeric_grounded(
         story,
@@ -3853,6 +3971,8 @@ def self_test():
     }
     rendered = dynamic_rich_html(sample)
     assert complete_text("A normal sentence.")
+    assert "**bold**" not in clean_generated_text("**bold** study result")
+    assert "bold" in clean_generated_text("**bold** study result")
     assert complete_text("An incomplete sentence—") is False
     assert "THE CONTEXT" in rendered
     assert "BOTTOM LINE" in rendered
@@ -3887,6 +4007,20 @@ def self_test():
     assert clustered[0]["event_cluster_size"] >= 1
     assert canonical_topic("black hole") == "Astrophysics"
     assert "#Astronomy" in category_hashtags(sample) and "#Science" in category_hashtags({**sample, "topic": "Physics", "institution": ""})
+
+    fallback = make_source_fallback("Nature")
+    assert fallback.size == (1200, 675)
+    text_fallback = make_source_fallback("An Example Science Publication")
+    assert text_fallback.size == (1200, 675)
+    candidate_urls = find_image_candidates(
+        "https://example.com/story",
+        page_html='<html><head><meta property="og:image" content="/images/story.jpg"><meta name="twitter:image" content="/images/tw.jpg"></head><body></body></html>',
+        final_url="https://example.com/story",
+    )
+    assert candidate_urls[:2] == [
+        "https://example.com/images/story.jpg",
+        "https://example.com/images/tw.jpg",
+    ]
 
     # Discovery/source contract regression tests. These functions are part of
     # the proven Tech Newsroom architecture and must exist before any network
