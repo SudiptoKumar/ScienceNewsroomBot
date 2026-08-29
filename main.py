@@ -3318,6 +3318,69 @@ def prepare_image(
     return path
 
 
+# ============================================================
+# TELEGRAM HTTP LAYER
+# ============================================================
+
+def telegram_call(
+    method,
+    data=None,
+    files=None,
+):
+    """Call the Telegram Bot API with bounded retries for transient failures."""
+    url = (
+        f"https://api.telegram.org/"
+        f"bot{TELEGRAM_BOT_TOKEN}/"
+        f"{method}"
+    )
+
+    last = {
+        "ok": False,
+        "description": "Unknown error",
+    }
+
+    for attempt in range(1, 6):
+        try:
+            response = session.post(
+                url,
+                data=data or {},
+                files=files,
+                timeout=90,
+            )
+            result = response.json()
+
+            if result.get("ok"):
+                return result
+
+            last = result
+
+            if response.status_code == 429:
+                retry_after = int(
+                    result.get("parameters", {}).get("retry_after", 5)
+                )
+                logger.warning(
+                    "Telegram 429; waiting %ss",
+                    retry_after,
+                )
+                time.sleep(max(1, retry_after))
+                continue
+
+            if response.status_code >= 500:
+                time.sleep(2 * attempt)
+                continue
+
+            break
+
+        except Exception as exc:
+            last = {
+                "ok": False,
+                "description": str(exc),
+            }
+            time.sleep(2 * attempt)
+
+    return last
+
+
 def send_bot_api_fallback(image_path, rich_html):
     """Last-resort Bot API photo send with a safe caption length."""
     text = re.sub(r"<br\s*/?>", "\n", rich_html, flags=re.I)
@@ -3954,6 +4017,7 @@ def run():
 # ============================================================
 
 def self_test():
+    global session
     sample = {
         "headline": "Telescope Finds Evidence of a New Planetary System",
         "summary": "New observations reveal a planetary system with an unusual configuration that offers fresh evidence about how such systems form.",
@@ -4043,6 +4107,51 @@ def self_test():
     # Keep the source universe contract explicit: V1 promises 50 primary
     # science domains even though only a subset may expose working RSS feeds.
     assert len(PRIMARY_SCIENCE_DOMAINS) == 50
+
+    # Telegram runtime contract regression tests. The publishing layer must
+    # never reach send_rich_photo/send_bot_api_fallback with an undefined
+    # telegram_call symbol again.
+    assert callable(telegram_call)
+
+    class _FakeTelegramResponse:
+        def __init__(self, payload, status_code=200):
+            self._payload = payload
+            self.status_code = status_code
+
+        def json(self):
+            return self._payload
+
+    class _FakeTelegramSession:
+        def __init__(self):
+            self.calls = 0
+
+        def post(self, url, data=None, files=None, timeout=None):
+            self.calls += 1
+            if self.calls == 1:
+                return _FakeTelegramResponse(
+                    {
+                        "ok": False,
+                        "description": "Too Many Requests",
+                        "parameters": {"retry_after": 0},
+                    },
+                    status_code=429,
+                )
+            return _FakeTelegramResponse(
+                {"ok": True, "result": {"message_id": 123}},
+                status_code=200,
+            )
+
+    original_session = session
+    try:
+        session = _FakeTelegramSession()
+        telegram_result = telegram_call(
+            "sendMessage",
+            data={"chat_id": TELEGRAM_CHANNEL, "text": "self-test"},
+        )
+        assert telegram_result.get("ok") is True
+        assert session.calls == 2
+    finally:
+        session = original_session
 
     logger.info("TheScienceNewsroom V1 self-test passed.")
 

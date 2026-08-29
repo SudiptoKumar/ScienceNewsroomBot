@@ -552,3 +552,10 @@ allowed_source_for_region()
 Without those functions, RSS candidates and Exa candidates failed during discovery with `NameError`, leaving the ranking pool empty.
 
 V1.1 restores the same source-validation layer used by the Tech bot and adds regression tests so this specific failure is caught by `--self-test` before a future production run.
+
+
+## V1.3 Fix
+
+This release fixes a production Telegram publishing failure found in GitHub Actions. The V1.2 publishing path called `telegram_call()` from `send_rich_photo()` but the function was not present in the Science bot, causing the run to terminate immediately after the first image was prepared.
+
+V1.3 restores the proven Telegram HTTP/retry layer used by the Tech Newsroom architecture and adds a self-test regression for the Telegram call path, including simulated HTTP 429 retry handling.
