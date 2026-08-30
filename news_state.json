@@ -1,266 +1,266 @@
 {
   "feeds": {
     "https://www.nature.com/nature.rss": {
-      "etag": "\"71930884658c46d66c099f3b97288457\"",
+      "etag": "\"e42b3ce6c7d1b28719a976df0ce22cbd\"",
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:51.473069+06:00",
+      "last_checked": "2026-08-30T23:06:59.684922+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.science.org/rss/news_current.xml": {
-      "last_checked": "2026-08-30T18:29:51.863861+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:00.246479+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.sciencenews.org/feed": {
-      "etag": "W/\"a6b920a649df17f716b84f642ca681e3\"",
-      "last_modified": "Fri, 28 Aug 2026 17:38:54 GMT",
-      "last_checked": "2026-08-30T18:29:52.197865+06:00",
+      "etag": "W/\"a23e567db6a33cfc536826f8b36f7000\"",
+      "last_modified": "Sun, 30 Aug 2026 15:10:23 GMT",
+      "last_checked": "2026-08-30T23:07:00.414424+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.newscientist.com/feed/home/": {
-      "last_checked": "2026-08-30T18:29:52.584582+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:00.846018+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.scientificamerican.com/rss/": {
-      "last_checked": "2026-08-30T18:29:53.112653+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:01.145589+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.quantamagazine.org/feed/": {
       "etag": "\"1f4aec14b05be92187d331b3fcb0fe0e-gzip\"",
       "last_modified": "Fri, 28 Aug 2026 13:35:06 GMT",
-      "last_checked": "2026-08-30T18:29:53.409169+06:00",
+      "last_checked": "2026-08-30T23:07:01.363126+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://phys.org/rss-feed/": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:53.769259+06:00",
+      "last_checked": "2026-08-30T23:07:01.602826+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencedaily.com/rss/top/science.xml": {
       "etag": null,
-      "last_modified": "Sat, 29 Aug 2026 13:33:17 GMT",
-      "last_checked": "2026-08-30T18:29:54.017074+06:00",
+      "last_modified": "Sun, 30 Aug 2026 15:17:29 GMT",
+      "last_checked": "2026-08-30T23:07:01.965291+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.eurekalert.org/rss/news.xml": {
-      "last_checked": "2026-08-30T18:29:54.387634+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:02.389771+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.livescience.com/feeds.xml": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:54.585496+06:00",
+      "last_checked": "2026-08-30T23:07:02.576678+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencealert.com/feed": {
-      "etag": "W/\"a98a7fe340d425486aad3464ffcc11ca\"",
-      "last_modified": "Sun, 30 Aug 2026 11:00:00 GMT",
-      "last_checked": "2026-08-30T18:29:55.326055+06:00",
+      "etag": "W/\"6ba9196e4a44f00eaf463621bade5e2c\"",
+      "last_modified": "Sun, 30 Aug 2026 15:00:00 GMT",
+      "last_checked": "2026-08-30T23:07:03.250785+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.the-scientist.com/feed": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:55.509420+06:00",
+      "last_checked": "2026-08-30T23:07:03.347511+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://knowablemagazine.org/rss": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:56.300193+06:00",
+      "last_checked": "2026-08-30T23:07:05.002787+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://cosmosmagazine.com/feed/": {
-      "last_checked": "2026-08-30T18:29:56.900119+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:05.572335+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://theconversation.com/us/topics/science-34/articles.atom": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:57.355410+06:00",
+      "last_checked": "2026-08-30T23:07:06.180458+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://physicsworld.com/feed/": {
       "etag": "W/\"299fbf0a70e417ce16377cce9ed77ecc\"",
       "last_modified": "Fri, 28 Aug 2026 15:04:46 GMT",
-      "last_checked": "2026-08-30T18:29:58.081989+06:00",
+      "last_checked": "2026-08-30T23:07:06.867793+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://physics.aps.org/rss/recent.xml": {
-      "last_checked": "2026-08-30T18:29:58.294484+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:07.106654+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://cen.acs.org/articles.rss": {
-      "last_checked": "2026-08-30T18:29:58.754609+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:08.400911+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.chemistryworld.com/rss": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:29:59.514113+06:00",
+      "last_checked": "2026-08-30T23:07:09.158428+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://eos.org/feed": {
-      "etag": "\"cb9dbb6d8c08272cd5eb2027b8ebb087\"",
-      "last_modified": "Sun, 30 Aug 2026 11:29:02 GMT",
-      "last_checked": "2026-08-30T18:29:59.789197+06:00",
+      "etag": "\"27ba458934bcfbebde335659c4494e7e\"",
+      "last_modified": "Sun, 30 Aug 2026 15:01:51 GMT",
+      "last_checked": "2026-08-30T23:07:09.413979+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.carbonbrief.org/feed/": {
       "etag": "\"1570ca33caea7a492cde85ba808cc32b\"",
       "last_modified": "Fri, 28 Aug 2026 13:28:39 GMT",
-      "last_checked": "2026-08-30T18:30:00.049694+06:00",
+      "last_checked": "2026-08-30T23:07:09.770680+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://insideclimatenews.org/feed/": {
       "etag": "W/\"1dc39aa6ec3225b8ed44dc807d44896f\"",
       "last_modified": "Sun, 30 Aug 2026 09:00:00 GMT",
-      "last_checked": "2026-08-30T18:30:00.305642+06:00",
+      "last_checked": "2026-08-30T23:07:10.016628+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.statnews.com/feed/": {
       "etag": "W/\"909e0076610ace27a894b745d8a1027f\"",
       "last_modified": "Sat, 29 Aug 2026 18:20:13 GMT",
-      "last_checked": "2026-08-30T18:30:00.484460+06:00",
+      "last_checked": "2026-08-30T23:07:10.123301+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencefocus.com/feed": {
-      "last_checked": "2026-08-30T18:30:03.160670+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:10.474948+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://science.nasa.gov/feed/": {
-      "etag": "W/\"8d90ac2e21038f46739af844c3aa6cec\"",
-      "last_modified": "Sun, 30 Aug 2026 12:22:07 GMT",
-      "last_checked": "2026-08-30T18:30:03.656550+06:00",
+      "etag": "W/\"b6dbd2ef63ef8d240e9b8a9b50b0e074\"",
+      "last_modified": "Sun, 30 Aug 2026 15:31:32 GMT",
+      "last_checked": "2026-08-30T23:07:10.552767+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.esa.int/rssfeed/Our_Activities/Space_Science": {
       "etag": null,
-      "last_modified": "Sun, 30 Aug 2026 12:26:04 GMT",
-      "last_checked": "2026-08-30T18:30:04.427083+06:00",
+      "last_modified": "Sun, 30 Aug 2026 16:57:30 GMT",
+      "last_checked": "2026-08-30T23:07:11.391142+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.eso.org/public/news/feed/": {
       "etag": "W/\"08c0f9e08d5f13b8fed62859f647fc82\"",
       "last_modified": "Wed, 19 Aug 2026 15:00:00 GMT",
-      "last_checked": "2026-08-30T18:30:05.628931+06:00",
+      "last_checked": "2026-08-30T23:07:12.721133+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://noirlab.edu/public/news/feed/": {
       "etag": null,
       "last_modified": "Mon, 10 Aug 2026 16:10:00 GMT",
-      "last_checked": "2026-08-30T18:30:05.851071+06:00",
+      "last_checked": "2026-08-30T23:07:12.936123+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.stsci.edu/feeds/news": {
-      "last_checked": "2026-08-30T18:30:06.153773+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:13.215963+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://hubblesite.org/resource-gallery/news": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:30:10.075779+06:00",
+      "last_checked": "2026-08-30T23:07:17.764448+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://webbtelescope.org/news/feed": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:30:10.647880+06:00",
+      "last_checked": "2026-08-30T23:07:18.264255+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://chandra.si.edu/resources/rss.xml": {
-      "last_checked": "2026-08-30T18:30:11.364215+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:18.886729+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://www.jpl.nasa.gov/feeds/news/": {
       "etag": null,
-      "last_modified": "Sat, 29 Aug 2026 16:26:59 GMT",
-      "last_checked": "2026-08-30T18:30:11.474314+06:00",
+      "last_modified": "Sun, 30 Aug 2026 14:00:00 GMT",
+      "last_checked": "2026-08-30T23:07:19.048828+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.space.com/feeds/all": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-08-30T18:30:11.945930+06:00",
+      "last_checked": "2026-08-30T23:07:19.422668+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://skyandtelescope.org/feed/": {
-      "etag": "W/\"59b86d1a01996cf162686ad6c06d8799\"",
-      "last_modified": "Sun, 30 Aug 2026 12:00:52 GMT",
-      "last_checked": "2026-08-30T18:30:13.100962+06:00",
+      "etag": "W/\"17d1ad3f2e7c1b8feae958fb6d26b83a\"",
+      "last_modified": "Sun, 30 Aug 2026 12:44:34 GMT",
+      "last_checked": "2026-08-30T23:07:20.856404+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://astronomy.com/feed": {
-      "etag": "W/\"47ae4f6ed44515190e24698d50bd94af\"",
-      "last_modified": "Wed, 26 Aug 2026 20:46:03 GMT",
-      "last_checked": "2026-08-30T18:30:13.506178+06:00",
+      "etag": "W/\"a094e4234a72380fbb1a1476ae0949aa\"",
+      "last_modified": "Fri, 28 Aug 2026 15:47:20 GMT",
+      "last_checked": "2026-08-30T23:07:21.293498+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://universetoday.com/feed/": {
-      "etag": "W/\"6a941910-6e15\"",
-      "last_modified": "Sun, 30 Aug 2026 11:50:40 GMT",
-      "last_checked": "2026-08-30T18:30:13.833835+06:00",
+      "etag": "W/\"6a945e11-7066\"",
+      "last_modified": "Sun, 30 Aug 2026 16:45:05 GMT",
+      "last_checked": "2026-08-30T23:07:21.728643+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://earthsky.org/feed/": {
-      "etag": "W/\"e86dbf6b4bc3061435bad8816573afac\"",
-      "last_modified": "Sun, 30 Aug 2026 11:50:14 GMT",
-      "last_checked": "2026-08-30T18:30:14.223414+06:00",
+      "etag": "W/\"53f09e2220e514015faf00a91705c67c\"",
+      "last_modified": "Sun, 30 Aug 2026 12:45:24 GMT",
+      "last_checked": "2026-08-30T23:07:22.058794+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.skyatnightmagazine.com/feed": {
-      "last_checked": "2026-08-30T18:30:17.033491+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:24.910164+06:00",
+      "fail_count": 5,
       "alerted": true
     },
     "https://export.arxiv.org/rss/astro-ph": {
       "etag": "5abb8a228bd14b603b79a89a24232bf7f1c1edc4ad6512089d72cf1e66778d62",
       "last_modified": null,
-      "last_checked": "2026-08-30T18:30:17.150064+06:00",
+      "last_checked": "2026-08-30T23:07:25.020349+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=scientific+research&format=pubmed": {
-      "last_checked": "2026-08-30T18:30:17.403723+06:00",
-      "fail_count": 4,
+      "last_checked": "2026-08-30T23:07:25.275034+06:00",
+      "fail_count": 5,
       "alerted": true
     }
   },
@@ -1523,7 +1523,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-29T23:22:16.223718+06:00",
-      "last_seen": "2026-08-30T18:30:14.347645+06:00"
+      "last_seen": "2026-08-30T23:07:22.149235+06:00"
     },
     "earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates": {
       "title": "Sun news: Chunk of solar stuff delayed. Maybe today",
@@ -1539,7 +1539,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-29T23:22:16.223926+06:00",
-      "last_seen": "2026-08-30T18:30:14.347299+06:00"
+      "last_seen": "2026-08-30T23:07:22.149058+06:00"
     },
     "earthsky.org/space/jellyfish-on-mars-curiosity-rover-anomaies": {
       "title": "‘Jellyfish’ on Mars: Image from Curiosity rover goes viral",
@@ -1571,7 +1571,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-29T23:22:16.224307+06:00",
-      "last_seen": "2026-08-30T18:30:14.346933+06:00"
+      "last_seen": "2026-08-30T23:07:22.148862+06:00"
     },
     "phys.org/news/2026-08-everyday-household-tasks-impact-relationships.html": {
       "title": "How everyday household tasks impact relationships",
@@ -1587,7 +1587,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T01:35:18.839289+06:00",
-      "last_seen": "2026-08-30T18:29:53.788686+06:00"
+      "last_seen": "2026-08-30T23:07:01.612125+06:00"
     },
     "phys.org/news/2026-08-people-sacrifice-life-satisfaction-exchange.html": {
       "title": "Most people would sacrifice some life satisfaction in exchange for a more equal society",
@@ -1603,7 +1603,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T01:35:18.839486+06:00",
-      "last_seen": "2026-08-30T18:29:53.788816+06:00"
+      "last_seen": "2026-08-30T23:07:01.612197+06:00"
     },
     "sciencealert.com/of-30-global-food-goals-were-on-track-to-hit-just-one": {
       "title": "Of 30 Global Food Goals, We're on Track to Hit Just One",
@@ -1619,7 +1619,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T01:35:20.367777+06:00",
-      "last_seen": "2026-08-30T18:29:55.337429+06:00"
+      "last_seen": "2026-08-30T23:07:03.258758+06:00"
     },
     "universetoday.com/articles/measuring-the-mass-of-the-universe-isnt-as-simple-as-astronomers-thought": {
       "title": "Measuring the Mass of the Universe Isn't As Simple as Astronomers Thought",
@@ -1669,7 +1669,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:08:46.291221+06:00",
-      "last_seen": "2026-08-30T18:29:53.788431+06:00"
+      "last_seen": "2026-08-30T23:07:01.611982+06:00"
     },
     "phys.org/news/2026-08-airborne-tuberculosis-bacteria-mutate-dry.html": {
       "title": "Airborne tuberculosis bacteria may mutate as they dry, revealing a target to curb drug resistance",
@@ -1702,7 +1702,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:08:47.987435+06:00",
-      "last_seen": "2026-08-30T18:29:55.336320+06:00"
+      "last_seen": "2026-08-30T23:07:03.258108+06:00"
     },
     "sciencealert.com/these-patients-couldnt-beat-lyme-disease-so-scientists-tried-giving-them-psilocybin": {
       "title": "These Patients Couldn't Beat Lyme Disease, So Scientists Tried Giving Them Psilocybin",
@@ -1718,7 +1718,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:08:47.987680+06:00",
-      "last_seen": "2026-08-30T18:29:55.336604+06:00"
+      "last_seen": "2026-08-30T23:07:03.258270+06:00"
     },
     "sciencealert.com/scientists-discover-a-cannabis-receptor-that-could-stop-breast-cancer-spreading": {
       "title": "Scientists Discover a Cannabis Receptor That Could Stop Breast Cancer Spreading",
@@ -1734,7 +1734,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:08:47.987888+06:00",
-      "last_seen": "2026-08-30T18:29:55.336870+06:00"
+      "last_seen": "2026-08-30T23:07:03.258426+06:00"
     },
     "sciencealert.com/tiny-wrinkles-in-graphene-turn-it-into-a-battery-physicists-find": {
       "title": "Tiny Wrinkles in Graphene Turn It Into a Battery, Physicists Find",
@@ -1750,7 +1750,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:08:47.988123+06:00",
-      "last_seen": "2026-08-30T18:29:55.337139+06:00"
+      "last_seen": "2026-08-30T23:07:03.258584+06:00"
     },
     "science.nasa.gov/image-article/apod-2026-august-30-m74-a-grand-design-spiral": {
       "title": "APOD: 2026 August 30 – M74: A Grand Design Spiral",
@@ -1798,7 +1798,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:09:05.172529+06:00",
-      "last_seen": "2026-08-30T18:30:12.272605+06:00"
+      "last_seen": "2026-08-30T23:07:19.676573+06:00"
     },
     "universetoday.com/articles/nasa-announces-next-steps-for-swift-rescue-mission": {
       "title": "NASA Announces Next Steps for Swift Rescue Mission",
@@ -1814,7 +1814,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T12:09:06.995029+06:00",
-      "last_seen": "2026-08-30T18:30:13.847417+06:00"
+      "last_seen": "2026-08-30T23:07:21.737991+06:00"
     },
     "sciencedaily.com/releases/2026/08/260828005226.htm": {
       "title": "Some signs of quantum gravity may be an illusion | ScienceDaily",
@@ -1830,7 +1830,7 @@
       "source_pool": "primary",
       "status": "pending",
       "first_seen": "2026-08-30T12:09:22.108011+06:00",
-      "last_seen": "2026-08-30T12:09:22.108015+06:00"
+      "last_seen": "2026-08-30T23:07:01.979837+06:00"
     },
     "science.org/doi/10.1126/scirobotics.adi9579": {
       "title": "Real-world humanoid locomotion with reinforcement learning",
@@ -2025,7 +2025,7 @@
       "source_pool": "primary",
       "status": "pending",
       "first_seen": "2026-08-30T12:09:32.998205+06:00",
-      "last_seen": "2026-08-30T12:09:32.998209+06:00"
+      "last_seen": "2026-08-30T23:07:01.979663+06:00"
     },
     "sciencedaily.com/releases/2026/08/260828082327.htm": {
       "title": "Keto diet cut liver fat by 67% in a clinical trial | ScienceDaily",
@@ -2073,7 +2073,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:53.788087+06:00",
-      "last_seen": "2026-08-30T18:29:53.788093+06:00"
+      "last_seen": "2026-08-30T23:07:01.611834+06:00"
     },
     "livescience.com/planet-earth/an-amusement-park-on-mount-vernon-the-agency-tasked-to-protect-cultural-heritage-just-abdicated-its-responsibilities-opening-the-door-for-federal-agencies-to-wipe-out-our-past": {
       "title": "An amusement park on Mount Vernon? The agency tasked to protect cultural heritage just abdicated its responsibilities, opening the door for federal agencies to wipe out our past",
@@ -2089,7 +2089,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:54.939992+06:00",
-      "last_seen": "2026-08-30T18:29:54.940001+06:00"
+      "last_seen": "2026-08-30T23:07:02.848741+06:00"
     },
     "livescience.com/space/astronomy/something-doesnt-add-up-in-the-chandelier-cluster-hubble-telescope-finds-space-photo-of-the-week": {
       "title": "Something doesn't add up in the Chandelier Cluster, Hubble telescope finds — Space photo of the week",
@@ -2105,7 +2105,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:54.940179+06:00",
-      "last_seen": "2026-08-30T18:29:54.940185+06:00"
+      "last_seen": "2026-08-30T23:07:02.848855+06:00"
     },
     "livescience.com/physics-mathematics/how-many-cosmic-particles-are-passing-through-your-body-at-any-moment": {
       "title": "How many cosmic particles are passing through your body at any moment?",
@@ -2121,7 +2121,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:54.940377+06:00",
-      "last_seen": "2026-08-30T18:29:54.940381+06:00"
+      "last_seen": "2026-08-30T23:07:02.848941+06:00"
     },
     "sciencealert.com/your-body-has-a-second-heart-and-its-crucial-you-keep-it-pumping": {
       "title": "Your Body Has a 'Second Heart', And It's Crucial You Keep It Pumping",
@@ -2137,7 +2137,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:55.335419+06:00",
-      "last_seen": "2026-08-30T18:29:55.335426+06:00"
+      "last_seen": "2026-08-30T23:07:03.257574+06:00"
     },
     "sciencealert.com/could-the-next-alzheimers-treatment-be-encoded-in-deep-sleep": {
       "title": "Deep Sleep Brain Waves Offer Protection Against Alzheimer's Disease, New Research Shows",
@@ -2170,7 +2170,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:55.336016+06:00",
-      "last_seen": "2026-08-30T18:29:55.336021+06:00"
+      "last_seen": "2026-08-30T23:07:03.257941+06:00"
     },
     "eos.org/research-and-developments/roman-telescope-begins-quest-to-reveal-evolving-universe": {
       "title": "Roman Telescope Begins Quest to Reveal Evolving Universe",
@@ -2186,7 +2186,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:29:59.873401+06:00",
-      "last_seen": "2026-08-30T18:29:59.873408+06:00"
+      "last_seen": "2026-08-30T23:07:09.476564+06:00"
     },
     "insideclimatenews.org/news/30082026/north-carolina-wasted-chance-to-fix-hog-pollution": {
       "title": "How North Carolina Wasted the Chance To Fix Hog Pollution",
@@ -2234,7 +2234,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.685707+06:00",
-      "last_seen": "2026-08-30T18:30:03.685714+06:00"
+      "last_seen": "2026-08-30T23:07:10.601764+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-flying-on-its-own": {
       "title": "NASA’s Roman Space Telescope Flying on Its Own",
@@ -2245,12 +2245,12 @@
       "source": "NASA Science",
       "region": "Science",
       "excerpt": "NASA's Nancy Grace Roman Space Telescope separated from the SpaceX Falcon Heavy's second stage. The post NASA’s Roman Space Telescope Flying on Its Own appeared first on NASA Science .",
-      "image": "",
+      "image": "https://www.youtube.com/embed/3oh5xiFgLOA",
       "discovery": "rss",
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.686031+06:00",
-      "last_seen": "2026-08-30T18:30:03.686036+06:00"
+      "last_seen": "2026-08-30T23:07:10.601956+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-final-upper-stage-burn-complete": {
       "title": "NASA’s Roman Space Telescope: Final Upper-Stage Burn Complete",
@@ -2266,7 +2266,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.686384+06:00",
-      "last_seen": "2026-08-30T18:30:03.686390+06:00"
+      "last_seen": "2026-08-30T23:07:10.602129+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasa-roman-space-telescope-spacex-second-stage-burn-begins": {
       "title": "NASA Roman Space Telescope: SpaceX Second Stage Burn Begins",
@@ -2282,7 +2282,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.686662+06:00",
-      "last_seen": "2026-08-30T18:30:03.686667+06:00"
+      "last_seen": "2026-08-30T23:07:10.602558+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-falcon-heavy-upper-stage-takes-over": {
       "title": "NASA’s Roman Space Telescope: Falcon Heavy Upper Stage Takes Over",
@@ -2293,12 +2293,12 @@
       "source": "NASA Science",
       "region": "Science",
       "excerpt": "The SpaceX Falcon Heavy carrying NASA's Nancy Grace Roman Space Telescope has completed a rapid series of ascent milestones. The post NASA’s Roman Space Telescope: Falcon Heavy Upper Stage Takes Over appeared first on NASA Science .",
-      "image": "",
+      "image": "https://www.youtube.com/embed/U4Om9W0YM4s",
       "discovery": "rss",
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.686943+06:00",
-      "last_seen": "2026-08-30T18:30:03.686948+06:00"
+      "last_seen": "2026-08-30T23:07:10.602766+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-falcon-heavy-side-boosters-begin-return": {
       "title": "NASA’s Roman Space Telescope: Falcon Heavy Side Boosters Begin Return",
@@ -2314,7 +2314,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:03.687220+06:00",
-      "last_seen": "2026-08-30T18:30:03.687244+06:00"
+      "last_seen": "2026-08-30T23:07:10.602942+06:00"
     },
     "science.nasa.gov/blogs/roman/2026/08/30/nasas-roman-space-telescope-falcon-heavy-passes-max-q": {
       "title": "NASA’s Roman Space Telescope: Falcon Heavy Passes Max Q",
@@ -2394,7 +2394,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:13.112034+06:00",
-      "last_seen": "2026-08-30T18:30:13.112040+06:00"
+      "last_seen": "2026-08-30T23:07:20.864180+06:00"
     },
     "astronomy.com/observing/the-sky-today-sunday-august-30-2026": {
       "title": "The Sky Today on Sunday, August 30: The Moon, Neptune, and Saturn",
@@ -2410,7 +2410,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:13.517250+06:00",
-      "last_seen": "2026-08-30T18:30:13.517257+06:00"
+      "last_seen": "2026-08-30T23:07:21.301758+06:00"
     },
     "universetoday.com/articles/ancient-dust-grains-hold-magnetic-clues-to-the-suns-birth": {
       "title": "Ancient Dust Grains Hold Magnetic Clues to the Sun's Birth",
@@ -2424,9 +2424,10 @@
       "image": "",
       "discovery": "rss",
       "date_estimated": false,
-      "status": "pending",
+      "status": "posted",
       "first_seen": "2026-08-30T18:30:13.847149+06:00",
-      "last_seen": "2026-08-30T18:30:13.847155+06:00"
+      "last_seen": "2026-08-30T23:07:21.737832+06:00",
+      "posted_at": "2026-08-30T23:10:57.748935+06:00"
     },
     "earthsky.org/astronomy-essentials/do-the-planets-revolve-around-the-sun-barycenter": {
       "title": "Do the planets revolve around the sun? Not exactly",
@@ -2442,7 +2443,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:14.347928+06:00",
-      "last_seen": "2026-08-30T18:30:14.347933+06:00"
+      "last_seen": "2026-08-30T23:07:22.149405+06:00"
     },
     "earthsky.org/earth/twilight-2": {
       "title": "Do you love twilight? The 3 stages explained",
@@ -2458,7 +2459,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:14.348191+06:00",
-      "last_seen": "2026-08-30T18:30:14.348196+06:00"
+      "last_seen": "2026-08-30T23:07:22.149566+06:00"
     },
     "earthsky.org/constellations/telescopium-the-telescope-black-hole": {
       "title": "Telescopium the Telescope is below the Teapot",
@@ -2474,7 +2475,476 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-30T18:30:14.348507+06:00",
-      "last_seen": "2026-08-30T18:30:14.348511+06:00"
+      "last_seen": "2026-08-30T23:07:22.149742+06:00"
+    },
+    "nature.com/articles/d41586-026-02727-7": {
+      "title": "Lift-off! NASA launches Roman Space Telescope to tackle dark-energy mysteries",
+      "url": "https://www.nature.com/articles/d41586-026-02727-7",
+      "canonical": "nature.com/articles/d41586-026-02727-7",
+      "published_dt": "2026-08-30T06:00:00+06:00",
+      "published_date": "2026-08-30T06:00:00+06:00",
+      "source": "Nature News",
+      "region": "Science",
+      "excerpt": "Nature, Published online: 30 August 2026; doi:10.1038/d41586-026-02727-7 The space observatory will have an expansive view of the Universe as well as sharp resolution.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:06:59.841697+06:00",
+      "last_seen": "2026-08-30T23:06:59.841704+06:00"
+    },
+    "phys.org/news/2026-08-infection-gut-cells-diet-reshapes.html": {
+      "title": "Infection kills gut cells, while diet reshapes existing ones, fruit fly study finds",
+      "url": "https://phys.org/news/2026-08-infection-gut-cells-diet-reshapes.html",
+      "canonical": "phys.org/news/2026-08-infection-gut-cells-diet-reshapes.html",
+      "published_dt": "2026-08-30T23:00:01+06:00",
+      "published_date": "2026-08-30T23:00:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The intestines rely on different strategies to rebuild themselves in response to diet changes versus infections, according to a new Cornell study—a finding that can shed light on how gut health adapts to harsh conditions, flourishing ecosystems of microbes and variable diets.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/infection-kills-gut-ce.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611136+06:00",
+      "last_seen": "2026-08-30T23:07:01.611140+06:00"
+    },
+    "phys.org/news/2026-08-tropical-storm-karina-hurricane-pacific.html": {
+      "title": "Tropical Storm Karina strengthens into a hurricane in the Pacific, could be a major storm this week",
+      "url": "https://phys.org/news/2026-08-tropical-storm-karina-hurricane-pacific.html",
+      "canonical": "phys.org/news/2026-08-tropical-storm-karina-hurricane-pacific.html",
+      "published_dt": "2026-08-30T21:40:01+06:00",
+      "published_date": "2026-08-30T21:40:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Tropical Storm Karina strengthened into a hurricane in the Pacific Ocean on Sunday and could become a major storm this week, forecasters said. The cyclone's center was at far out sea and was not threatening land.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tropical-storm-karina.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611246+06:00",
+      "last_seen": "2026-08-30T23:07:01.611248+06:00"
+    },
+    "phys.org/news/2026-08-nasa-roman-space-telescope-quest.html": {
+      "title": "NASA's newest Roman space telescope launches on a quest to explore the hidden universe",
+      "url": "https://phys.org/news/2026-08-nasa-roman-space-telescope-quest.html",
+      "canonical": "phys.org/news/2026-08-nasa-roman-space-telescope-quest.html",
+      "published_dt": "2026-08-30T21:26:54+06:00",
+      "published_date": "2026-08-30T21:26:54+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "NASA's newest crown jewel blasted off Sunday to hunt for planets around other stars, explore secret dark energy and survey the cosmos like never before.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nasas-newest-space-tel.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611340+06:00",
+      "last_seen": "2026-08-30T23:07:01.611342+06:00"
+    },
+    "phys.org/news/2026-08-method-magnet-powered-safer-reusable.html": {
+      "title": "New method tests magnet-powered braking for safer, more reusable spacecraft reentry",
+      "url": "https://phys.org/news/2026-08-method-magnet-powered-safer-reusable.html",
+      "canonical": "phys.org/news/2026-08-method-magnet-powered-safer-reusable.html",
+      "published_dt": "2026-08-30T21:22:20+06:00",
+      "published_date": "2026-08-30T21:22:20+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Researchers from Tokyo Metropolitan University have created a new system to test magnetohydrodynamic aerobraking for spacecraft reentering the atmosphere. Their platform generates intense magnetic fields with a powerful electromagnet as a miniature vessel is hit with a shock wave traveling at over seven kilometers per second (4.3 miles per second). The magnets reached far higher fields than previous work with permanent magnets and are a crucial stepping stone toward tests with real vessels in the atmosphere.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/magnetohydrodynamic-mh-1.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611426+06:00",
+      "last_seen": "2026-08-30T23:07:01.611428+06:00"
+    },
+    "phys.org/news/2026-08-length-online-scammers-friends.html": {
+      "title": "The length of your online reviews may help scammers map your friends and target them",
+      "url": "https://phys.org/news/2026-08-length-online-scammers-friends.html",
+      "canonical": "phys.org/news/2026-08-length-online-scammers-friends.html",
+      "published_dt": "2026-08-30T21:00:02+06:00",
+      "published_date": "2026-08-30T21:00:02+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "On the surface, posting online reviews looks like a win-win activity. It helps both businesses we like and people who might frequent them. But although posting reviews can benefit others, it can also put us all at risk, according to new research from the McCombs School of Business at The University of Texas at Austin. It can inadvertently expose our personal connections and make us and our online friends more vulnerable to cyberattacks.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2023/online-reviews-1.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611509+06:00",
+      "last_seen": "2026-08-30T23:07:01.611510+06:00"
+    },
+    "phys.org/news/2026-08-pest-pressure-foundation-lucerne-seed.html": {
+      "title": "Know your pest pressure: Monitoring is the foundation for managing lucerne seed wasp",
+      "url": "https://phys.org/news/2026-08-pest-pressure-foundation-lucerne-seed.html",
+      "canonical": "phys.org/news/2026-08-pest-pressure-foundation-lucerne-seed.html",
+      "published_dt": "2026-08-30T20:30:01+06:00",
+      "published_date": "2026-08-30T20:30:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Lucerne seed wasp (LSW) is a serious pest in alfalfa crops, causing damage that is difficult to see in the field. Its larvae feed inside developing seeds, meaning losses may not become apparent until harvest, cleaning or seed delivery, when it is too late to intervene. Each wasp represents a lost seed, with infested seeds removed by seed-cleaning facilities along with other impurities.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/know-your-pest-pressur.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611585+06:00",
+      "last_seen": "2026-08-30T23:07:01.611587+06:00"
+    },
+    "phys.org/news/2026-08-aboriginal-artists-giant-ancestral-colonization.html": {
+      "title": "Aboriginal artists painted giant ancestral beings as colonization arrived, study finds",
+      "url": "https://phys.org/news/2026-08-aboriginal-artists-giant-ancestral-colonization.html",
+      "canonical": "phys.org/news/2026-08-aboriginal-artists-giant-ancestral-colonization.html",
+      "published_dt": "2026-08-30T20:00:01+06:00",
+      "published_date": "2026-08-30T20:00:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Slithering across the ceiling of an Australian rock shelter is a giant snake with a crocodile-like head, razor-sharp teeth and a long tongue. It's more than 6 meters (20 feet) long, making it one of the largest Rainbow Serpent paintings ever recorded in Arnhem Land and adding to the curious repertoire of similarly giant paintings across the region.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/aboriginal-artists-pai.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611681+06:00",
+      "last_seen": "2026-08-30T23:07:01.611683+06:00"
+    },
+    "phys.org/news/2026-08-hollow-core-fiber-platform-quantum.html": {
+      "title": "Hollow-core fiber platform could help different quantum technologies connect",
+      "url": "https://phys.org/news/2026-08-hollow-core-fiber-platform-quantum.html",
+      "canonical": "phys.org/news/2026-08-hollow-core-fiber-platform-quantum.html",
+      "published_dt": "2026-08-30T19:00:02+06:00",
+      "published_date": "2026-08-30T19:00:02+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Quantum technologies promise secure communication networks, powerful forms of computing and new sensing tools. One of the major challenges, however, is that different quantum systems often operate at different wavelengths of light. Quantum memories, trapped ions and other quantum devices may work best in the ultraviolet or visible range, while long-distance communication over optical fibers works most efficiently at telecommunications wavelengths.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-translator-for-quant.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.611758+06:00",
+      "last_seen": "2026-08-30T23:07:01.611759+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260830000016.htm": {
+      "title": "HEPA air purifiers may boost brain function after just one month",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260830000016.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260830000016.htm",
+      "published_dt": "2026-08-30T19:33:54+06:00",
+      "published_date": "2026-08-30T19:33:54+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Adults aged 40 and older performed about 12% faster on a test of executive function after using a HEPA air purifier at home for one month. The findings suggest that cleaner indoor air could offer a simple way to help protect the brain from the effects of traffic-related pollution.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.978768+06:00",
+      "last_seen": "2026-08-30T23:07:01.978771+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260829035328.htm": {
+      "title": "Hundreds of hidden earthquakes found at Antarctica’s Doomsday Glacier",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035328.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260829035328.htm",
+      "published_dt": "2026-08-30T19:07:17+06:00",
+      "published_date": "2026-08-30T19:07:17+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Hundreds of previously overlooked seismic events have been detected beneath Antarctica, including 245 near the marine edge of the Thwaites Glacier. Many appear to be glacial earthquakes caused when huge icebergs break off, capsize, and collide with the glacier. The surge in activity coincided with a period when Thwaites was flowing faster toward the ocean, hinting that changing ocean conditions may be destabilizing the ice.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.978864+06:00",
+      "last_seen": "2026-08-30T23:07:01.978865+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260829035227.htm": {
+      "title": "Researchers unveil sustainable spirulina solution to vitamin B12 deficiency",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035227.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260829035227.htm",
+      "published_dt": "2026-08-30T11:17:05+06:00",
+      "published_date": "2026-08-30T11:17:05+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Researchers have produced a form of Spirulina containing biologically active vitamin B12 at levels comparable to beef. By carefully controlling the light used to grow the algae, they overcame a major problem with conventional Spirulina, which mainly contains a form of B12 the human body cannot use. The carbon-neutral system could provide a more sustainable source of the essential vitamin.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.979004+06:00",
+      "last_seen": "2026-08-30T23:07:01.979006+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260829035225.htm": {
+      "title": "This strange “spacetime crystal” can suddenly become a black hole",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260829035225.htm",
+      "published_dt": "2026-08-30T21:05:09+06:00",
+      "published_date": "2026-08-30T21:05:09+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Physicists have mathematically captured a bizarre “spacetime crystal” that can either dissolve or collapse into a microscopic black hole after only a tiny change in energy. Their breakthrough came from an unusual trick involving infinitely many dimensions, potentially giving researchers a new tool for studying primordial and microscopic black holes.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-08-30T23:07:01.979078+06:00",
+      "last_seen": "2026-08-30T23:07:01.979080+06:00",
+      "posted_at": "2026-08-30T23:10:42.374003+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260829035221.htm": {
+      "title": "1.4-million-year-old footprints reveal a surprisingly large human relative",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035221.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260829035221.htm",
+      "published_dt": "2026-08-30T21:17:06+06:00",
+      "published_date": "2026-08-30T21:17:06+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Ancient footprints in Kenya reveal that eight Paranthropus boisei may have traveled together 1.4 million years ago, with some individuals reaching surprisingly large, human-like body sizes. The tracks offer a rare glimpse of their social behavior and suggest these extinct human relatives may have lived in more complex groups than previously thought.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.979150+06:00",
+      "last_seen": "2026-08-30T23:07:01.979151+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260828082350.htm": {
+      "title": "The next Cascadia megaquake could hit Oregon harder than expected",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260828082350.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260828082350.htm",
+      "published_dt": "2026-08-30T10:12:10+06:00",
+      "published_date": "2026-08-30T10:12:10+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "The Juan de Fuca plate beneath northern Oregon appears to be shallower than previously estimated, potentially making shaking from a future Cascadia megathrust earthquake significantly stronger. Scientists also found a deep basin beneath Tillamook that could trap seismic waves and intensify the shaking even further.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-08-30T23:07:01.979278+06:00",
+      "last_seen": "2026-08-30T23:07:01.979279+06:00",
+      "posted_at": "2026-08-30T23:10:37.161154+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260828082348.htm": {
+      "title": "Ancient Egyptian princesses were buried with weapons. Their bones reveal why",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260828082348.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260828082348.htm",
+      "published_dt": "2026-08-30T15:30:18+06:00",
+      "published_date": "2026-08-30T15:30:18+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Weapons buried with ancient Egyptian princesses may have been more than ceremonial decorations. Researchers studying royal mummies from Dahshur found bone changes consistent with years of archery and other strenuous weapon use. Several women also showed evidence of healed injuries, suggesting surprisingly active lifestyles that may have included hunting or military training.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:01.979346+06:00",
+      "last_seen": "2026-08-30T23:07:01.979348+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260828082347.htm": {
+      "title": "Seven new frog species were hiding beneath Madagascar’s forest floor",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260828082347.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260828082347.htm",
+      "published_dt": "2026-08-30T16:28:59+06:00",
+      "published_date": "2026-08-30T16:28:59+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Scientists have discovered seven new species of Madagascar’s elusive diamond frogs, using DNA from modern and century-old museum specimens to solve a long-running biological puzzle. The findings reveal surprising hidden diversity and could help protect these little-known amphibians as their forest habitats disappear.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-08-30T23:07:01.979412+06:00",
+      "last_seen": "2026-08-30T23:07:01.979414+06:00",
+      "posted_at": "2026-08-30T23:10:47.414957+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260828082336.htm": {
+      "title": "Scientists discover a massive heat anomaly deep inside Mars",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260828082336.htm",
+      "published_dt": "2026-08-30T18:27:59+06:00",
+      "published_date": "2026-08-30T18:27:59+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Mars has a hidden temperature divide, with its southern interior potentially hundreds of degrees hotter than the north and partially molten. The discovery could help explain several long-standing Martian mysteries, including unusual magnetism, seismic behavior, and clues to the planet’s ancient water history.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-08-30T23:07:01.979530+06:00",
+      "last_seen": "2026-08-30T23:07:01.979532+06:00",
+      "posted_at": "2026-08-30T23:10:31.457428+06:00"
+    },
+    "sciencedaily.com/releases/2026/08/260827010510.htm": {
+      "title": "A new recipe unlocks “impossible” nanocrystals for LEDs, implants, and superconductors",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260827010510.htm",
+      "canonical": "sciencedaily.com/releases/2026/08/260827010510.htm",
+      "published_dt": "2026-08-30T17:45:32+06:00",
+      "published_date": "2026-08-30T17:45:32+06:00",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "excerpt": "Scientists have cracked a long-standing chemistry problem, creating nanocrystals from tough metal nitrides that were previously extremely difficult to produce at this scale. The breakthrough could turn familiar materials used in LEDs, implants, and superconductors into building blocks for flexible electronics, printable devices, and other technologies.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-08-30T23:07:01.980242+06:00",
+      "last_seen": "2026-08-30T23:07:01.980244+06:00",
+      "posted_at": "2026-08-30T23:10:52.580547+06:00"
+    },
+    "sciencealert.com/the-fda-just-approved-the-first-us-freeze-dried-plasma-ready-in-minutes": {
+      "title": "The FDA Just Approved The First US Freeze-Dried Plasma, Ready in Minutes",
+      "url": "https://www.sciencealert.com/the-fda-just-approved-the-first-us-freeze-dried-plasma-ready-in-minutes",
+      "canonical": "sciencealert.com/the-fda-just-approved-the-first-us-freeze-dried-plasma-ready-in-minutes",
+      "published_dt": "2026-08-30T21:00:00+06:00",
+      "published_date": "2026-08-30T21:00:00+06:00",
+      "source": "ScienceAlert",
+      "region": "Science",
+      "excerpt": "This could bring lifesaving transfusions far beyond hospitals. ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:03.257176+06:00",
+      "last_seen": "2026-08-30T23:07:03.257179+06:00"
+    },
+    "sciencealert.com/abandoned-oil-and-gas-pipes-are-still-contributing-tons-of-microplastics-into-the-ocean-each-year": {
+      "title": "Abandoned Oil And Gas Pipes Are Still Contributing TONS of Microplastics Into The Ocean Each Year",
+      "url": "https://www.sciencealert.com/abandoned-oil-and-gas-pipes-are-still-contributing-tons-of-microplastics-into-the-ocean-each-year",
+      "canonical": "sciencealert.com/abandoned-oil-and-gas-pipes-are-still-contributing-tons-of-microplastics-into-the-ocean-each-year",
+      "published_dt": "2026-08-30T19:00:00+06:00",
+      "published_date": "2026-08-30T19:00:00+06:00",
+      "source": "ScienceAlert",
+      "region": "Science",
+      "excerpt": "The marine plastics problem runs deeper than we realized. ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:03.257385+06:00",
+      "last_seen": "2026-08-30T23:07:03.257387+06:00"
+    },
+    "science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23": {
+      "title": "Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23",
+      "url": "https://science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23/",
+      "canonical": "science.nasa.gov/photojournal/ribbon-cutting-event-for-nasa-deep-space-networks-deep-space-station-23",
+      "published_dt": "2026-08-30T20:57:59+06:00",
+      "published_date": "2026-08-30T20:57:59+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Description Leadership from NASA Headquarters, the Jet Propulsion Laboratory, and the Deep Space Network (DSN) stand in front of the recently completed Deep Space Station 23 antenna at the Deep Space Network’s Goldstone complex near Barstow, California, on Aug. 25, 2026.  From left: Germaine Aziz (project manager, DSN Aperture Enhancement Project, JPL); Bradford Arnold (manager, […] The post Ribbon-Cutting Event for NASA Deep Space Network’s Deep Space Station 23 appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:10.600961+06:00",
+      "last_seen": "2026-08-30T23:07:10.600966+06:00"
+    },
+    "science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online": {
+      "title": "NASA Deep Space Network’s New Goldstone Antenna Goes Online",
+      "url": "https://science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online/",
+      "canonical": "science.nasa.gov/photojournal/nasa-deep-space-networks-new-goldstone-antenna-goes-online",
+      "published_dt": "2026-08-30T20:53:08+06:00",
+      "published_date": "2026-08-30T20:53:08+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Description Long shadows are cast by the recently completed Deep Space Station 23 at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. A 34-meter (114-foot) multifrequency beam-waveguide antenna, DSS-23 will boost the DSN’s capacity and enhance NASA’s deep space communications capabilities for decades to come. NASA leadership and personnel as well […] The post NASA Deep Space Network’s New Goldstone Antenna Goes Online appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:10.601179+06:00",
+      "last_seen": "2026-08-30T23:07:10.601182+06:00"
+    },
+    "science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex": {
+      "title": "Panorama Showcasing the 34-Meter Antennas of the DSN’s Goldstone Complex",
+      "url": "https://science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex/",
+      "canonical": "science.nasa.gov/photojournal/panorama-showcasing-the-34-meter-antennas-of-the-dsns-goldstone-complex",
+      "published_dt": "2026-08-30T20:47:12+06:00",
+      "published_date": "2026-08-30T20:47:12+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Description Five antennas soak in the summer sun at the Deep Space Network’s Goldstone complex near Barstow, California, in August 2026. The recently completed Deep Space Station 23, a 34-meter (114-foot) beam-waveguide antenna, can be seen to the right of the frame in the foreground. The other three 34-meter antennas are, from left, DSS-26, DSS-25, and […] The post Panorama Showcasing the 34-Meter Antennas of the DSN’s Goldstone Complex appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:10.601374+06:00",
+      "last_seen": "2026-08-30T23:07:10.601376+06:00"
+    },
+    "nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches": {
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches/",
+      "canonical": "nasa.gov/news-release/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches",
+      "published_dt": "2026-08-30T19:18:06+06:00",
+      "published_date": "2026-08-30T19:18:06+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Now on a three-month, million-mile journey to its final orbit, NASA’s Nancy Grace Roman Space Telescope will soon reveal the universe’s darkest secrets. The mission launched at 7:26 a.m. EDT Sunday aboard a SpaceX Falcon Heavy rocket from Launch Complex 39A at the agency’s Kennedy Space Center in Florida. Roman pairs a large field of […] The post NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:10.601556+06:00",
+      "last_seen": "2026-08-30T23:07:10.601559+06:00"
+    },
+    "jpl.nasa.gov/news/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches": {
+      "title": "NASA’s Dark Universe-Seeking Nancy Grace Roman Space Telescope Launches",
+      "url": "https://www.jpl.nasa.gov/news/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches",
+      "canonical": "jpl.nasa.gov/news/nasas-dark-universe-seeking-nancy-grace-roman-space-telescope-launches",
+      "published_dt": "2026-08-30T20:00:00+06:00",
+      "published_date": "2026-08-30T20:00:00+06:00",
+      "source": "JPL",
+      "region": "Science",
+      "excerpt": "The spacecraft will study the mysteries of the cosmos while also testing the Coronagraph Instrument, designed and built by JPL to demonstrate advanced hardware for studying planets around other stars.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:19.093060+06:00",
+      "last_seen": "2026-08-30T23:07:19.093065+06:00"
+    },
+    "space.com/space-exploration/on-this-day-in-space-august-30-2026": {
+      "title": "On this day in space! Aug. 30, 1992: Astronomers discover 1st Kuiper Belt object out beyond Pluto",
+      "url": "https://www.space.com/space-exploration/on-this-day-in-space-august-30-2026",
+      "canonical": "space.com/space-exploration/on-this-day-in-space-august-30-2026",
+      "published_dt": "2026-08-30T20:51:12+06:00",
+      "published_date": "2026-08-30T20:51:12+06:00",
+      "source": "Space.com",
+      "region": "Science",
+      "excerpt": "On Aug. 30, 1992, astronomers spotted an object orbiting the sun beyond Pluto for the very first time. Here's why the discovery of 1992 QB-1 mattered.",
+      "image": "https://cdn.mos.cms.futurecdn.net/BaSvMujUGzFHG8Jo6qjdMQ-1280-80.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:19.676367+06:00",
+      "last_seen": "2026-08-30T23:07:19.676372+06:00"
+    },
+    "space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video": {
+      "title": "Liftoff! NASA's Roman Space Telescope soars to the stars on a SpaceX Falcon Heavy rocket in spectacular launch (video)",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video",
+      "canonical": "space.com/space-exploration/launches-spacecraft/nasa-roman-space-telescope-launch-success-on-a-spacex-falcon-heavy-rocket-spectacular-launch-video",
+      "published_dt": "2026-08-30T18:56:57+06:00",
+      "published_date": "2026-08-30T18:56:57+06:00",
+      "source": "Space.com",
+      "region": "Science",
+      "excerpt": "NASA's Nancy Grace Roman Space Telescope launched into space atop a SpaceX Falcon Heavy rocket on Aug. 30, ushering in a new era for astronomy and our understanding of the cosmos.",
+      "image": "https://cdn.mos.cms.futurecdn.net/g9UK3jncfgzqaP9TgoCaAh-1280-80.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:19.676478+06:00",
+      "last_seen": "2026-08-30T23:07:19.676481+06:00"
+    },
+    "astronomy.com/today-in-the-history-of-astronomy/aug-30-1984-space-shuttle-discovery-launches": {
+      "title": "Aug. 30, 1984: Space Shuttle Discovery launches",
+      "url": "https://www.astronomy.com/today-in-the-history-of-astronomy/aug-30-1984-space-shuttle-discovery-launches/",
+      "canonical": "astronomy.com/today-in-the-history-of-astronomy/aug-30-1984-space-shuttle-discovery-launches",
+      "published_dt": "2026-08-30T19:00:00+06:00",
+      "published_date": "2026-08-30T19:00:00+06:00",
+      "source": "Astronomy Magazine",
+      "region": "Science",
+      "excerpt": "The third member of NASA’s space shuttle program, Discovery had a fraught journey to its launch. First, a test in June of 1984 found a flaw in the thermal shield; then a launch scheduled for later the same month was delayed due to a computer failure. Attempt No. 2 was halted only four seconds before Continue reading \"Aug. 30, 1984: Space Shuttle Discovery launches\" The post Aug. 30, 1984: Space Shuttle Discovery launches appeared first on Astronomy Magazine .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-08-30T23:07:21.301481+06:00",
+      "last_seen": "2026-08-30T23:07:21.301485+06:00"
     }
   },
   "events": {
@@ -2963,6 +3433,159 @@
       "selected_at": "2026-08-30T18:31:28.357882+06:00",
       "status": "published",
       "message_id": 27
+    },
+    "mars_heat_anomaly_2026": {
+      "event_id": "mars_heat_anomaly_2026",
+      "canonical_url": "sciencedaily.com/releases/2026/08/260828082336.htm",
+      "original_url": "https://www.sciencedaily.com/releases/2026/08/260828082336.htm",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "topic": "Planetary Science",
+      "institution": "NASA / JPL (implied)",
+      "event_cluster_id": "evt_1707f7141b",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Mars’ Southern Interior Up to 400°C Hotter Than North, Study Finds",
+      "summary": "Gravity‑based tidal tomography shows Mars’ southern mantle may be 200‑400 °C hotter than the north, hinting at partial melt and past magnetic activity.",
+      "highlights": [
+        "Gravity measurements reveal a temperature gap of 200‑400 °C between the southern and northern mantle",
+        "Tidal tomography used data from Mars Global Surveyor, Mars Odyssey, and Mars Reconnaissance Orbiter",
+        "The hotter southern interior could explain anomalous magnetic signatures and faster seismic attenuation observed by InSight"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T18:27:59+06:00",
+      "selected_at": "2026-08-30T23:10:31.457543+06:00",
+      "status": "published",
+      "message_id": 28
+    },
+    "cascadia_megathrust_shaking": {
+      "event_id": "cascadia_megathrust_shaking",
+      "canonical_url": "sciencedaily.com/releases/2026/08/260828082350.htm",
+      "original_url": "https://www.sciencedaily.com/releases/2026/08/260828082350.htm",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "topic": "Geology",
+      "institution": "University of Oregon (assumed)",
+      "event_cluster_id": "evt_1c12e0a6f0",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Shallower Juan de Fuca Plate May Amplify Oregon’s Next Cascadia Megaquake",
+      "summary": "New seismic data show the Juan de Fuca slab is about 20 km deep off northern Oregon, 5 km shallower than thought, boosting expected shaking by up to 17 %.",
+      "highlights": [
+        "The slab interface is estimated at ~20 km depth, 5 km shallower than previous models",
+        "Peak ground acceleration could increase 9‑17 % along the northern Oregon coast",
+        "A deep sedimentary basin beneath Tillamook may trap and amplify seismic waves"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T10:12:10+06:00",
+      "selected_at": "2026-08-30T23:10:37.161187+06:00",
+      "status": "published",
+      "message_id": 29
+    },
+    "spacetime_crystal_black_hole": {
+      "event_id": "spacetime_crystal_black_hole",
+      "canonical_url": "sciencedaily.com/releases/2026/08/260829035225.htm",
+      "original_url": "https://www.sciencedaily.com/releases/2026/08/260829035225.htm",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "topic": "Physics",
+      "institution": "Various (research team)",
+      "event_cluster_id": "evt_7a1ee96cfb",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Spacetime Crystal Can Flip Into Microscopic Black Hole, Researchers Show",
+      "summary": "Physicists derived an exact formula showing that a critical spacetime crystal can either dissolve or collapse into a microscopic black hole with a tiny energy shift.",
+      "highlights": [
+        "Researchers from Goethe University Frankfurt and TU Wien derived an analytic solution using an infinite‑dimensional trick.",
+        "The formula describes critical collapse of a spacetime crystal that can turn into a black hole after a minute energy addition.",
+        "Simulations since 1993 predicted this behavior, but the new work provides the first exact mathematical description.",
+        "The method works in the limit of infinitely many dimensions and can be mapped back to our four‑dimensional universe."
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T21:05:09+06:00",
+      "selected_at": "2026-08-30T23:10:42.374035+06:00",
+      "status": "published",
+      "message_id": 30
+    },
+    "new_frog_species_madagascar": {
+      "event_id": "new_frog_species_madagascar",
+      "canonical_url": "sciencedaily.com/releases/2026/08/260828082347.htm",
+      "original_url": "https://www.sciencedaily.com/releases/2026/08/260828082347.htm",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "topic": "Biology",
+      "institution": "Various (ScienceDaily)",
+      "event_cluster_id": "evt_c3e6b94a6e",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Seven New Diamond Frog Species Unveiled from Madagascar’s Forest Floor",
+      "summary": "Researchers combined field surveys, museum specimens and museomics to describe seven previously unknown Rhombophryne species, boosting known diversity to 27 amid rapid habitat loss.",
+      "highlights": [
+        "Seven new Rhombophryne species identified, raising total to 27.",
+        "DNA from century‑old type specimens and fresh samples resolved long‑standing taxonomic confusion.",
+        "Findings inform Madagascar’s Biodiversity 30x30 conservation plan and protected‑area proposals.",
+        "Study published in peer‑reviewed Vertebrate Zoology (2026) with DOI 10.3897/vz.76.e172567."
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T16:28:59+06:00",
+      "selected_at": "2026-08-30T23:10:47.414988+06:00",
+      "status": "published",
+      "message_id": 31
+    },
+    "nanocrystal_recipe_2026": {
+      "event_id": "nanocrystal_recipe_2026",
+      "canonical_url": "sciencedaily.com/releases/2026/08/260827010510.htm",
+      "original_url": "https://www.sciencedaily.com/releases/2026/08/260827010510.htm",
+      "source": "ScienceDaily",
+      "region": "Science",
+      "topic": "Materials Science",
+      "institution": "University research team (unspecified)",
+      "event_cluster_id": "evt_34cec83dbf",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "University of Chicago Unlocks Metal Nitride Nanocrystals for Flexible Electronics",
+      "summary": "Chemists at University of Chicago and Argonne have devised a molten‑salt method that yields nanocrystals from tough metal nitrides, expanding LED, implant and superconductor prospects.",
+      "highlights": [
+        "Nearly a dozen metal‑nitride nanocrystals—including gallium, titanium, niobium and molybdenum nitrides—were synthesized using",
+        "The breakthrough relies on molten salts and a precise temperature‑ammonia pressure “sweet spot” that breaks strong",
+        "Published in Nature (2026), the method promises printable, polymer‑compatible nanomaterials for LEDs, medical implants and"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T17:45:32+06:00",
+      "selected_at": "2026-08-30T23:10:52.580580+06:00",
+      "status": "published",
+      "message_id": 32
+    },
+    "magnetic_clues_ancient_dust_grains": {
+      "event_id": "magnetic_clues_ancient_dust_grains",
+      "canonical_url": "universetoday.com/articles/ancient-dust-grains-hold-magnetic-clues-to-the-suns-birth",
+      "original_url": "https://www.universetoday.com/articles/ancient-dust-grains-hold-magnetic-clues-to-the-suns-birth",
+      "source": "Universe Today",
+      "region": "Science",
+      "topic": "Astronomy",
+      "institution": "University/Institute (source Universe Today)",
+      "event_cluster_id": "evt_184abe2fce",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Ancient Meteorite Grains Reveal Magnetic Field Shaping Sun’s Birth",
+      "summary": "MIT researchers found that calcium‑aluminum‑rich inclusions in the Antarctic meteorite DOM 08006 preserve the earliest magnetic field of the protosolar nebula, shedding light on the Sun’s formation.",
+      "highlights": [
+        "CAIs from DOM 08006 show magnetization dating to the first 200,000 years of the Solar System",
+        "The recorded magnetic field was stronger than Earth’s present field, implying active magnetized winds",
+        "Two scenarios were proposed: early‑epoch magnetization or later heating‑event magnetization",
+        "Findings suggest magnetic forces, alongside gravity, guided the collapse of the protostellar cloud"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-08-30T17:44:00+06:00",
+      "selected_at": "2026-08-30T23:10:57.748968+06:00",
+      "status": "published",
+      "message_id": 33
     }
   },
   "event_clusters": {
@@ -3253,6 +3876,114 @@
       "confidence": 0.6,
       "last_seen": "2026-08-30T18:30:21.748283+06:00",
       "headline": "Our Fat Tissue May 'Remember' Obesity, Even After We've Lost Weight"
+    },
+    "evt_1707f7141b": {
+      "event_id": "evt_1707f7141b",
+      "topic": "Planetary Science",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637960+06:00",
+      "headline": "Scientists discover a massive heat anomaly deep inside Mars"
+    },
+    "evt_1c12e0a6f0": {
+      "event_id": "evt_1c12e0a6f0",
+      "topic": "Geology",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637976+06:00",
+      "headline": "The next Cascadia megaquake could hit Oregon harder than expected"
+    },
+    "evt_7a1ee96cfb": {
+      "event_id": "evt_7a1ee96cfb",
+      "topic": "Physics",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637980+06:00",
+      "headline": "This strange “spacetime crystal” can suddenly become a black hole"
+    },
+    "evt_c3e6b94a6e": {
+      "event_id": "evt_c3e6b94a6e",
+      "topic": "Biology",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637983+06:00",
+      "headline": "Seven new frog species were hiding beneath Madagascar’s forest floor"
+    },
+    "evt_34cec83dbf": {
+      "event_id": "evt_34cec83dbf",
+      "topic": "Materials Science",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637986+06:00",
+      "headline": "A new recipe unlocks “impossible” nanocrystals for LEDs, implants, and superconductors"
+    },
+    "evt_184abe2fce": {
+      "event_id": "evt_184abe2fce",
+      "topic": "Astronomy",
+      "region": "Science",
+      "sources": [
+        "Universe Today"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637988+06:00",
+      "headline": "Ancient Dust Grains Hold Magnetic Clues to the Sun's Birth"
+    },
+    "evt_e7a12a3840": {
+      "event_id": "evt_e7a12a3840",
+      "topic": "Biology",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637991+06:00",
+      "headline": "Researchers unveil sustainable spirulina solution to vitamin B12 deficiency"
+    },
+    "evt_af9d3c90a5": {
+      "event_id": "evt_af9d3c90a5",
+      "topic": "Earth Science",
+      "region": "Science",
+      "sources": [
+        "ScienceDaily"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637994+06:00",
+      "headline": "Hundreds of hidden earthquakes found at Antarctica’s Doomsday Glacier"
+    },
+    "evt_9428294d97": {
+      "event_id": "evt_9428294d97",
+      "topic": "Biomedical Research",
+      "region": "Science",
+      "sources": [
+        "ScienceAlert"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-08-30T23:07:33.637997+06:00",
+      "headline": "Scientists Built Prosthetic 'Skin' That Mimics One Crucial Feature of Pain"
     }
   },
   "posted_event_ids": [
@@ -3274,7 +4005,13 @@
     "evt_be275a5d82",
     "evt_8a0e726176",
     "evt_6cf9d9cefd",
-    "evt_06ec5e97ef"
+    "evt_06ec5e97ef",
+    "evt_1707f7141b",
+    "evt_1c12e0a6f0",
+    "evt_7a1ee96cfb",
+    "evt_c3e6b94a6e",
+    "evt_34cec83dbf",
+    "evt_184abe2fce"
   ],
   "recent_titles": [
     "scientists capture first molecular level images of water reorganization in proton coupled electron transfer",
@@ -3295,21 +4032,29 @@
     "diamond melt experiment solves ice giant mystery and boosts fusion yield",
     "university of missouri team finds initial mass function varies across star clusters challenging universal",
     "six fold cut in ocean heat content uncertainty since 1960",
-    "deep sleep brain waves linked to slower alzheimer s progression study finds"
+    "deep sleep brain waves linked to slower alzheimer s progression study finds",
+    "mars southern interior up to 400 c hotter than north study finds",
+    "shallower juan de fuca plate may amplify oregon s next cascadia megaquake",
+    "spacetime crystal can flip into microscopic black hole researchers show",
+    "seven new diamond frog species unveiled from madagascar s forest floor",
+    "university of chicago unlocks metal nitride nanocrystals for flexible electronics",
+    "ancient meteorite grains reveal magnetic field shaping sun s birth"
   ],
   "category_coverage": {
     "Chemical Biology": "2026-08-29T23:25:24.818712+06:00",
-    "Materials Science": "2026-08-30T01:39:07.463876+06:00",
+    "Materials Science": "2026-08-30T23:10:52.580587+06:00",
     "Cosmology": "2026-08-30T12:14:02.095629+06:00",
     "Climate Science": "2026-08-30T18:31:22.993646+06:00",
-    "Physics": "2026-08-29T23:25:44.984877+06:00",
-    "Neuroscience": "2026-08-30T18:31:28.357893+06:00",
+    "Physics": "2026-08-30T23:10:42.374043+06:00",
+    "Neuroscience": "2026-08-30T18:31:28.357882+06:00",
     "Energy Science": "2026-08-30T01:38:52.926309+06:00",
     "Evolution": "2026-08-30T01:39:02.737574+06:00",
     "AI for Science": "2026-08-30T01:39:12.830437+06:00",
     "Molecular Biology": "2026-08-30T12:13:38.403160+06:00",
-    "Biology": "2026-08-30T12:13:46.190094+06:00",
+    "Biology": "2026-08-30T23:10:47.414995+06:00",
     "Microbiology": "2026-08-30T12:13:51.832055+06:00",
-    "Planetary Science": "2026-08-30T12:13:56.618328+06:00"
+    "Planetary Science": "2026-08-30T23:10:31.457552+06:00",
+    "Geology": "2026-08-30T23:10:37.161196+06:00",
+    "Astronomy": "2026-08-30T23:10:57.748976+06:00"
   }
 }
