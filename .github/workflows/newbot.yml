@@ -1,8 +1,10 @@
-name: TheScienceNewsroom V1
+name: CareerNewsroom V0.5
 
 on:
   schedule:
-    - cron: "0 7-23 * * *"
+    - cron: "0,30 8-23 * * *"
+      timezone: "Asia/Dhaka"
+    - cron: "0,30 0-2 * * *"
       timezone: "Asia/Dhaka"
   workflow_dispatch:
 
@@ -10,11 +12,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: thesciencenewsroom-v1
+  group: careernewsroom-v05
   cancel-in-progress: false
 
 jobs:
-  run-news-bot:
+  run-career-bot:
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -22,8 +24,8 @@ jobs:
       EXA_API_KEY: ${{ secrets.EXA_API_KEY }}
       CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
       TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-      TELEGRAM_CHANNEL: "@ScienceNewsroom"
-      NEWS_MODE: "update"
+      TELEGRAM_CHANNEL: "@CareerNewsroom"
+      CEREBRAS_MODEL: "gpt-oss-120b"
       PYTHONUNBUFFERED: "1"
 
     steps:
@@ -50,19 +52,18 @@ jobs:
       - name: Run self-test
         run: python main.py --self-test
 
-      - name: Run TheScienceNewsroom
+      - name: Run CareerNewsroom V0.5
         run: python main.py
 
       - name: Save state
         if: always()
         run: |
-          git config user.name "Science News Bot"
+          git config user.name "Career News Bot"
           git config user.email "actions@github.com"
           git add news_state.json posted_urls.txt
-
           if git diff --cached --quiet; then
             echo "No state changes to commit."
           else
-            git commit -m "Update TheScienceNewsroom state"
+            git commit -m "Update CareerNewsroom state"
             git push
           fi
