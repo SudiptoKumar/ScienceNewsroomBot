@@ -1,268 +1,268 @@
 {
   "feeds": {
     "https://www.nature.com/nature.rss": {
-      "etag": "\"a6cc6321fa61fa005c1265d128023ded\"",
+      "etag": "\"2644e260d4bb2ef82f5b7e4035688926\"",
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:16.002445+06:00",
+      "last_checked": "2026-09-23T01:31:23.190582+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.science.org/rss/news_current.xml": {
       "etag": null,
       "last_modified": "Thu, 03 Sep 2026 04:38:37 GMT",
-      "last_checked": "2026-09-22T21:23:16.560061+06:00",
-      "fail_count": 76,
+      "last_checked": "2026-09-23T01:31:23.383780+06:00",
+      "fail_count": 77,
       "alerted": true
     },
     "https://www.sciencenews.org/feed": {
-      "etag": "W/\"fe2d303a98bf8606bbae6a7e397c24de\"",
-      "last_modified": "Tue, 22 Sep 2026 14:34:11 GMT",
-      "last_checked": "2026-09-22T21:23:16.832483+06:00",
+      "etag": "W/\"346de9323dda9fe5c09a93e70c5fa706\"",
+      "last_modified": "Tue, 22 Sep 2026 19:18:02 GMT",
+      "last_checked": "2026-09-23T01:31:23.718263+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.newscientist.com/feed/home/": {
-      "last_checked": "2026-09-22T21:23:17.220779+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:23.939173+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://www.scientificamerican.com/rss/": {
-      "last_checked": "2026-09-22T21:23:17.415691+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:24.070352+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://www.quantamagazine.org/feed/": {
-      "etag": "\"0568617bc37a382d8fbfa8354c58f848-gzip\"",
-      "last_modified": "Tue, 22 Sep 2026 13:30:03 GMT",
-      "last_checked": "2026-09-22T21:23:17.651533+06:00",
+      "etag": "\"571fc10c4418410772629b702371c832-gzip\"",
+      "last_modified": "Tue, 22 Sep 2026 14:33:30 GMT",
+      "last_checked": "2026-09-23T01:31:24.122140+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://phys.org/rss-feed/": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:17.977738+06:00",
+      "last_checked": "2026-09-23T01:31:24.254567+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencedaily.com/rss/top/science.xml": {
       "etag": null,
       "last_modified": "Tue, 22 Sep 2026 13:43:10 GMT",
-      "last_checked": "2026-09-22T21:23:18.241091+06:00",
+      "last_checked": "2026-09-23T01:31:24.379470+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.eurekalert.org/rss/news.xml": {
-      "last_checked": "2026-09-22T21:23:18.819965+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:24.495432+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://www.livescience.com/feeds.xml": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:18.997870+06:00",
+      "last_checked": "2026-09-23T01:31:24.637931+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencealert.com/feed": {
       "etag": "W/\"9bae38d699949522608a7b80c87f29cd\"",
       "last_modified": "Tue, 22 Sep 2026 15:00:00 GMT",
-      "last_checked": "2026-09-22T21:23:19.566504+06:00",
+      "last_checked": "2026-09-23T01:31:25.276980+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.the-scientist.com/feed": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:19.730499+06:00",
+      "last_checked": "2026-09-23T01:31:25.342705+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://knowablemagazine.org/rss": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:20.646172+06:00",
+      "last_checked": "2026-09-23T01:31:25.898116+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://cosmosmagazine.com/feed/": {
-      "last_checked": "2026-09-22T21:23:21.215358+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:26.485915+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://theconversation.com/us/topics/science-34/articles.atom": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:21.623542+06:00",
+      "last_checked": "2026-09-23T01:31:27.004378+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://physicsworld.com/feed/": {
-      "etag": "W/\"51c24511183a14e7c719aa8254bfbe6d\"",
-      "last_modified": "Tue, 22 Sep 2026 12:49:48 GMT",
-      "last_checked": "2026-09-22T21:23:22.865978+06:00",
+      "etag": "W/\"99526cbd87ff48a2d969e0c8ba606391\"",
+      "last_modified": "Tue, 22 Sep 2026 16:16:31 GMT",
+      "last_checked": "2026-09-23T01:31:28.287552+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://physics.aps.org/rss/recent.xml": {
-      "last_checked": "2026-09-22T21:23:23.265923+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:29.166220+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://cen.acs.org/articles.rss": {
-      "last_checked": "2026-09-22T21:23:23.733492+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:29.393686+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://www.chemistryworld.com/rss": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:24.683890+06:00",
+      "last_checked": "2026-09-23T01:31:30.080435+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://eos.org/feed": {
       "etag": "\"d0c510b7704b27e92de38e3dee34cc70\"",
       "last_modified": "Tue, 22 Sep 2026 12:42:10 GMT",
-      "last_checked": "2026-09-22T21:23:24.942282+06:00",
+      "last_checked": "2026-09-23T01:31:30.345621+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.carbonbrief.org/feed/": {
-      "etag": "W/\"96f671be0823cddb64b73fef8eb662df\"",
-      "last_modified": "Tue, 22 Sep 2026 15:14:22 GMT",
-      "last_checked": "2026-09-22T21:23:25.334767+06:00",
+      "etag": "\"d4a179347d0a0f4e36a3b7cd24247339\"",
+      "last_modified": "Tue, 22 Sep 2026 15:29:57 GMT",
+      "last_checked": "2026-09-23T01:31:30.438040+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://insideclimatenews.org/feed/": {
-      "etag": "W/\"0ec8ccffc0a5563be46a1c655c109243\"",
-      "last_modified": "Tue, 22 Sep 2026 14:50:29 GMT",
-      "last_checked": "2026-09-22T21:23:25.589152+06:00",
+      "etag": "W/\"c0fa67daac965acd8215f7fac0df1693\"",
+      "last_modified": "Tue, 22 Sep 2026 19:24:26 GMT",
+      "last_checked": "2026-09-23T01:31:30.785363+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.statnews.com/feed/": {
-      "etag": "W/\"0f0e40b46ed5a685c1bb335dfa737552\"",
-      "last_modified": "Tue, 22 Sep 2026 14:23:05 GMT",
-      "last_checked": "2026-09-22T21:23:25.727039+06:00",
+      "etag": "W/\"28c18fa9bb10c8af1c68bfa7b4c0dd12\"",
+      "last_modified": "Tue, 22 Sep 2026 19:30:36 GMT",
+      "last_checked": "2026-09-23T01:31:30.853730+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.sciencefocus.com/feed": {
-      "last_checked": "2026-09-22T21:23:28.290021+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:33.500576+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://science.nasa.gov/feed/": {
-      "etag": "W/\"2110426c8a5c554809aeb502a4726ac9\"",
-      "last_modified": "Tue, 22 Sep 2026 15:23:22 GMT",
-      "last_checked": "2026-09-22T21:23:29.038934+06:00",
+      "etag": "W/\"3583ff65db63b42f85d6518f9ab1c6c1\"",
+      "last_modified": "Tue, 22 Sep 2026 19:22:47 GMT",
+      "last_checked": "2026-09-23T01:31:34.738995+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.esa.int/rssfeed/Our_Activities/Space_Science": {
       "etag": null,
-      "last_modified": "Tue, 22 Sep 2026 15:20:49 GMT",
-      "last_checked": "2026-09-22T21:23:29.786017+06:00",
+      "last_modified": "Tue, 22 Sep 2026 19:22:05 GMT",
+      "last_checked": "2026-09-23T01:31:35.518350+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.eso.org/public/news/feed/": {
       "etag": "W/\"08c0f9e08d5f13b8fed62859f647fc82\"",
       "last_modified": "Wed, 19 Aug 2026 15:00:00 GMT",
-      "last_checked": "2026-09-22T21:23:31.171752+06:00",
+      "last_checked": "2026-09-23T01:31:37.590565+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://noirlab.edu/public/news/feed/": {
       "etag": null,
       "last_modified": "Tue, 08 Sep 2026 17:00:00 GMT",
-      "last_checked": "2026-09-22T21:23:31.274508+06:00",
+      "last_checked": "2026-09-23T01:31:37.724942+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.stsci.edu/feeds/news": {
-      "last_checked": "2026-09-22T21:23:31.794557+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:38.020761+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://hubblesite.org/resource-gallery/news": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:35.833189+06:00",
+      "last_checked": "2026-09-23T01:31:41.976871+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://webbtelescope.org/news/feed": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:36.403196+06:00",
+      "last_checked": "2026-09-23T01:31:42.582188+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://chandra.si.edu/resources/rss.xml": {
-      "last_checked": "2026-09-22T21:23:37.066111+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:43.349172+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://www.jpl.nasa.gov/feeds/news/": {
       "etag": null,
       "last_modified": "Mon, 21 Sep 2026 17:00:00 GMT",
-      "last_checked": "2026-09-22T21:23:37.240364+06:00",
+      "last_checked": "2026-09-23T01:31:43.445965+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.space.com/feeds/all": {
       "etag": null,
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:37.484932+06:00",
+      "last_checked": "2026-09-23T01:31:43.625213+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://skyandtelescope.org/feed/": {
       "etag": "W/\"8fe7213c2d1cfb6601ab386c5ee2f4c5\"",
       "last_modified": "Mon, 31 Aug 2026 19:19:30 GMT",
-      "last_checked": "2026-09-22T21:23:37.808482+06:00",
-      "fail_count": 85,
+      "last_checked": "2026-09-23T01:31:43.835433+06:00",
+      "fail_count": 86,
       "alerted": true
     },
     "https://astronomy.com/feed": {
-      "etag": "W/\"fe688fac6d3df1a4747c15bb0f9af036\"",
-      "last_modified": "Tue, 22 Sep 2026 14:57:40 GMT",
-      "last_checked": "2026-09-22T21:23:38.370549+06:00",
+      "etag": "W/\"f85a79fedc6d8a64db6c146c966908bf\"",
+      "last_modified": "Fri, 18 Sep 2026 21:35:11 GMT",
+      "last_checked": "2026-09-23T01:31:44.222949+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://universetoday.com/feed/": {
-      "etag": "W/\"6ab294cc-7026\"",
-      "last_modified": "Tue, 22 Sep 2026 14:46:36 GMT",
-      "last_checked": "2026-09-22T21:23:38.708984+06:00",
+      "etag": "W/\"6ab2ccc3-7026\"",
+      "last_modified": "Tue, 22 Sep 2026 18:45:23 GMT",
+      "last_checked": "2026-09-23T01:31:44.467399+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://earthsky.org/feed/": {
-      "etag": "W/\"6fb7aad15ec7c3e52c4eb1b516ecc395\"",
-      "last_modified": "Tue, 22 Sep 2026 14:27:57 GMT",
-      "last_checked": "2026-09-22T21:23:39.095119+06:00",
+      "etag": "W/\"51b92aa2ba63bcbcfbf07c35791c2888\"",
+      "last_modified": "Tue, 22 Sep 2026 18:37:25 GMT",
+      "last_checked": "2026-09-23T01:31:44.697690+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://www.skyatnightmagazine.com/feed": {
-      "last_checked": "2026-09-22T21:23:41.755273+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:47.442698+06:00",
+      "fail_count": 94,
       "alerted": true
     },
     "https://export.arxiv.org/rss/astro-ph": {
       "etag": "65b073bcd697fe74a58f42f8bfb19ab517cbfb4c4ffd992ba1321ad018a3aa83",
       "last_modified": null,
-      "last_checked": "2026-09-22T21:23:41.922934+06:00",
+      "last_checked": "2026-09-23T01:31:47.541412+06:00",
       "fail_count": 0,
       "alerted": false
     },
     "https://pubmed.ncbi.nlm.nih.gov/rss/search/1/?term=scientific+research&format=pubmed": {
-      "last_checked": "2026-09-22T21:23:42.159697+06:00",
-      "fail_count": 93,
+      "last_checked": "2026-09-23T01:31:47.838381+06:00",
+      "fail_count": 94,
       "alerted": true
     }
   },
@@ -281,7 +281,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-29T23:22:16.223718+06:00",
-      "last_seen": "2026-09-22T21:23:39.147110+06:00"
+      "last_seen": "2026-09-23T01:31:44.775665+06:00"
     },
     "earthsky.org/sun/sun-news-activity-solar-flare-cme-aurora-updates": {
       "title": "Sun news: Chunk of solar stuff delayed. Maybe today",
@@ -297,7 +297,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-08-29T23:22:16.223926+06:00",
-      "last_seen": "2026-09-22T21:23:39.147260+06:00"
+      "last_seen": "2026-09-23T01:31:44.775955+06:00"
     },
     "astronomy.com/observing/full-moon-calendar-dates-times-types": {
       "title": "2026 Full Moon calendar: When to see the Full Moon and phases",
@@ -313,7 +313,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-01T02:34:56.268136+06:00",
-      "last_seen": "2026-09-22T21:23:38.376947+06:00"
+      "last_seen": "2026-09-23T01:31:44.235676+06:00"
     },
     "science.nasa.gov/astrophysics/programs/cosmic-origins/community/dgce-sig-seminar-24-sept-2026": {
       "title": "DGCE SIG Seminar, 24 Sept 2026",
@@ -377,151 +377,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-15T11:40:22.697997+06:00",
-      "last_seen": "2026-09-22T21:23:29.106794+06:00"
-    },
-    "livescience.com/space/astronomy/a-space-shark-royal-auroras-and-a-venusian-pearl-see-the-winners-of-the-2026-zwo-astronomy-photographer-of-the-year-contest": {
-      "title": "A space shark, 'royal' auroras and a 'Venusian pearl': See the winners of the 2026 ZWO Astronomy Photographer of the Year contest",
-      "url": "https://www.livescience.com/space/astronomy/a-space-shark-royal-auroras-and-a-venusian-pearl-see-the-winners-of-the-2026-zwo-astronomy-photographer-of-the-year-contest",
-      "canonical": "livescience.com/space/astronomy/a-space-shark-royal-auroras-and-a-venusian-pearl-see-the-winners-of-the-2026-zwo-astronomy-photographer-of-the-year-contest",
-      "published_dt": "2026-09-18T00:30:00+06:00",
-      "published_date": "2026-09-18T00:30:00+06:00",
-      "source": "Live Science",
-      "region": "Science",
-      "excerpt": "A Royal Observatory Greenwich contest showcased work from around the night sky and the solar system, with prize-winning photos spanning topics ranging from auroras to planets.",
-      "image": "https://cdn.mos.cms.futurecdn.net/a8N37auWfihYchx3UXYA3c-1920-80.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T01:28:38.529981+06:00",
-      "last_seen": "2026-09-19T00:01:53.628195+06:00"
-    },
-    "livescience.com/space/exoplanets/this-million-year-old-baby-planet-is-the-youngest-world-scientists-have-ever-discovered": {
-      "title": "This million-year-old 'baby planet' is the youngest world scientists have ever discovered",
-      "url": "https://www.livescience.com/space/exoplanets/this-million-year-old-baby-planet-is-the-youngest-world-scientists-have-ever-discovered",
-      "canonical": "livescience.com/space/exoplanets/this-million-year-old-baby-planet-is-the-youngest-world-scientists-have-ever-discovered",
-      "published_dt": "2026-09-18T00:10:12+06:00",
-      "published_date": "2026-09-18T00:10:12+06:00",
-      "source": "Live Science",
-      "region": "Science",
-      "excerpt": "Astronomers have confirmed a large exoplanet is forming in the cloud of debris around a young star. At less than a million years old, it's the youngest exoplanet found so far.",
-      "image": "https://cdn.mos.cms.futurecdn.net/yV4LiA2bQjgGbbsERmM45e-1920-80.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T01:28:38.530242+06:00",
-      "last_seen": "2026-09-19T00:01:53.628484+06:00"
-    },
-    "physicsworld.com/a/spectacular-image-of-the-shark-nebula-wins-royal-observatory-greenwich-prize": {
-      "title": "Spectacular image of the Shark Nebula wins Royal Observatory Greenwich prize",
-      "url": "https://physicsworld.com/a/spectacular-image-of-the-shark-nebula-wins-royal-observatory-greenwich-prize/",
-      "canonical": "physicsworld.com/a/spectacular-image-of-the-shark-nebula-wins-royal-observatory-greenwich-prize",
-      "published_dt": "2026-09-18T00:30:51+06:00",
-      "published_date": "2026-09-18T00:30:51+06:00",
-      "source": "Physics World",
-      "region": "Science",
-      "excerpt": "The picture – The Quiet Predator– was taken by Kuwaiti photographer Ali Alobaidly The post Spectacular image of the Shark Nebula wins Royal Observatory Greenwich prize appeared first on Physics World .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T01:28:43.072644+06:00",
-      "last_seen": "2026-09-19T00:01:57.178587+06:00"
-    },
-    "universetoday.com/articles/a-zombie-white-dwarf-star-is-born-again-hallelujah": {
-      "title": "A Zombie White Dwarf Star is Born Again. Hallelujah!",
-      "url": "https://www.universetoday.com/articles/a-zombie-white-dwarf-star-is-born-again-hallelujah",
-      "canonical": "universetoday.com/articles/a-zombie-white-dwarf-star-is-born-again-hallelujah",
-      "published_dt": "2026-09-18T01:11:55+06:00",
-      "published_date": "2026-09-18T01:11:55+06:00",
-      "source": "Universe Today",
-      "region": "Science",
-      "excerpt": "30 years ago, an amateur astronomer noticed a white dwarf star suddenly getting brighter. New research shows this is due to a Very Late Thermal Pulse, a type of helium flash. The star has heated up and become brighter, and is now called a 'born again' star. It's evolved into a Wolf-Rayet type star, and astronomers will get to watch as it continues to evolve on human timescales.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T01:28:59.075199+06:00",
-      "last_seen": "2026-09-19T00:02:12.135361+06:00"
-    },
-    "nature.com/articles/d41586-026-02897-4": {
-      "title": "Cognitive resilience helps to predict Alzheimer’s dementia",
-      "url": "https://www.nature.com/articles/d41586-026-02897-4",
-      "canonical": "nature.com/articles/d41586-026-02897-4",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02897-4 The trait could explain why symptoms vary in severity between people with similar brain pathology.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:13.238768+06:00",
-      "last_seen": "2026-09-19T00:01:51.493833+06:00"
-    },
-    "nature.com/articles/d41586-026-02946-y": {
-      "title": "Chinese companies doubled down on science after US tech restrictions",
-      "url": "https://www.nature.com/articles/d41586-026-02946-y",
-      "canonical": "nature.com/articles/d41586-026-02946-y",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02946-y Affected Chinese companies adjusted their sources of knowledge to stay competitive.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:13.239008+06:00",
-      "last_seen": "2026-09-19T00:01:51.495133+06:00"
-    },
-    "sciencenews.org/article/reflect-orbital-space-mirrors-satellite": {
-      "title": "Big space mirrors could bring Earth on-demand light — and upend our night sky",
-      "url": "https://www.sciencenews.org/article/reflect-orbital-space-mirrors-satellite",
-      "canonical": "sciencenews.org/article/reflect-orbital-space-mirrors-satellite",
-      "published_dt": "2026-09-18T02:23:22+06:00",
-      "published_date": "2026-09-18T02:23:22+06:00",
-      "source": "Science News",
-      "region": "Science",
-      "excerpt": "A space satellite that would offer light on demand has astronomers asking: Who controls the night sky?",
-      "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/1026_darksideoflight_main.jpg?w=800",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:13.375316+06:00",
-      "last_seen": "2026-09-19T00:01:51.965009+06:00"
-    },
-    "sciencealert.com/physicists-build-a-mad-scientist-antimatter-beam-to-test-einsteins-theory-of-general-relativity": {
-      "title": "Physicists Build a 'Mad-Scientist' Antimatter Beam to Test Einstein's Theory of General Relativity",
-      "url": "https://www.sciencealert.com/physicists-build-a-mad-scientist-antimatter-beam-to-test-einsteins-theory-of-general-relativity",
-      "canonical": "sciencealert.com/physicists-build-a-mad-scientist-antimatter-beam-to-test-einsteins-theory-of-general-relativity",
-      "published_dt": "2026-09-18T08:30:00+06:00",
-      "published_date": "2026-09-18T08:30:00+06:00",
-      "source": "ScienceAlert",
-      "region": "Science",
-      "excerpt": "This can only end well. ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:15.474457+06:00",
-      "last_seen": "2026-09-19T00:01:53.971292+06:00"
-    },
-    "sciencealert.com/scientists-successfully-repair-leaky-blood-brain-barrier-in-alzheimers-models": {
-      "title": "Blood-Brain Barrier Successfully Repaired in Alzheimer's Models",
-      "url": "https://www.sciencealert.com/scientists-successfully-repair-leaky-blood-brain-barrier-in-alzheimers-models",
-      "canonical": "sciencealert.com/scientists-successfully-repair-leaky-blood-brain-barrier-in-alzheimers-models",
-      "published_dt": "2026-09-18T06:44:48+06:00",
-      "published_date": "2026-09-18T06:44:48+06:00",
-      "source": "ScienceAlert",
-      "region": "Science",
-      "excerpt": "One step closer. ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:15.474759+06:00",
-      "last_seen": "2026-09-19T00:01:53.971583+06:00"
+      "last_seen": "2026-09-23T01:31:34.881067+06:00"
     },
     "sciencealert.com/two-remote-amazon-communities-have-strikingly-low-dementia-rates-scientists-are-struggling-to-understand-why": {
       "title": "Two Remote Amazon Communities Have Strikingly Low Dementia Rates. Scientists Are Struggling to Understand Why.",
@@ -538,198 +394,6 @@
       "status": "pending",
       "first_seen": "2026-09-18T11:28:15.475038+06:00",
       "last_seen": "2026-09-20T23:54:44.948463+06:00"
-    },
-    "statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses": {
-      "title": "Kennedy announces new effort to speed up autism diagnoses",
-      "url": "https://www.statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses/?utm_campaign=rss",
-      "canonical": "statnews.com/2026/09/17/kennedy-announces-new-research-fund-to-improve-autism-diagnoses",
-      "published_dt": "2026-09-18T04:09:30+06:00",
-      "published_date": "2026-09-18T04:09:30+06:00",
-      "source": "STAT",
-      "region": "Science",
-      "excerpt": "Health secretary Kennedy announced a new effort to improve autism diagnoses, arguing that the current model is outdated",
-      "image": "https://www.statnews.com/wp-content/uploads/2026/09/AdobeStock_595817060-1024x576.jpeg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:20.489706+06:00",
-      "last_seen": "2026-09-19T00:01:59.676183+06:00"
-    },
-    "statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference": {
-      "title": "Kennedy renews attacks on vaccines at Children’s Health Defense conference",
-      "url": "https://www.statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference/?utm_campaign=rss",
-      "canonical": "statnews.com/2026/09/17/rfk-jr-anti-vaccination-activism-childrens-health-defense-conference",
-      "published_dt": "2026-09-18T02:40:04+06:00",
-      "published_date": "2026-09-18T02:40:04+06:00",
-      "source": "STAT",
-      "region": "Science",
-      "excerpt": "Health secretary RFK Jr. returned to his roots in a keynote address at a conference hosted by the Children’s Health Defense, an anti-vaccine nonprofit he helped start.",
-      "image": "https://www.statnews.com/wp-content/uploads/2026/09/Screenshot-2026-09-17-at-12.44.49-PM-1024x576.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:20.489857+06:00",
-      "last_seen": "2026-09-19T00:01:59.676317+06:00"
-    },
-    "statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval": {
-      "title": "STAT+: FDA approves a new gene therapy for Sanfilippo syndrome, an ultra-rare disease",
-      "url": "https://www.statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval/?utm_campaign=rss",
-      "canonical": "statnews.com/2026/09/17/sanfilippo-syndrome-treatment-ultragenyx-approval",
-      "published_dt": "2026-09-18T01:55:46+06:00",
-      "published_date": "2026-09-18T01:55:46+06:00",
-      "source": "STAT",
-      "region": "Science",
-      "excerpt": "The FDA approved a new gene therapy for Sanfilippo syndrome type A, an ultra-rare disease sometimes known as childhood Alzheimer’s.",
-      "image": "https://www.statnews.com/wp-content/uploads/2026/09/Eliza-treated-with-Gene-therapy-2016-1024x576.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:20.489996+06:00",
-      "last_seen": "2026-09-19T00:01:59.676498+06:00"
-    },
-    "science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy": {
-      "title": "APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy",
-      "url": "https://science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy/",
-      "canonical": "science.nasa.gov/image-article/apod-2026-september-18-messier-33-the-triangulum-galaxy",
-      "published_dt": "2026-09-18T10:05:00+06:00",
-      "published_date": "2026-09-18T10:05:00+06:00",
-      "source": "NASA Science",
-      "region": "Science",
-      "excerpt": "The post APOD: 2026 September 18 – Messier 33: The Triangulum Galaxy appeared first on NASA Science .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:24.071292+06:00",
-      "last_seen": "2026-09-19T00:02:04.231555+06:00"
-    },
-    "science.nasa.gov/earth/earth-observatory/lake-powell-drops-to-record-low-levels": {
-      "title": "Lake Powell Drops to Record-Low Levels",
-      "url": "https://science.nasa.gov/earth/earth-observatory/lake-powell-drops-to-record-low-levels/",
-      "canonical": "science.nasa.gov/earth/earth-observatory/lake-powell-drops-to-record-low-levels",
-      "published_dt": "2026-09-18T10:01:00+06:00",
-      "published_date": "2026-09-18T10:01:00+06:00",
-      "source": "NASA Science",
-      "region": "Science",
-      "excerpt": "Snow drought and unusually warm temperatures in the Colorado Basin in 2026 helped drive down reservoir water storage in the U.S. West. The post Lake Powell Drops to Record-Low Levels appeared first on NASA Science .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:24.071677+06:00",
-      "last_seen": "2026-09-19T00:02:04.231831+06:00"
-    },
-    "science.nasa.gov/astrophysics/programs/cosmic-origins/community/ad-astra-post-workshop-debrief-next-steps": {
-      "title": "Ad ASTRA Post-Workshop Debrief & Next Steps",
-      "url": "https://science.nasa.gov/astrophysics/programs/cosmic-origins/community/ad-astra-post-workshop-debrief-next-steps/",
-      "canonical": "science.nasa.gov/astrophysics/programs/cosmic-origins/community/ad-astra-post-workshop-debrief-next-steps",
-      "published_dt": "2026-09-18T04:18:19+06:00",
-      "published_date": "2026-09-18T04:18:19+06:00",
-      "source": "NASA Science",
-      "region": "Science",
-      "excerpt": "Thank you to everyone who participated in the Ad ASTRA Community Science Workshop in Pasadena, CA! The post Ad ASTRA Post-Workshop Debrief & Next Steps appeared first on NASA Science .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:24.091201+06:00",
-      "last_seen": "2026-09-19T00:02:04.232110+06:00"
-    },
-    "science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/ad-astra-post-workshop-debrief-next-steps": {
-      "title": "Ad ASTRA Post-Workshop Debrief & Next Steps",
-      "url": "https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/ad-astra-post-workshop-debrief-next-steps/",
-      "canonical": "science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/community/ad-astra-post-workshop-debrief-next-steps",
-      "published_dt": "2026-09-18T04:17:47+06:00",
-      "published_date": "2026-09-18T04:17:47+06:00",
-      "source": "NASA Science",
-      "region": "Science",
-      "excerpt": "Thank you to everyone who participated in the Ad ASTRA Community Science Workshop in Pasadena, CA! The post Ad ASTRA Post-Workshop Debrief & Next Steps appeared first on NASA Science .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:24.091542+06:00",
-      "last_seen": "2026-09-19T00:02:04.232401+06:00"
-    },
-    "nasa.gov/blogs/commercialcrew/2026/09/17/nasa-spacex-continue-crew-13-prep-as-crew-enters-quarantine": {
-      "title": "NASA, SpaceX Continue Crew‑13 Prep as Crew Enters Quarantine",
-      "url": "https://www.nasa.gov/blogs/commercialcrew/2026/09/17/nasa-spacex-continue-crew-13-prep-as-crew-enters-quarantine/",
-      "canonical": "nasa.gov/blogs/commercialcrew/2026/09/17/nasa-spacex-continue-crew-13-prep-as-crew-enters-quarantine",
-      "published_dt": "2026-09-18T04:02:19+06:00",
-      "published_date": "2026-09-18T04:02:19+06:00",
-      "source": "NASA Science",
-      "region": "Science",
-      "excerpt": "The crew of NASA’s SpaceX Crew-13 mission entered quarantine late Thursday at the agency’s Johnson Space Center in Houston. Mission preparations continue as NASA and SpaceX target an early October launch to the International Space Station. As part of routine prelaunch quarantine, NASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) astronaut Joshua Kutryk, […] The post NASA, SpaceX Continue Crew‑13 Prep as Crew Enters Quarantine appeared first on NASA Science .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:24.091840+06:00",
-      "last_seen": "2026-09-19T00:02:04.232687+06:00"
-    },
-    "astronomy.com/the-sky-this-week/the-sky-this-week-from-september-18-to-25-2026": {
-      "title": "The Sky This Week from September 18 to 25: Autumn begins",
-      "url": "https://www.astronomy.com/the-sky-this-week/the-sky-this-week-from-september-18-to-25-2026/",
-      "canonical": "astronomy.com/the-sky-this-week/the-sky-this-week-from-september-18-to-25-2026",
-      "published_dt": "2026-09-18T11:00:00+06:00",
-      "published_date": "2026-09-18T11:00:00+06:00",
-      "source": "Astronomy Magazine",
-      "region": "Science",
-      "excerpt": "Friday, September 18First Quarter Moon occurs at 4:44 P.M. EDT. The Moon then reaches apogee, the farthest point from Earth in its orbit, at 11 P.M. EDT. At that time, our satellite will be 251,171 miles (404,221 kilometers) away.  Venus reaches greatest brilliancy at 9 P.M. EDT, shining at magnitude –4.8. It’s bright and easy Continue reading \"The Sky This Week from September 18 to 25: Autumn begins\" The post The Sky This Week from September 18 to 25: Autumn begins appeared first on Astronomy Magazine .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:32.139709+06:00",
-      "last_seen": "2026-09-19T00:02:11.818301+06:00"
-    },
-    "universetoday.com/articles/researchers-develop-a-way-to-check-the-weather-on-a-exoplanet": {
-      "title": "Researchers Develop a Way to Check the Weather on a Exoplanet",
-      "url": "https://www.universetoday.com/articles/researchers-develop-a-way-to-check-the-weather-on-a-exoplanet",
-      "canonical": "universetoday.com/articles/researchers-develop-a-way-to-check-the-weather-on-a-exoplanet",
-      "published_dt": "2026-09-18T05:18:54+06:00",
-      "published_date": "2026-09-18T05:18:54+06:00",
-      "source": "Universe Today",
-      "region": "Science",
-      "excerpt": "Scientists from Trinity have developed a powerful way to unravel the changing weather patterns on distant worlds. Using this approach, they discovered that the weather on a well-studied brown dwarf, “SIMP 0136”, previously linked with Northern Lights-like phenomena, is largely shaped by just two dominant processes: changes in temperature and the vertical structure of its clouds.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T11:28:32.456628+06:00",
-      "last_seen": "2026-09-19T00:02:12.135120+06:00"
-    },
-    "nature.com/articles/d41586-026-02184-2": {
-      "title": "How research funding took me out of the lab and into leadership",
-      "url": "https://www.nature.com/articles/d41586-026-02184-2",
-      "canonical": "nature.com/articles/d41586-026-02184-2",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02184-2 Landing two large grants caused Anna Sandak to take on a managerial role in her team and made her reflect on what it means to contribute to research.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:49.489418+06:00",
-      "last_seen": "2026-09-19T00:01:51.494542+06:00"
-    },
-    "nature.com/articles/d41586-026-02945-z": {
-      "title": "First for RNA therapy: man with rare motor-neuron disease improves after treatment",
-      "url": "https://www.nature.com/articles/d41586-026-02945-z",
-      "canonical": "nature.com/articles/d41586-026-02945-z",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02945-z Gene-targeting treatments could be used to treat other people with rare forms of amyotrophic lateral sclerosis (ALS).",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:49.489654+06:00",
-      "last_seen": "2026-09-19T00:01:51.494739+06:00"
     },
     "sciencenews.org/article/paleontology-enigma-honeycomb-fossil": {
       "title": "What’s behind ‘one of paleontology’s most enduring enigmas’?",
@@ -762,151 +426,6 @@
       "status": "pending",
       "first_seen": "2026-09-18T20:45:49.952965+06:00",
       "last_seen": "2026-09-19T11:27:15.286004+06:00"
-    },
-    "phys.org/news/2026-09-disaster-borders-indonesia-credibility.html": {
-      "title": "When disaster crosses borders, Indonesia's credibility is tested twice",
-      "url": "https://phys.org/news/2026-09-disaster-borders-indonesia-credibility.html",
-      "canonical": "phys.org/news/2026-09-disaster-borders-indonesia-credibility.html",
-      "published_dt": "2026-09-18T20:40:07+06:00",
-      "published_date": "2026-09-18T20:40:07+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "On Sept. 15, the eruption of Mount Anak Krakatau sent volcanic ash up to 15,000 meters (50,000 feet) and produced rumbling heard 700 kilometers (435 miles) away. Eight airports suspended operations, thousands of flights were disrupted, and more than 270,000 passengers were stranded.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/forest-fires-in-indone.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.189929+06:00",
-      "last_seen": "2026-09-19T00:01:52.634146+06:00"
-    },
-    "phys.org/news/2026-09-archaeological-treasures-imminent-destruction-syria.html": {
-      "title": "How 30,000 archaeological treasures were saved from imminent destruction during Syria's civil war",
-      "url": "https://phys.org/news/2026-09-archaeological-treasures-imminent-destruction-syria.html",
-      "canonical": "phys.org/news/2026-09-archaeological-treasures-imminent-destruction-syria.html",
-      "published_dt": "2026-09-18T20:40:04+06:00",
-      "published_date": "2026-09-18T20:40:04+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "A new study sheds light on how Syrian archaeologists risked their lives to rescue approximately 30,000 priceless artifacts from the Deir ez-Zor Museum during the summers of 2014 and 2015 as the city faced the imminent threat of capture by the Islamic State of Iraq and Syria (ISIS), also known as Daesh.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-30000-archaeologic.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190088+06:00",
-      "last_seen": "2026-09-19T00:01:52.634266+06:00"
-    },
-    "phys.org/news/2026-09-high-amino-acid-cysteine-toxic.html": {
-      "title": "Why high levels of the amino acid cysteine are toxic to cells",
-      "url": "https://phys.org/news/2026-09-high-amino-acid-cysteine-toxic.html",
-      "canonical": "phys.org/news/2026-09-high-amino-acid-cysteine-toxic.html",
-      "published_dt": "2026-09-18T20:27:12+06:00",
-      "published_date": "2026-09-18T20:27:12+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "Cysteine is one of the main building blocks that cells use to make proteins. But this amino acid is a double-edged sword—too much cysteine is toxic to the cell. Cells therefore keep free cysteine levels to a minimum, converting most of the amino acid into the antioxidant glutathione.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/scientists-discover-wh-2.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "posted",
-      "first_seen": "2026-09-18T20:45:51.190227+06:00",
-      "last_seen": "2026-09-19T00:01:52.634404+06:00",
-      "posted_at": "2026-09-19T16:18:01.258409+06:00"
-    },
-    "phys.org/news/2026-09-small-gardens-big-barrier-nature.html": {
-      "title": "Small gardens are a big barrier to supporting nature—but better planning could protect UK wildlife",
-      "url": "https://phys.org/news/2026-09-small-gardens-big-barrier-nature.html",
-      "canonical": "phys.org/news/2026-09-small-gardens-big-barrier-nature.html",
-      "published_dt": "2026-09-18T20:20:04+06:00",
-      "published_date": "2026-09-18T20:20:04+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "A new study by Chester Zoo and Nottingham Trent University scientists revealed that just over a third (38%) of more than 230 householders in Cheshire and North Wales were willing or able to introduce more wildlife-friendly features to their gardens.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hedgehogs.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190373+06:00",
-      "last_seen": "2026-09-19T00:01:52.634534+06:00"
-    },
-    "phys.org/news/2026-09-space-gap-precise-distance-quasar.html": {
-      "title": "Closing the space gap: A more precise way to measure distance between quasar pairs",
-      "url": "https://phys.org/news/2026-09-space-gap-precise-distance-quasar.html",
-      "canonical": "phys.org/news/2026-09-space-gap-precise-distance-quasar.html",
-      "published_dt": "2026-09-18T20:20:01+06:00",
-      "published_date": "2026-09-18T20:20:01+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "A new way to accurately measure the distance between quasar pairs—the blazing, black-hole-powered centers of distant galaxies that appear side by side in space—is showing promise through University of Alberta research.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/closing-the-space-gap.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190509+06:00",
-      "last_seen": "2026-09-19T00:01:52.634668+06:00"
-    },
-    "phys.org/news/2026-09-plume-hot-built-volcano-chains.html": {
-      "title": "How one plume of hot rock built two volcano chains off Australia's coast",
-      "url": "https://phys.org/news/2026-09-plume-hot-built-volcano-chains.html",
-      "canonical": "phys.org/news/2026-09-plume-hot-built-volcano-chains.html",
-      "published_dt": "2026-09-18T20:00:07+06:00",
-      "published_date": "2026-09-18T20:00:07+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "Lord Howe Island sits about 600 kilometers (370 miles) off the New South Wales coast, a crescent of rainforest and sea cliffs that draws visitors to its beaches and birdlife. Few people realize they are standing on the worn-down remains of a volcano.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-one-plume-of-hot-r.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190673+06:00",
-      "last_seen": "2026-09-19T00:01:52.634794+06:00"
-    },
-    "phys.org/news/2026-09-ozone-hole-shrunk-smallest-sizes.html": {
-      "title": "In 2025, the ozone hole shrunk to one of its smallest sizes in decades",
-      "url": "https://phys.org/news/2026-09-ozone-hole-shrunk-smallest-sizes.html",
-      "canonical": "phys.org/news/2026-09-ozone-hole-shrunk-smallest-sizes.html",
-      "published_dt": "2026-09-18T20:00:01+06:00",
-      "published_date": "2026-09-18T20:00:01+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "The Antarctic ozone hole in 2025 was one of the smallest in decades—a testament to the continuing success of international action to protect Earth's ozone layer, which shields us from the sun's harmful ultraviolet rays, according to a new report from the World Meteorological Organization (WMO).",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/last-year-the-ozone-ho.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190803+06:00",
-      "last_seen": "2026-09-19T00:01:52.634912+06:00"
-    },
-    "phys.org/news/2026-09-tiny-atomic-tweak-plastic-enzymes.html": {
-      "title": "Tiny atomic tweak makes plastic-eating enzymes more powerful",
-      "url": "https://phys.org/news/2026-09-tiny-atomic-tweak-plastic-enzymes.html",
-      "canonical": "phys.org/news/2026-09-tiny-atomic-tweak-plastic-enzymes.html",
-      "published_dt": "2026-09-18T19:40:10+06:00",
-      "published_date": "2026-09-18T19:40:10+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "A new approach that changes just one atom in plastic-degrading enzymes could help make them more efficient while maintaining their stability, according to new research from The Australian National University published in Angewandte Chemie International Edition.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/tiny-atomic-tweak-make.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.190929+06:00",
-      "last_seen": "2026-09-19T00:01:52.635029+06:00"
-    },
-    "phys.org/news/2026-09-war-weather-australian-farmers-crops.html": {
-      "title": "From war to weather, Australian farmers are planting spring crops in an uncertain world",
-      "url": "https://phys.org/news/2026-09-war-weather-australian-farmers-crops.html",
-      "canonical": "phys.org/news/2026-09-war-weather-australian-farmers-crops.html",
-      "published_dt": "2026-09-18T19:40:04+06:00",
-      "published_date": "2026-09-18T19:40:04+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "Australian farmers are heading into spring with an unusual mix of optimism and uncertainty.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/australian-farmers.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:51.191059+06:00",
-      "last_seen": "2026-09-19T00:01:52.635151+06:00"
     },
     "livescience.com/planet-earth/climate-change/climate-change-will-harm-our-health-heres-what-could-protect-us": {
       "title": "Climate change will harm our health. Here's what could protect us.",
@@ -971,103 +490,6 @@
       "status": "pending",
       "first_seen": "2026-09-18T20:45:52.650955+06:00",
       "last_seen": "2026-09-19T16:12:59.966785+06:00"
-    },
-    "sciencealert.com/the-human-brain-has-two-distinct-origins-scientists-discover": {
-      "title": "Textbook Rewrite: The Human Brain Has Two Distinct Origins, Scientists Discover",
-      "url": "https://www.sciencealert.com/the-human-brain-has-two-distinct-origins-scientists-discover",
-      "canonical": "sciencealert.com/the-human-brain-has-two-distinct-origins-scientists-discover",
-      "published_dt": "2026-09-18T15:00:00+06:00",
-      "published_date": "2026-09-18T15:00:00+06:00",
-      "source": "ScienceAlert",
-      "region": "Science",
-      "excerpt": "Wait, what? ScienceAlert stories are written, fact-checked, and edited by humans, never generated by AI. Don't miss a story, subscribe here.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "posted",
-      "first_seen": "2026-09-18T20:45:52.651234+06:00",
-      "last_seen": "2026-09-19T00:01:53.971013+06:00",
-      "posted_at": "2026-09-19T00:16:23.724718+06:00"
-    },
-    "physicsworld.com/a/microbes-may-survive-at-the-moons-south-pole": {
-      "title": "Microbes may survive at the Moon’s south pole",
-      "url": "https://physicsworld.com/a/microbes-may-survive-at-the-moons-south-pole/",
-      "canonical": "physicsworld.com/a/microbes-may-survive-at-the-moons-south-pole",
-      "published_dt": "2026-09-18T17:50:36+06:00",
-      "published_date": "2026-09-18T17:50:36+06:00",
-      "source": "Physics World",
-      "region": "Science",
-      "excerpt": "Manned missions to the lunar polar regions must limit the unintended transfer of Earth life forms, say scientists The post Microbes may survive at the Moon’s south pole appeared first on Physics World .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:56.372791+06:00",
-      "last_seen": "2026-09-19T00:01:57.177972+06:00"
-    },
-    "physicsworld.com/a/tiny-biodegradable-stars-enhance-drug-delivery-to-the-skin": {
-      "title": "Tiny biodegradable stars enhance drug delivery to the skin",
-      "url": "https://physicsworld.com/a/tiny-biodegradable-stars-enhance-drug-delivery-to-the-skin/",
-      "canonical": "physicsworld.com/a/tiny-biodegradable-stars-enhance-drug-delivery-to-the-skin",
-      "published_dt": "2026-09-18T14:30:34+06:00",
-      "published_date": "2026-09-18T14:30:34+06:00",
-      "source": "Physics World",
-      "region": "Science",
-      "excerpt": "Microneedle-coated polymer particles rubbed onto the skin increase the delivery of medication by up to 37-fold The post Tiny biodegradable stars enhance drug delivery to the skin appeared first on Physics World .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:56.373089+06:00",
-      "last_seen": "2026-09-19T00:01:57.178253+06:00"
-    },
-    "eos.org/features/chemical-conversations-between-forests-and-the-sky-affect-air-quality-clouds-and-more": {
-      "title": "Chemical Conversations Between Forests and the Sky Affect Air Quality, Clouds, and More",
-      "url": "https://eos.org/features/chemical-conversations-between-forests-and-the-sky-affect-air-quality-clouds-and-more",
-      "canonical": "eos.org/features/chemical-conversations-between-forests-and-the-sky-affect-air-quality-clouds-and-more",
-      "published_dt": "2026-09-18T19:05:31+06:00",
-      "published_date": "2026-09-18T19:05:31+06:00",
-      "source": "Eos / AGU",
-      "region": "Science",
-      "excerpt": "Tropical tree emissions hang above the forest canopy around Borobudur temple on the island of Java. Credit: Kanenori / Pixabay",
-      "image": "https://eos.org/wp-content/uploads/2026/09/tropical-forest-emissions-borobudur-java-1024x576.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:57.987080+06:00",
-      "last_seen": "2026-09-19T00:01:58.808776+06:00"
-    },
-    "eos.org/articles/venusian-sulfur-clouds-might-not-be-so-inhospitable-after-all": {
-      "title": "Venusian Sulfur Clouds Might Not Be So Inhospitable After All",
-      "url": "https://eos.org/articles/venusian-sulfur-clouds-might-not-be-so-inhospitable-after-all",
-      "canonical": "eos.org/articles/venusian-sulfur-clouds-might-not-be-so-inhospitable-after-all",
-      "published_dt": "2026-09-18T19:04:53+06:00",
-      "published_date": "2026-09-18T19:04:53+06:00",
-      "source": "Eos / AGU",
-      "region": "Science",
-      "excerpt": "Data from NASA’s Magellan spacecraft were used to create this image of Venus’s northern hemisphere. New research examines the possibility that peptides can form into omega loops in the planet’s sulfuric clouds. Credit: NASA/JPL-Caltech",
-      "image": "https://eos.org/wp-content/uploads/2026/09/orange-venus-1024x576.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:57.987288+06:00",
-      "last_seen": "2026-09-19T00:01:58.808986+06:00"
-    },
-    "eos.org/editor-highlights/seasonality-is-changing-for-extreme-dry-and-humid-heat-events": {
-      "title": "Seasonality is Changing for Extreme Dry and Humid Heat Events",
-      "url": "https://eos.org/editor-highlights/seasonality-is-changing-for-extreme-dry-and-humid-heat-events",
-      "canonical": "eos.org/editor-highlights/seasonality-is-changing-for-extreme-dry-and-humid-heat-events",
-      "published_dt": "2026-09-18T18:00:00+06:00",
-      "published_date": "2026-09-18T18:00:00+06:00",
-      "source": "Eos / AGU",
-      "region": "Science",
-      "excerpt": "Credit: Richard Vanlerberghe, Unsplash",
-      "image": "https://eos.org/wp-content/uploads/2026/09/richard-vanlerberghe-JImWptnMXBo-unsplash-1024x576.png",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-18T20:45:57.987471+06:00",
-      "last_seen": "2026-09-19T00:01:58.809174+06:00"
     },
     "insideclimatenews.org/news/18092026/trump-claims-ending-wolf-protections-will-help-ranchers": {
       "title": "Trump Targets Big Bad Wolves, but Ranchers Say Other Administration Actions Drive Their Woes",
@@ -1357,54 +779,6 @@
       "first_seen": "2026-09-18T20:46:11.769213+06:00",
       "last_seen": "2026-09-19T11:27:37.433237+06:00"
     },
-    "nature.com/articles/d41586-026-02984-6": {
-      "title": "Briefing Chat: Evidence mounts for hidden chambers beyond Tutankhamun's tomb",
-      "url": "https://www.nature.com/articles/d41586-026-02984-6",
-      "canonical": "nature.com/articles/d41586-026-02984-6",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02984-6 Nature staff discuss data that could point to Nefertiti’s burial place — plus, the implant that translates brain activity into speech and gestures.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:51.494095+06:00",
-      "last_seen": "2026-09-19T00:01:51.494100+06:00"
-    },
-    "nature.com/articles/d41586-026-02919-1": {
-      "title": "Europe pushes for space independence amid geopolitical rifts",
-      "url": "https://www.nature.com/articles/d41586-026-02919-1",
-      "canonical": "nature.com/articles/d41586-026-02919-1",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02919-1 The European Union is easing its reliance on US space infrastructure — and is seeking to grow its satellite and launch operations.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:51.494307+06:00",
-      "last_seen": "2026-09-19T00:01:51.494312+06:00"
-    },
-    "nature.com/articles/d41586-026-02943-1": {
-      "title": "How to make a brain: new experiments challenge existing picture",
-      "url": "https://www.nature.com/articles/d41586-026-02943-1",
-      "canonical": "nature.com/articles/d41586-026-02943-1",
-      "published_dt": "2026-09-18T06:00:00+06:00",
-      "published_date": "2026-09-18T06:00:00+06:00",
-      "source": "Nature News",
-      "region": "Science",
-      "excerpt": "Nature, Published online: 18 September 2026; doi:10.1038/d41586-026-02943-1 Research also uncovers an efficient way to grow hindbrain cells from stem cells — a difficult feat.",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:51.494937+06:00",
-      "last_seen": "2026-09-19T00:01:51.494942+06:00"
-    },
     "sciencenews.org/article/united-states-megadrought-climate": {
       "title": "Will the U.S. megadrought ever end?",
       "url": "https://www.sciencenews.org/article/united-states-megadrought-climate",
@@ -1516,23 +890,6 @@
       "status": "pending",
       "first_seen": "2026-09-19T00:01:52.632003+06:00",
       "last_seen": "2026-09-19T20:09:06.059384+06:00"
-    },
-    "phys.org/news/2026-09-discovery-crispr-lost-ancestor-gene.html": {
-      "title": "Discovery of CRISPR's long lost ancestor may expand gene-editing toolkit",
-      "url": "https://phys.org/news/2026-09-discovery-crispr-lost-ancestor-gene.html",
-      "canonical": "phys.org/news/2026-09-discovery-crispr-lost-ancestor-gene.html",
-      "published_dt": "2026-09-18T23:20:12+06:00",
-      "published_date": "2026-09-18T23:20:12+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "CRISPR may be a powerful technology for gene editing, but the system existed in bacteria long before scientists began using it. For billions of years, CRISPR has acted as a natural immune system in bacteria and other microbes, helping defend them against invading viruses. But now, two new studies, published in Science, describe a similar RNA-guided system that originated in the viruses themselves and appears to be a precursor to CRISPR.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/discovery-of-crisprs-l.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "posted",
-      "first_seen": "2026-09-19T00:01:52.632126+06:00",
-      "last_seen": "2026-09-19T00:01:52.632130+06:00",
-      "posted_at": "2026-09-19T00:16:03.050451+06:00"
     },
     "phys.org/news/2026-09-benefits-tariffs.html": {
       "title": "Who benefits from tariffs, according to research",
@@ -1711,71 +1068,6 @@
       "first_seen": "2026-09-19T00:01:52.633543+06:00",
       "last_seen": "2026-09-19T11:27:16.965434+06:00"
     },
-    "phys.org/news/2026-09-giant-planet-strange-orbit.html": {
-      "title": "Time is running out to catch a giant planet's strange orbit",
-      "url": "https://phys.org/news/2026-09-giant-planet-strange-orbit.html",
-      "canonical": "phys.org/news/2026-09-giant-planet-strange-orbit.html",
-      "published_dt": "2026-09-18T21:20:12+06:00",
-      "published_date": "2026-09-18T21:20:12+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "A team of researchers, including those from the University of Tokyo, spotted a rare kind of planet that's unusually hot and eccentric. TOI-1355 b orbits its star, TOI-1355, which is also much hotter than our sun, in a strange way and incredibly quickly, completing an orbit in about two Earth days. The work is published in the journal Publications of the Astronomical Society of Japan.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/times-running-out-to-c.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "posted",
-      "first_seen": "2026-09-19T00:01:52.633663+06:00",
-      "last_seen": "2026-09-19T00:01:52.633666+06:00",
-      "posted_at": "2026-09-19T00:16:28.722413+06:00"
-    },
-    "phys.org/news/2026-09-black-moms-pregnant-women-homes.html": {
-      "title": "Black moms and pregnant women forced out of their homes in metro Detroit face health and safety threats",
-      "url": "https://phys.org/news/2026-09-black-moms-pregnant-women-homes.html",
-      "canonical": "phys.org/news/2026-09-black-moms-pregnant-women-homes.html",
-      "published_dt": "2026-09-18T21:20:07+06:00",
-      "published_date": "2026-09-18T21:20:07+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "Is everyone entitled to a fair process before being forced out of their home?",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/steps-leading-to-a-doo.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:52.633791+06:00",
-      "last_seen": "2026-09-19T00:01:52.633794+06:00"
-    },
-    "phys.org/news/2026-09-lost-medieval-castle-university-dublin.html": {
-      "title": "'Lost' medieval castle found hiding inside university building in Dublin",
-      "url": "https://phys.org/news/2026-09-lost-medieval-castle-university-dublin.html",
-      "canonical": "phys.org/news/2026-09-lost-medieval-castle-university-dublin.html",
-      "published_dt": "2026-09-18T21:00:04+06:00",
-      "published_date": "2026-09-18T21:00:04+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "One of Dublin's \"lost\" medieval castles has been found hiding in plain sight inside University College Dublin's Roebuck Castle. New research reveals that substantial remains of the Norman castle of Roebuck, an important fortress on one of the approach roads into the medieval city of Dublin, are preserved within the modern-day building.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/lost-medieval-castle-f-1.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:52.633909+06:00",
-      "last_seen": "2026-09-19T00:01:52.633913+06:00"
-    },
-    "phys.org/news/2026-09-puppy-therapy-dogs-students.html": {
-      "title": "More than puppy love: How therapy dogs bring students together",
-      "url": "https://phys.org/news/2026-09-puppy-therapy-dogs-students.html",
-      "canonical": "phys.org/news/2026-09-puppy-therapy-dogs-students.html",
-      "published_dt": "2026-09-18T21:00:01+06:00",
-      "published_date": "2026-09-18T21:00:01+06:00",
-      "source": "Phys.org",
-      "region": "Science",
-      "excerpt": "Students may come for the dog, but new research from UBC Okanagan published in the Journal of College Student Mental Health suggests that's not always what they leave with. In a study of 676 students—most in their first year—researchers asked an open-ended question about what made a therapy dog visit meaningful and found the answers extended well past the animals themselves.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-young-woman-and-a-yo.jpg",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:52.634028+06:00",
-      "last_seen": "2026-09-19T00:01:52.634032+06:00"
-    },
     "livescience.com/space/of-course-i-am-worried-live-science-readers-react-to-us-weapons-in-space": {
       "title": "'Of course I am worried': Live Science readers react to US weapons in space",
       "url": "https://www.livescience.com/space/of-course-i-am-worried-live-science-readers-react-to-us-weapons-in-space",
@@ -1807,22 +1099,6 @@
       "status": "pending",
       "first_seen": "2026-09-19T00:01:53.970110+06:00",
       "last_seen": "2026-09-19T20:09:07.516660+06:00"
-    },
-    "physicsworld.com/a/quiz-of-the-week-how-long-could-a-lunar-city-survive": {
-      "title": "Quiz of the week: how long could a lunar city survive?",
-      "url": "https://physicsworld.com/a/quiz-of-the-week-how-long-could-a-lunar-city-survive/",
-      "canonical": "physicsworld.com/a/quiz-of-the-week-how-long-could-a-lunar-city-survive",
-      "published_dt": "2026-09-18T21:00:50+06:00",
-      "published_date": "2026-09-18T21:00:50+06:00",
-      "source": "Physics World",
-      "region": "Science",
-      "excerpt": "Have you been keeping up to date with physics news? Try our short quiz to find out The post Quiz of the week: how long could a lunar city survive? appeared first on Physics World .",
-      "image": "",
-      "discovery": "rss",
-      "date_estimated": false,
-      "status": "pending",
-      "first_seen": "2026-09-19T00:01:57.177649+06:00",
-      "last_seen": "2026-09-19T00:01:57.177657+06:00"
     },
     "statnews.com/2026/09/18/hca-hospitals-sue-independence-blue-cross-prior-authorization": {
       "title": "STAT+:  In a fight over denied claims, HCA sues out-of-state Blue Cross Blue Shield plan",
@@ -9186,7 +8462,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:47:45.522943+06:00",
-      "last_seen": "2026-09-22T21:23:19.189933+06:00"
+      "last_seen": "2026-09-23T01:31:24.982287+06:00"
     },
     "livescience.com/health/reproductive-health/spaceflight-may-harm-the-reproductive-system-of-astronauts-kids-and-grandkids-early-mouse-study-suggests": {
       "title": "Spaceflight may harm the reproductive system of astronauts' kids and grandkids, early mouse study suggests",
@@ -9202,7 +8478,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:47:45.523060+06:00",
-      "last_seen": "2026-09-22T21:23:19.190000+06:00"
+      "last_seen": "2026-09-23T01:31:24.982416+06:00"
     },
     "livescience.com/health/scientists-made-a-paper-battery-you-can-swallow-to-power-internal-medical-devices": {
       "title": "Scientists made a paper battery you can swallow to power internal medical devices",
@@ -9298,7 +8574,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:47:49.713867+06:00",
-      "last_seen": "2026-09-22T21:23:25.597473+06:00"
+      "last_seen": "2026-09-23T01:31:30.800786+06:00"
     },
     "insideclimatenews.org/news/21092026/new-york-bison-puppet-march": {
       "title": "In New York, Life-sized American Bison Puppets Inspire Hope for Restoration Efforts",
@@ -9314,7 +8590,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:47:49.713977+06:00",
-      "last_seen": "2026-09-22T21:23:25.597547+06:00"
+      "last_seen": "2026-09-23T01:31:30.800928+06:00"
     },
     "insideclimatenews.org/news/21092026/climate-extremes-show-breached-earth-boundaries": {
       "title": "Breached Earth Boundaries Raise Risk of ‘Irreversible Change’",
@@ -9346,7 +8622,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:47:49.856910+06:00",
-      "last_seen": "2026-09-22T21:23:25.742956+06:00"
+      "last_seen": "2026-09-23T01:31:30.884598+06:00"
     },
     "statnews.com/2026/09/21/grail-galleri-fda-advisory-committee-meeting-documents": {
       "title": "STAT+: What a vote on Grail’s cancer detection test could mean for the company, patients, and regulators",
@@ -9554,7 +8830,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:48:01.931837+06:00",
-      "last_seen": "2026-09-22T21:23:38.716714+06:00"
+      "last_seen": "2026-09-23T01:31:44.481713+06:00"
     },
     "universetoday.com/articles/smashed-icy-moons-cool-too-rapidly-to-retain-oceans": {
       "title": "Smashed Icy Moons Cool Too Rapidly to Retain Oceans",
@@ -9570,7 +8846,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T11:48:01.932003+06:00",
-      "last_seen": "2026-09-22T21:23:38.716827+06:00"
+      "last_seen": "2026-09-23T01:31:44.481926+06:00"
     },
     "arxiv.org/abs/2609.22421": {
       "title": "Geometrically Thin Sub-Eddington AGN Accretion Disks show a suppressed Lyman Edge",
@@ -13422,7 +12698,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:00.885850+06:00",
-      "last_seen": "2026-09-22T21:23:16.095336+06:00"
+      "last_seen": "2026-09-23T01:31:23.332648+06:00"
     },
     "nature.com/articles/d41586-026-02997-1": {
       "title": "Why insects need their own protected areas",
@@ -13438,7 +12714,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:00.886113+06:00",
-      "last_seen": "2026-09-22T21:23:16.095478+06:00"
+      "last_seen": "2026-09-23T01:31:23.332891+06:00"
     },
     "nature.com/articles/d41586-026-02995-3": {
       "title": "A global safety net for climate-risk intelligence is urgently needed",
@@ -13454,7 +12730,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:00.886320+06:00",
-      "last_seen": "2026-09-22T21:23:16.095591+06:00"
+      "last_seen": "2026-09-23T01:31:23.333120+06:00"
     },
     "nature.com/articles/d41586-026-02939-x": {
       "title": "The worst El Niño in recorded history is brewing — here’s how governments must prepare",
@@ -13470,7 +12746,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:00.886540+06:00",
-      "last_seen": "2026-09-22T21:23:16.096267+06:00"
+      "last_seen": "2026-09-23T01:31:23.335135+06:00"
     },
     "phys.org/news/2026-09-el-nio-weather-pattern-territory.html": {
       "title": "El Niño weather pattern enters record territory: Scientist",
@@ -13550,7 +12826,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:03.316964+06:00",
-      "last_seen": "2026-09-22T21:23:19.189798+06:00"
+      "last_seen": "2026-09-23T01:31:24.981989+06:00"
     },
     "livescience.com/technology/electronics/new-lighttok-chip-converts-light-directly-into-tokens-for-ai-slashing-energy-use-in-drones-and-other-autonomous-machines": {
       "title": "New LightTok chip converts light directly into 'tokens' for AI — slashing energy use in drones and other autonomous machines",
@@ -13566,7 +12842,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:03.317140+06:00",
-      "last_seen": "2026-09-22T21:23:19.189869+06:00"
+      "last_seen": "2026-09-23T01:31:24.982147+06:00"
     },
     "sciencealert.com/one-critical-factor-predicts-longevity-better-than-diet-or-exercise-study-reveals": {
       "title": "One Critical Factor Predicts Longevity Better Than Diet or Exercise, Study Reveals",
@@ -13598,7 +12874,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:06.449013+06:00",
-      "last_seen": "2026-09-22T21:23:23.129121+06:00"
+      "last_seen": "2026-09-23T01:31:28.807215+06:00"
     },
     "physicsworld.com/a/dirty-magnetite-nanoparticles-keep-cleaning-up-dyes": {
       "title": "Dirty magnetite nanoparticles keep cleaning up dyes",
@@ -13614,7 +12890,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:06.449331+06:00",
-      "last_seen": "2026-09-22T21:23:23.129283+06:00"
+      "last_seen": "2026-09-23T01:31:28.807521+06:00"
     },
     "eos.org/thelandslideblog/typhoon-dujuan-1": {
       "title": "Multiple fatal landslides from Typhoon Dujuan in Japan",
@@ -13646,7 +12922,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:08.423012+06:00",
-      "last_seen": "2026-09-22T21:23:25.597391+06:00"
+      "last_seen": "2026-09-23T01:31:30.800651+06:00"
     },
     "statnews.com/2026/09/22/ohio-governor-election-health-care-policy-acton-ramaswamy": {
       "title": "STAT+: Ohio governor’s race is a battle over Covid, health costs, and trust in science",
@@ -13662,7 +12938,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:08.505398+06:00",
-      "last_seen": "2026-09-22T21:23:25.742728+06:00"
+      "last_seen": "2026-09-23T01:31:30.884145+06:00"
     },
     "statnews.com/2026/09/22/brian-blase-paragon-health-institute-gop-aca-medicaid-reforms": {
       "title": "STAT+: Why an influential GOP health policy expert still backs the Medicaid cuts — and which policy target is next",
@@ -13678,7 +12954,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:08.505551+06:00",
-      "last_seen": "2026-09-22T21:23:25.742794+06:00"
+      "last_seen": "2026-09-23T01:31:30.884279+06:00"
     },
     "astronomy.com/observing/the-sky-today-tuesday-september-22-2026": {
       "title": "The Sky Today on Tuesday, September 22: The autumnal equinox",
@@ -13694,7 +12970,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:18.534365+06:00",
-      "last_seen": "2026-09-22T21:23:38.377497+06:00"
+      "last_seen": "2026-09-23T01:31:44.236917+06:00"
     },
     "earthsky.org/astronomy-essentials/are-day-and-night-equal-equinox-september": {
       "title": "Are day and night equal on the equinox? Not exactly",
@@ -13710,7 +12986,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T16:52:19.085145+06:00",
-      "last_seen": "2026-09-22T21:23:39.147532+06:00"
+      "last_seen": "2026-09-23T01:31:44.776546+06:00"
     },
     "nature.com/articles/d41586-026-02724-w": {
       "title": "What happens in Vegas: one lecturer’s hunt for a projector",
@@ -13726,7 +13002,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.095711+06:00",
-      "last_seen": "2026-09-22T21:23:16.095712+06:00"
+      "last_seen": "2026-09-23T01:31:23.333333+06:00"
     },
     "nature.com/articles/d41586-026-02369-9": {
       "title": "About to give your first lecture? Read this first",
@@ -13742,7 +13018,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.095811+06:00",
-      "last_seen": "2026-09-22T21:23:16.095812+06:00"
+      "last_seen": "2026-09-23T01:31:23.333722+06:00"
     },
     "nature.com/articles/d41586-026-02920-8": {
       "title": "Watch scientists decipher burnt scrolls without unrolling them",
@@ -13758,7 +13034,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.095905+06:00",
-      "last_seen": "2026-09-22T21:23:16.095906+06:00"
+      "last_seen": "2026-09-23T01:31:23.333900+06:00"
     },
     "nature.com/articles/d41586-026-02818-5": {
       "title": "Hundreds of ‘free’ academic journals have started charging fees",
@@ -13774,7 +13050,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.095995+06:00",
-      "last_seen": "2026-09-22T21:23:16.095997+06:00"
+      "last_seen": "2026-09-23T01:31:23.334477+06:00"
     },
     "nature.com/articles/d41586-026-02929-z": {
       "title": "All the ways a cell can die — and why the variety matters",
@@ -13790,7 +13066,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.096086+06:00",
-      "last_seen": "2026-09-22T21:23:16.096088+06:00"
+      "last_seen": "2026-09-23T01:31:23.334748+06:00"
     },
     "nature.com/articles/d41586-026-03000-7": {
       "title": "Nepal floods pose biggest test yet for UN climate loss and damage fund",
@@ -13806,7 +13082,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.096177+06:00",
-      "last_seen": "2026-09-22T21:23:16.096178+06:00"
+      "last_seen": "2026-09-23T01:31:23.334931+06:00"
     },
     "nature.com/articles/d41586-026-02941-3": {
       "title": "Will AI really kill us all? The science behind the hype",
@@ -13822,7 +13098,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.096410+06:00",
-      "last_seen": "2026-09-22T21:23:16.096411+06:00"
+      "last_seen": "2026-09-23T01:31:23.335316+06:00"
     },
     "sciencenews.org/article/fire-amoeba-record-breaking-heat": {
       "title": "Meet the ‘fire amoeba,’ a record-breaking survivor of extreme heat",
@@ -13855,7 +13131,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:16.838649+06:00",
-      "last_seen": "2026-09-22T21:23:16.838650+06:00"
+      "last_seen": "2026-09-23T01:31:23.730459+06:00"
     },
     "phys.org/news/2026-09-seabird-evolve-fast-extinction-climate.html": {
       "title": "Can a long-lived seabird evolve fast enough to avoid extinction under a changing climate?",
@@ -13871,7 +13147,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984146+06:00",
-      "last_seen": "2026-09-22T21:23:17.984148+06:00"
+      "last_seen": "2026-09-23T01:31:24.270205+06:00"
     },
     "phys.org/news/2026-09-super-el-nio-significant-threat.html": {
       "title": "UN warns super El Niño a 'significant' threat to world health",
@@ -13887,7 +13163,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984227+06:00",
-      "last_seen": "2026-09-22T21:23:17.984229+06:00"
+      "last_seen": "2026-09-23T01:31:24.270328+06:00"
     },
     "phys.org/news/2026-09-tilt-earth-axis-apparent-position.html": {
       "title": "The tilt in Earth's axis makes the apparent position of continents shift with the seasons",
@@ -13903,7 +13179,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984295+06:00",
-      "last_seen": "2026-09-22T21:23:17.984296+06:00"
+      "last_seen": "2026-09-23T01:31:24.270451+06:00"
     },
     "phys.org/news/2026-09-hurricane-polo-category-mexico.html": {
       "title": "Hurricane Polo strengthens to top Category 5 off Mexico",
@@ -13919,7 +13195,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984359+06:00",
-      "last_seen": "2026-09-22T21:23:17.984360+06:00"
+      "last_seen": "2026-09-23T01:31:24.270579+06:00"
     },
     "phys.org/news/2026-09-respiratory-problems-climb-cases-haze.html": {
       "title": "Respiratory problems climb past 170,000 cases in haze-hit Indonesia",
@@ -13935,7 +13211,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984422+06:00",
-      "last_seen": "2026-09-22T21:23:17.984423+06:00"
+      "last_seen": "2026-09-23T01:31:24.270699+06:00"
     },
     "phys.org/news/2026-09-hot-amoeba-tolerance-complex-life.html": {
       "title": "Hot spring amoeba breaks record for heat tolerance of complex life",
@@ -13951,7 +13227,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984481+06:00",
-      "last_seen": "2026-09-22T21:23:17.984482+06:00"
+      "last_seen": "2026-09-23T01:31:24.270817+06:00"
     },
     "phys.org/news/2026-09-tool-aims-graziers-faster-accurate.html": {
       "title": "New tool aims to deliver graziers a faster, more accurate read on exactly how much feed is in front of their cattle",
@@ -13967,7 +13243,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:17.984542+06:00",
-      "last_seen": "2026-09-22T21:23:17.984543+06:00"
+      "last_seen": "2026-09-23T01:31:24.270940+06:00"
     },
     "phys.org/news/2026-09-tiny-chariot-reveals-egyptian-glass.html": {
       "title": "A tiny chariot fitting reveals Egyptian glass reached Iron Age Britain",
@@ -14402,7 +13678,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:19.189476+06:00",
-      "last_seen": "2026-09-22T21:23:19.189480+06:00"
+      "last_seen": "2026-09-23T01:31:24.981469+06:00"
     },
     "livescience.com/archaeology/nearly-2-400-year-old-school-where-aristotle-taught-alexander-the-great-discovered-in-greece": {
       "title": "Nearly 2,400-year-old school where Aristotle taught Alexander the Great discovered in Greece",
@@ -14418,7 +13694,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:19.189563+06:00",
-      "last_seen": "2026-09-22T21:23:19.189565+06:00"
+      "last_seen": "2026-09-23T01:31:24.981601+06:00"
     },
     "livescience.com/space/the-moon/we-only-expect-to-encounter-that-once-every-130-years-a-huge-new-crater-on-the-moon-could-mean-a-giant-leap-for-lunar-science-veteran-researcher-says": {
       "title": "'Once every 130 years': A huge new crater on the moon could be a giant leap for lunar science, researcher says",
@@ -14434,7 +13710,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:19.189656+06:00",
-      "last_seen": "2026-09-22T21:23:19.189658+06:00"
+      "last_seen": "2026-09-23T01:31:24.981732+06:00"
     },
     "livescience.com/archaeology/ancient-china/14th-century-woman-in-china-lost-her-nose-to-amputation-likely-as-punishment-for-stealing-or-adultery": {
       "title": "700-year-old skull from China is first ever skeletal evidence of nose amputation",
@@ -14450,7 +13726,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:19.189729+06:00",
-      "last_seen": "2026-09-22T21:23:19.189730+06:00"
+      "last_seen": "2026-09-23T01:31:24.981861+06:00"
     },
     "sciencealert.com/volcanic-springs-amoeba-survives-63-c-setting-a-new-heat-record-for-complex-life": {
       "title": "Volcanic Springs Amoeba Survives 63 °C, Setting a New Heat Record For Complex Life",
@@ -14546,7 +13822,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.465129+06:00",
-      "last_seen": "2026-09-22T21:23:25.465133+06:00"
+      "last_seen": "2026-09-23T01:31:30.692585+06:00"
     },
     "carbonbrief.org/analysis-nepals-20m-loss-and-damage-claim-only-covers-0-7-of-flood-costs": {
       "title": "Analysis: Nepal’s $20m ‘loss-and-damage’ claim only covers 0.7% of flood costs",
@@ -14562,7 +13838,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.465298+06:00",
-      "last_seen": "2026-09-22T21:23:25.465299+06:00"
+      "last_seen": "2026-09-23T01:31:30.692903+06:00"
     },
     "statnews.com/2026/09/22/biotech-news-novo-may-be-getting-a-better-deal-than-expected-with-medicare-bridge": {
       "title": "STAT+: Novo may be getting a better deal than expected with Medicare’s Bridge program",
@@ -14578,7 +13854,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.742422+06:00",
-      "last_seen": "2026-09-22T21:23:25.742424+06:00"
+      "last_seen": "2026-09-23T01:31:30.883563+06:00"
     },
     "statnews.com/2026/09/22/epics-mortality-model-omadas-future-products-health-tech": {
       "title": "STAT+: Epic’s mortality model, and Omada’s future products",
@@ -14594,7 +13870,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.742504+06:00",
-      "last_seen": "2026-09-22T21:23:25.742505+06:00"
+      "last_seen": "2026-09-23T01:31:30.883695+06:00"
     },
     "statnews.com/pharmalot/2026/09/22/pharma-seeks-to-protect-china-deals-roche-obesity-drug": {
       "title": "STAT+: Pharmalittle: We’re reading about pharma seeking to protect China deals, a Roche obesity drug, and more",
@@ -14610,7 +13886,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.742575+06:00",
-      "last_seen": "2026-09-22T21:23:25.742576+06:00"
+      "last_seen": "2026-09-23T01:31:30.883828+06:00"
     },
     "statnews.com/2026/09/22/health-news-federal-autism-committee-head-has-financial-ties-to-leucovorin": {
       "title": "New federal autism committee head has financial ties to leucovorin",
@@ -14626,7 +13902,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:25.742660+06:00",
-      "last_seen": "2026-09-22T21:23:25.742661+06:00"
+      "last_seen": "2026-09-23T01:31:30.883966+06:00"
     },
     "nasa.gov/learning-resources/nasa-astronaut-to-answer-questions-from-new-hampshire-students": {
       "title": "NASA Astronaut to Answer Questions from New Hampshire Students",
@@ -14642,7 +13918,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:29.106401+06:00",
-      "last_seen": "2026-09-22T21:23:29.106404+06:00"
+      "last_seen": "2026-09-23T01:31:34.880480+06:00"
     },
     "science.nasa.gov/heliophysics/heliophysics-science-objectives": {
       "title": "Heliophysics Science Objectives",
@@ -14658,7 +13934,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:29.106575+06:00",
-      "last_seen": "2026-09-22T21:23:29.106577+06:00"
+      "last_seen": "2026-09-23T01:31:34.880769+06:00"
     },
     "science.nasa.gov/astrophysics/programs/cosmic-origins/community/happening-today-copag-post-astra-community-meeting-22-sept-2026": {
       "title": "HAPPENING TODAY: COPAG Post-ASTRA Community Meeting, 22 Sept 2026",
@@ -14674,7 +13950,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:29.106953+06:00",
-      "last_seen": "2026-09-22T21:23:29.106954+06:00"
+      "last_seen": "2026-09-23T01:31:34.881351+06:00"
     },
     "nasa.gov/podcasts/curious-universe/roman-dark-side-encore": {
       "title": "Encore: Welcome to the Dark Side",
@@ -14690,7 +13966,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:29.107099+06:00",
-      "last_seen": "2026-09-22T21:23:29.107100+06:00"
+      "last_seen": "2026-09-23T01:31:34.881629+06:00"
     },
     "science.nasa.gov/citizen-science/overlap-zoo": {
       "title": "Overlap Zoo",
@@ -14738,7 +14014,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:38.376530+06:00",
-      "last_seen": "2026-09-22T21:23:38.376533+06:00"
+      "last_seen": "2026-09-23T01:31:44.234927+06:00"
     },
     "astronomy.com/science/have-astronomers-discovered-the-first-moon-outside-of-our-solar-system": {
       "title": "Have astronomers discovered the first moon outside of our solar system?",
@@ -14771,7 +14047,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:38.377142+06:00",
-      "last_seen": "2026-09-22T21:23:38.377143+06:00"
+      "last_seen": "2026-09-23T01:31:44.236017+06:00"
     },
     "universetoday.com/articles/3iatlas-has-an-extreme-taste-for-heavy-water": {
       "title": "3I/ATLAS Has An Extreme Taste For Heavy Water",
@@ -14804,7 +14080,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:38.716585+06:00",
-      "last_seen": "2026-09-22T21:23:38.716586+06:00"
+      "last_seen": "2026-09-23T01:31:44.481495+06:00"
     },
     "earthsky.org/earth/hurricane-polo-mexico-sept-2026": {
       "title": "Hurricane Polo explodes into a Category 5 storm off Mexico",
@@ -14820,7 +14096,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:39.146947+06:00",
-      "last_seen": "2026-09-22T21:23:39.146952+06:00"
+      "last_seen": "2026-09-23T01:31:44.775358+06:00"
     },
     "earthsky.org/earth/fat-bear-week-2026": {
       "title": "Fat Bear Week 2026: Here’s how to participate!",
@@ -14836,7 +14112,7 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:39.147398+06:00",
-      "last_seen": "2026-09-22T21:23:39.147399+06:00"
+      "last_seen": "2026-09-23T01:31:44.776263+06:00"
     },
     "earthsky.org/space/esas-juice-mission-explore-jupiters-icy-moons-ganymede": {
       "title": "JUICE mission to fly by Earth next week! Details here",
@@ -14852,7 +14128,650 @@
       "date_estimated": false,
       "status": "pending",
       "first_seen": "2026-09-22T21:23:39.147692+06:00",
-      "last_seen": "2026-09-22T21:23:39.147694+06:00"
+      "last_seen": "2026-09-23T01:31:44.776810+06:00"
+    },
+    "nature.com/articles/d41586-026-02979-3": {
+      "title": "Dust in the wind is on the decline",
+      "url": "https://www.nature.com/articles/d41586-026-02979-3",
+      "canonical": "nature.com/articles/d41586-026-02979-3",
+      "published_dt": "2026-09-22T06:00:00+06:00",
+      "published_date": "2026-09-22T06:00:00+06:00",
+      "source": "Nature News",
+      "region": "Science",
+      "excerpt": "Nature, Published online: 22 September 2026; doi:10.1038/d41586-026-02979-3 The global decrease in atmospheric dust might be affecting Earth’s temperature.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:23.333527+06:00",
+      "last_seen": "2026-09-23T01:31:23.333532+06:00"
+    },
+    "nature.com/articles/d41586-026-02942-2": {
+      "title": "This super-cold microscope could spur a quantum revolution",
+      "url": "https://www.nature.com/articles/d41586-026-02942-2",
+      "canonical": "nature.com/articles/d41586-026-02942-2",
+      "published_dt": "2026-09-22T06:00:00+06:00",
+      "published_date": "2026-09-22T06:00:00+06:00",
+      "source": "Nature News",
+      "region": "Science",
+      "excerpt": "Nature, Published online: 22 September 2026; doi:10.1038/d41586-026-02942-2 The instrument, which operates near absolute zero for hours, will soon ship to a few labs. Researchers are thrilled.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:23.334101+06:00",
+      "last_seen": "2026-09-23T01:31:23.334106+06:00"
+    },
+    "nature.com/articles/d41586-026-03014-1": {
+      "title": "Why AI companies can’t be trusted to self-regulate",
+      "url": "https://www.nature.com/articles/d41586-026-03014-1",
+      "canonical": "nature.com/articles/d41586-026-03014-1",
+      "published_dt": "2026-09-22T06:00:00+06:00",
+      "published_date": "2026-09-22T06:00:00+06:00",
+      "source": "Nature News",
+      "region": "Science",
+      "excerpt": "Nature, Published online: 22 September 2026; doi:10.1038/d41586-026-03014-1 From aviation to banking, high-risk industries are subject to independent oversight and meaningful penalties. AI companies should be no exception.",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:23.334291+06:00",
+      "last_seen": "2026-09-23T01:31:23.334296+06:00"
+    },
+    "sciencenews.org/article/ai-model-reason-logic-words-efficient": {
+      "title": "Can AI reason without words? A small model puts the idea to the test",
+      "url": "https://www.sciencenews.org/article/ai-model-reason-logic-words-efficient",
+      "canonical": "sciencenews.org/article/ai-model-reason-logic-words-efficient",
+      "published_dt": "2026-09-22T22:00:00+06:00",
+      "published_date": "2026-09-22T22:00:00+06:00",
+      "source": "Science News",
+      "region": "Science",
+      "excerpt": "The newest “Dragon Hatchling” AI model is testing whether skipping words in intermediate reasoning could cut computational cost.",
+      "image": "https://www.sciencenews.org/wp-content/uploads/sites/2/2026/09/091626_SB_ai_main.jpg?w=800",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:23.730087+06:00",
+      "last_seen": "2026-09-23T01:31:23.730094+06:00"
+    },
+    "phys.org/news/2026-09-mosquito-transition-vegan-bloodsucker.html": {
+      "title": "The mosquito's transition from vegan to bloodsucker explained",
+      "url": "https://phys.org/news/2026-09-mosquito-transition-vegan-bloodsucker.html",
+      "canonical": "phys.org/news/2026-09-mosquito-transition-vegan-bloodsucker.html",
+      "published_dt": "2026-09-23T01:20:01+06:00",
+      "published_date": "2026-09-23T01:20:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Scents govern most key events in the lives of mosquitoes, and there is extensive research on their sense of smell. A new study reveals how a young female mosquito shifts from focusing entirely on nectar to seeking only blood. An odor receptor that reacts to camphor was found to play a key role.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/the-mosquitos-transiti.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267010+06:00",
+      "last_seen": "2026-09-23T01:31:24.267015+06:00"
+    },
+    "phys.org/news/2026-09-families-children-early-mathematics-home.html": {
+      "title": "How families can support children's early mathematics learning at home",
+      "url": "https://phys.org/news/2026-09-families-children-early-mathematics-home.html",
+      "canonical": "phys.org/news/2026-09-families-children-early-mathematics-home.html",
+      "published_dt": "2026-09-23T01:00:04+06:00",
+      "published_date": "2026-09-23T01:00:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "For parents whose children have just entered kindergarten or first grade, new fall routines can bring excitement—and some anxiety.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/how-families-can-suppo.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267191+06:00",
+      "last_seen": "2026-09-23T01:31:24.267195+06:00"
+    },
+    "phys.org/news/2026-09-earth-chorus-limited-link-rapid.html": {
+      "title": "Earth's chorus waves show limited link to rapid electron loss from radiation belts",
+      "url": "https://phys.org/news/2026-09-earth-chorus-limited-link-rapid.html",
+      "canonical": "phys.org/news/2026-09-earth-chorus-limited-link-rapid.html",
+      "published_dt": "2026-09-23T01:00:01+06:00",
+      "published_date": "2026-09-23T01:00:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The Van Allen radiation belts are huge, doughnut-shaped regions of highly energetic charged particles trapped by Earth's magnetosphere. These charged particles play a major role in space weather, so studying them is important for predicting and managing risks to satellites, astronauts, power grids and other infrastructure.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/presumed-role-of-choru.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267327+06:00",
+      "last_seen": "2026-09-23T01:31:24.267331+06:00"
+    },
+    "phys.org/news/2026-09-sheep-grazing-pose-greater-threat.html": {
+      "title": "Sheep grazing may pose greater threat to Scotland's wild pollinators than honey bees",
+      "url": "https://phys.org/news/2026-09-sheep-grazing-pose-greater-threat.html",
+      "canonical": "phys.org/news/2026-09-sheep-grazing-pose-greater-threat.html",
+      "published_dt": "2026-09-23T00:40:06+06:00",
+      "published_date": "2026-09-23T00:40:06+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Sheep grazing, rather than honey bees, could be the bigger threat to wild pollinators on Scotland's moorlands, according to a new University of Bristol-led study. The research, published in the Journal of Applied Ecology, has found that grazing in spring can remove much of the nectar emerging bumblebees need, while commercial honey bee hives introduced during the summer heather flowering period have a much smaller impact.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/bee-on-thistle.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267457+06:00",
+      "last_seen": "2026-09-23T01:31:24.267461+06:00"
+    },
+    "phys.org/news/2026-09-temporary-stimulus-redirect-cell-fate.html": {
+      "title": "A single temporary stimulus may redirect cell fate without permanently altering genes",
+      "url": "https://phys.org/news/2026-09-temporary-stimulus-redirect-cell-fate.html",
+      "canonical": "phys.org/news/2026-09-temporary-stimulus-redirect-cell-fate.html",
+      "published_dt": "2026-09-23T00:40:02+06:00",
+      "published_date": "2026-09-23T00:40:02+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Which genes need to be controlled to guide a stem cell toward a desired cell type or modulate an immune cell's inflammatory response? A Korean research team has developed a general-purpose computational framework that identifies the key targets needed to steer a cell toward a desired state with a single temporary intervention, without permanently altering its genes.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/kaist-finds-a-way-to-r.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267582+06:00",
+      "last_seen": "2026-09-23T01:31:24.267585+06:00"
+    },
+    "phys.org/news/2026-09-ai-peptide-bitterness-enables-flavor.html": {
+      "title": "AI model predicts peptide bitterness and enables novel flavor design",
+      "url": "https://phys.org/news/2026-09-ai-peptide-bitterness-enables-flavor.html",
+      "canonical": "phys.org/news/2026-09-ai-peptide-bitterness-enables-flavor.html",
+      "published_dt": "2026-09-23T00:20:03+06:00",
+      "published_date": "2026-09-23T00:20:03+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "During the production of fermented products such as kefir, Parmesan, or mountain cheese, as well as in the production of protein powders, bitter-tasting peptides can form, which impair the taste and thus the acceptability of the products. A research team led by the Leibniz Institute for Food Systems Biology at the Technical University of Munich has now developed and successfully tested an AI-based method that can predict the bitterness of peptides. It also makes it possible to design new, bitter-tasting peptides from scratch. This is another important step forward in taste and food research.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/de-novo-design-of-bitt-2.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267706+06:00",
+      "last_seen": "2026-09-23T01:31:24.267709+06:00"
+    },
+    "phys.org/news/2026-09-rice-bran-source-antimicrobial-biodegradable.html": {
+      "title": "Rice bran—source for antimicrobial, biodegradable food packaging film",
+      "url": "https://phys.org/news/2026-09-rice-bran-source-antimicrobial-biodegradable.html",
+      "canonical": "phys.org/news/2026-09-rice-bran-source-antimicrobial-biodegradable.html",
+      "published_dt": "2026-09-23T00:20:01+06:00",
+      "published_date": "2026-09-23T00:20:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Rice bran is a plentiful agricultural byproduct that is often underused, but research from the Arkansas Agricultural Experiment Station shows it could be a source of biodegradable food packaging with built-in antibacterial properties.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/rice-bran-researched-a.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267833+06:00",
+      "last_seen": "2026-09-23T01:31:24.267837+06:00"
+    },
+    "phys.org/news/2026-09-largest-dataset-kind-massive-stars.html": {
+      "title": "Largest dataset of its kind could clarify how massive stars shaped early galaxies",
+      "url": "https://phys.org/news/2026-09-largest-dataset-kind-massive-stars.html",
+      "canonical": "phys.org/news/2026-09-largest-dataset-kind-massive-stars.html",
+      "published_dt": "2026-09-23T00:00:05+06:00",
+      "published_date": "2026-09-23T00:00:05+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The more astronomers learn about the universe's earliest galaxies, the stranger they seem. Many of their surprising properties may be explained by differences between their massive stars and those in galaxies like our own Milky Way. A new University of Utah-led survey with the Hubble Space Telescope is shedding light on the stellar astrophysics operating in early galaxies.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/largest-dataset-of-its-1.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.267957+06:00",
+      "last_seen": "2026-09-23T01:31:24.267961+06:00"
+    },
+    "phys.org/news/2026-09-amateur-naturalists-scientists-track.html": {
+      "title": "How amateur naturalists are helping scientists track what everything eats",
+      "url": "https://phys.org/news/2026-09-amateur-naturalists-scientists-track.html",
+      "canonical": "phys.org/news/2026-09-amateur-naturalists-scientists-track.html",
+      "published_dt": "2026-09-23T00:00:02+06:00",
+      "published_date": "2026-09-23T00:00:02+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "An interdisciplinary team of researchers has created an open-source website for learning what different organisms eat and what eats them. The site—called Who Eats Whom—draws on data from a worldwide citizen science platform and serves as both a valuable resource for ecological research and an educational tool to advance public understanding of the global food web.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/trophic-interactions.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268107+06:00",
+      "last_seen": "2026-09-23T01:31:24.268112+06:00"
+    },
+    "phys.org/news/2026-09-electrical-method-tunes-magnetic-properties.html": {
+      "title": "Electrical control method tunes magnetic properties for next-generation spintronic memory",
+      "url": "https://phys.org/news/2026-09-electrical-method-tunes-magnetic-properties.html",
+      "canonical": "phys.org/news/2026-09-electrical-method-tunes-magnetic-properties.html",
+      "published_dt": "2026-09-22T23:40:04+06:00",
+      "published_date": "2026-09-22T23:40:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "A research team led by Professor Jung-Il Hong of the Department of Physics and Chemistry at DGIST has successfully used current pulses to alter the spin configuration within a ferrimagnetic material, lowering its \"compensation temperature\"—the temperature at which opposing magnetizations cancel each other out—by up to approximately 110 K.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/same-material-just-a-f.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268236+06:00",
+      "last_seen": "2026-09-23T01:31:24.268240+06:00"
+    },
+    "phys.org/news/2026-09-billiard-balls-reveal-limits.html": {
+      "title": "What billiard balls reveal about computers and the limits of prediction",
+      "url": "https://phys.org/news/2026-09-billiard-balls-reveal-limits.html",
+      "canonical": "phys.org/news/2026-09-billiard-balls-reveal-limits.html",
+      "published_dt": "2026-09-22T23:40:01+06:00",
+      "published_date": "2026-09-22T23:40:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "When is a billiard ball not a billiard ball? When mathematicians get involved and view a popular game as a model computer.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/billiards.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268361+06:00",
+      "last_seen": "2026-09-23T01:31:24.268365+06:00"
+    },
+    "phys.org/news/2026-09-microcrystal-electron-diffractometer-hidden-hydrogen.html": {
+      "title": "Microcrystal electron diffractometer brings hidden hydrogen into focus",
+      "url": "https://phys.org/news/2026-09-microcrystal-electron-diffractometer-hidden-hydrogen.html",
+      "canonical": "phys.org/news/2026-09-microcrystal-electron-diffractometer-hidden-hydrogen.html",
+      "published_dt": "2026-09-22T23:20:05+06:00",
+      "published_date": "2026-09-22T23:20:05+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Hydrogen—the lightest atom—does the heavy lifting when it comes to important chemical reactions. It can be stored and released as clean fuel, and its movements help catalysts build medicines, fertilizers and materials. One way hydrogen is available for use is through a hydride—a hydrogen (H) atom bound to a metal. Yet with standard tools, this metal-bound atom can be hard to find in the structure.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/microed-brings-hidden.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268485+06:00",
+      "last_seen": "2026-09-23T01:31:24.268489+06:00"
+    },
+    "phys.org/news/2026-09-vr-boosts-english-vocabulary-scores.html": {
+      "title": "VR boosts English vocabulary scores for students with dyslexia, pilot study finds",
+      "url": "https://phys.org/news/2026-09-vr-boosts-english-vocabulary-scores.html",
+      "canonical": "phys.org/news/2026-09-vr-boosts-english-vocabulary-scores.html",
+      "published_dt": "2026-09-22T23:20:04+06:00",
+      "published_date": "2026-09-22T23:20:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Virtual reality (VR) could be a new tool to help students with dyslexia learn English vocabulary more effectively than conventional instruction alone, according to a pilot study involving 30 learners published in the International Journal of Innovation and Learning. Dyslexia is a learning disability that primarily affects reading and related language skills.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2021/virtual-reality-1.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268608+06:00",
+      "last_seen": "2026-09-23T01:31:24.268612+06:00"
+    },
+    "phys.org/news/2026-09-antibiotic-resistance-bacteria-environments.html": {
+      "title": "Antibiotic resistance research calls for tests that reflect bacteria's changing environments",
+      "url": "https://phys.org/news/2026-09-antibiotic-resistance-bacteria-environments.html",
+      "canonical": "phys.org/news/2026-09-antibiotic-resistance-bacteria-environments.html",
+      "published_dt": "2026-09-22T23:00:07+06:00",
+      "published_date": "2026-09-22T23:00:07+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The World Health Organization (WHO) regards antimicrobial resistance, including antibiotic resistance, as one of the world's major health challenges. A new fundamental understanding of antibiotic resistance could therefore potentially have a far-reaching impact on global public health, animal health and the environment.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-aim-to-fin.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268729+06:00",
+      "last_seen": "2026-09-23T01:31:24.268733+06:00"
+    },
+    "phys.org/news/2026-09-briny-death-pools-clues-early.html": {
+      "title": "Briny 'death pools' hold clues to early life",
+      "url": "https://phys.org/news/2026-09-briny-death-pools-clues-early.html",
+      "canonical": "phys.org/news/2026-09-briny-death-pools-clues-early.html",
+      "published_dt": "2026-09-22T23:00:01+06:00",
+      "published_date": "2026-09-22T23:00:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The origins of the earliest life on Earth, prior to the rise of oxygen and photosynthesis, remain a mystery. Graveyards in brine pools at the bottom of the Red Sea may hold some answers.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/briny-death-pools-hold.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268850+06:00",
+      "last_seen": "2026-09-23T01:31:24.268854+06:00"
+    },
+    "phys.org/news/2026-09-astronomers-radio-exoplanet.html": {
+      "title": "Astronomers detect radio signals coming from an exoplanet for the first time",
+      "url": "https://phys.org/news/2026-09-astronomers-radio-exoplanet.html",
+      "canonical": "phys.org/news/2026-09-astronomers-radio-exoplanet.html",
+      "published_dt": "2026-09-22T22:40:07+06:00",
+      "published_date": "2026-09-22T22:40:07+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Exoplanets are exotic worlds orbiting distant stars far beyond our solar system. Ever since the first ones were discovered in the 1990s, astronomers have turned their attention to these distant worlds to understand more about them. Now, for the first time, scientists have detected radio signals coming directly from one of these planets, a massive gas giant named β Pictoris b.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/astronomers-detect-rad.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.268972+06:00",
+      "last_seen": "2026-09-23T01:31:24.268976+06:00"
+    },
+    "phys.org/news/2026-09-day-night-equal-billing-tuesday.html": {
+      "title": "Day and night get equal billing on Tuesday. A guide to the fall equinox",
+      "url": "https://phys.org/news/2026-09-day-night-equal-billing-tuesday.html",
+      "canonical": "phys.org/news/2026-09-day-night-equal-billing-tuesday.html",
+      "published_dt": "2026-09-22T22:40:04+06:00",
+      "published_date": "2026-09-22T22:40:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "The fall equinox is Tuesday, when light and darkness split the day evenly. It marks the beginning of fall for the Northern Hemisphere and the beginning of spring in the Southern Hemisphere.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/day-and-night-get-equa.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269123+06:00",
+      "last_seen": "2026-09-23T01:31:24.269128+06:00"
+    },
+    "phys.org/news/2026-09-statistical-methods-reliable.html": {
+      "title": "New statistical methods could lead to more reliable research findings",
+      "url": "https://phys.org/news/2026-09-statistical-methods-reliable.html",
+      "canonical": "phys.org/news/2026-09-statistical-methods-reliable.html",
+      "published_dt": "2026-09-22T22:20:04+06:00",
+      "published_date": "2026-09-22T22:20:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "How much can we really trust a measurement? And how much data do researchers need to collect to draw reliable conclusions? Mohammad Reza Seydi at Umeå University has developed and tested new statistical methods to provide better answers to those questions.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/statistical-methods.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269405+06:00",
+      "last_seen": "2026-09-23T01:31:24.269410+06:00"
+    },
+    "phys.org/news/2026-09-emissions-decade-europe-worse.html": {
+      "title": "Emissions from the past decade have made Europe's recent heat waves worse",
+      "url": "https://phys.org/news/2026-09-emissions-decade-europe-worse.html",
+      "canonical": "phys.org/news/2026-09-emissions-decade-europe-worse.html",
+      "published_dt": "2026-09-22T22:20:02+06:00",
+      "published_date": "2026-09-22T22:20:02+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Recent heat waves in Europe have been intensified by the greenhouse gases emitted since nations committed to limiting global warming under the 2015 Paris Agreement, according to a Sep. 22 study published in Geophysical Research Letters.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/emissions-from-the-pas.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269537+06:00",
+      "last_seen": "2026-09-23T01:31:24.269541+06:00"
+    },
+    "phys.org/news/2026-09-gold-nanoplasmonic-chip-tracks-dopa.html": {
+      "title": "Gold nanoplasmonic chip tracks L-DOPA response in Parkinson's 'mini-brains'",
+      "url": "https://phys.org/news/2026-09-gold-nanoplasmonic-chip-tracks-dopa.html",
+      "canonical": "phys.org/news/2026-09-gold-nanoplasmonic-chip-tracks-dopa.html",
+      "published_dt": "2026-09-22T22:00:04+06:00",
+      "published_date": "2026-09-22T22:00:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "Researchers have developed an organoid-on-a-chip technology that verifies the efficacy of Parkinson's disease treatments in real time. The technology combines a stem cell–derived \"mini-brain\" with a nanoplasmonic sensor engineered to maximize light–matter interaction.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/ultra-sensitive-nanopl.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269660+06:00",
+      "last_seen": "2026-09-23T01:31:24.269664+06:00"
+    },
+    "phys.org/news/2026-09-3iatlas-extreme-heavy.html": {
+      "title": "3I/ATLAS has an extreme taste for heavy water",
+      "url": "https://phys.org/news/2026-09-3iatlas-extreme-heavy.html",
+      "canonical": "phys.org/news/2026-09-3iatlas-extreme-heavy.html",
+      "published_dt": "2026-09-22T22:00:01+06:00",
+      "published_date": "2026-09-22T22:00:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "More and more details about 3I/ATLAS are filtering through the scientific process as time goes on. Our third known interstellar visitor attracted the attention of some of the world's most powerful observatories when it was discovered in July 2025, and some of those telescopes found something peculiar—the isotopes it contained appeared different. A new paper submitted to The Astrophysical Journal Letters (and available as a preprint on arXiv) by Kenji Furuya of the RIKEN Pioneering Research Institute in Japan and his co-authors shows that the isotopic discrepancy is likely due to the \"low metallicity\" of the stellar nursery in which 3I/ATLAS was born.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/hubble-image-of-inters.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269785+06:00",
+      "last_seen": "2026-09-23T01:31:24.269789+06:00"
+    },
+    "phys.org/news/2026-09-methane-beneath-greenland-ice-sheet.html": {
+      "title": "Methane beneath the Greenland ice sheet shapes microbial life and influences the carbon cycle",
+      "url": "https://phys.org/news/2026-09-methane-beneath-greenland-ice-sheet.html",
+      "canonical": "phys.org/news/2026-09-methane-beneath-greenland-ice-sheet.html",
+      "published_dt": "2026-09-22T21:40:04+06:00",
+      "published_date": "2026-09-22T21:40:04+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "A new study involving researchers from the Faculty of Science, Charles University, Prague, shows that methane concentration is among the key factors determining the composition of microbial communities at the margin of the Greenland Ice Sheet. The findings, published in Applied and Environmental Microbiology, provide new insights into processes that influence carbon and methane cycling in a rapidly warming Arctic.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/methane-beneath-the-gr.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.269914+06:00",
+      "last_seen": "2026-09-23T01:31:24.269918+06:00"
+    },
+    "phys.org/news/2026-09-milky-microblazar-fastest-particles-galaxy.html": {
+      "title": "Milky Way's first microblazar may produce fastest particles in the galaxy",
+      "url": "https://phys.org/news/2026-09-milky-microblazar-fastest-particles-galaxy.html",
+      "canonical": "phys.org/news/2026-09-milky-microblazar-fastest-particles-galaxy.html",
+      "published_dt": "2026-09-22T21:40:01+06:00",
+      "published_date": "2026-09-22T21:40:01+06:00",
+      "source": "Phys.org",
+      "region": "Science",
+      "excerpt": "An international team of astronomers from ASTRON, JIVE, the University of Amsterdam and other institutions has found the first so-called \"microblazar\" in the Milky Way. This stellar system is composed of a massive star and a black hole with a jet that is pointed toward Earth. The researchers also identified the region where the jet hits a molecular cloud as a place where particles are accelerated to ultra-high energies, likely up to petaelectronvolts. This would make microblazars one of the most powerful particle accelerators in the galaxy. The research was appears in Astronomy & Astrophysics.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/first-microblazar-foun-1.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.270071+06:00",
+      "last_seen": "2026-09-23T01:31:24.270076+06:00"
+    },
+    "livescience.com/space/astronomy/vera-rubin-observatory-detects-one-of-the-smallest-and-faintest-satellite-galaxies-ever-seen-before-the-telescopes-mission-even-began": {
+      "title": "Vera C. Rubin Observatory detects one of the smallest and faintest satellite galaxies ever seen",
+      "url": "https://www.livescience.com/space/astronomy/vera-rubin-observatory-detects-one-of-the-smallest-and-faintest-satellite-galaxies-ever-seen-before-the-telescopes-mission-even-began",
+      "canonical": "livescience.com/space/astronomy/vera-rubin-observatory-detects-one-of-the-smallest-and-faintest-satellite-galaxies-ever-seen-before-the-telescopes-mission-even-began",
+      "published_dt": "2026-09-22T23:12:25+06:00",
+      "published_date": "2026-09-22T23:12:25+06:00",
+      "source": "Live Science",
+      "region": "Science",
+      "excerpt": "Astronomers looking at Vera C. Rubin Observatory test data have discovered 'Aquarius IV', believed to be a brand new satellite galaxy of the Milky Way located 350,000 light-years away.",
+      "image": "https://cdn.mos.cms.futurecdn.net/PQ4NfPYyZR47HxvCPebfea-1920-80.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-09-23T01:31:24.980976+06:00",
+      "last_seen": "2026-09-23T01:31:24.980984+06:00",
+      "posted_at": "2026-09-23T01:35:26.237033+06:00"
+    },
+    "livescience.com/planet-earth/climate-change/us-heading-for-unprecedented-el-nino-winter-heres-what-to-expect": {
+      "title": "US heading for unprecedented El Niño winter: Here's what to expect",
+      "url": "https://www.livescience.com/planet-earth/climate-change/us-heading-for-unprecedented-el-nino-winter-heres-what-to-expect",
+      "canonical": "livescience.com/planet-earth/climate-change/us-heading-for-unprecedented-el-nino-winter-heres-what-to-expect",
+      "published_dt": "2026-09-22T22:08:06+06:00",
+      "published_date": "2026-09-22T22:08:06+06:00",
+      "source": "Live Science",
+      "region": "Science",
+      "excerpt": "A supercharged El Niño is associated with extreme winter weather.",
+      "image": "https://cdn.mos.cms.futurecdn.net/48ix3NjbfVQjLDBr6heRAB-1920-80.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:24.981186+06:00",
+      "last_seen": "2026-09-23T01:31:24.981191+06:00"
+    },
+    "livescience.com/planet-earth/evolution/scientists-identify-sweet-spot-for-early-stage-of-life-on-earth-that-preceded-luca-the-ancestor-of-all-living-things": {
+      "title": "Scientists identify 'sweet spot' for early stage of life on Earth that preceded LUCA, the ancestor of all living things",
+      "url": "https://www.livescience.com/planet-earth/evolution/scientists-identify-sweet-spot-for-early-stage-of-life-on-earth-that-preceded-luca-the-ancestor-of-all-living-things",
+      "canonical": "livescience.com/planet-earth/evolution/scientists-identify-sweet-spot-for-early-stage-of-life-on-earth-that-preceded-luca-the-ancestor-of-all-living-things",
+      "published_dt": "2026-09-22T21:47:28+06:00",
+      "published_date": "2026-09-22T21:47:28+06:00",
+      "source": "Live Science",
+      "region": "Science",
+      "excerpt": "New research has pinned down the onset of the \"RNA World,\" a hypothetical time in Earth's very early history when RNA was the primary replicating substance.",
+      "image": "https://cdn.mos.cms.futurecdn.net/2CvkNG94ubMgQC5wrZWGfG-1920-80.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-09-23T01:31:24.981333+06:00",
+      "last_seen": "2026-09-23T01:31:24.981337+06:00",
+      "posted_at": "2026-09-23T01:35:31.634141+06:00"
+    },
+    "insideclimatenews.org/news/22092026/georgia-residents-sue-over-openai-data-center": {
+      "title": "Georgia Residents Sue Over OpenAI Data Center",
+      "url": "https://insideclimatenews.org/news/22092026/georgia-residents-sue-over-openai-data-center/",
+      "canonical": "insideclimatenews.org/news/22092026/georgia-residents-sue-over-openai-data-center",
+      "published_dt": "2026-09-23T00:23:51+06:00",
+      "published_date": "2026-09-23T00:23:51+06:00",
+      "source": "Inside Climate News",
+      "region": "Science",
+      "excerpt": "A $20 billion data center campus announced in July near Rincon, Georgia, is now facing its second lawsuit from Effingham County residents and environmental advocates. OpenAI, best known for creating ChatGPT, is planning a massive campus that would include about 4.4 million square feet of data-center space 30 miles northwest of Savannah. The project, known […]",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:30.800355+06:00",
+      "last_seen": "2026-09-23T01:31:30.800362+06:00"
+    },
+    "insideclimatenews.org/news/22092026/pennsylvania-ai-boom-environmental-harms": {
+      "title": "Pennsylvania’s AI Boom Is Repeating Old Patterns of Exploitation",
+      "url": "https://insideclimatenews.org/news/22092026/pennsylvania-ai-boom-environmental-harms/",
+      "canonical": "insideclimatenews.org/news/22092026/pennsylvania-ai-boom-environmental-harms",
+      "published_dt": "2026-09-22T21:43:44+06:00",
+      "published_date": "2026-09-22T21:43:44+06:00",
+      "source": "Inside Climate News",
+      "region": "Science",
+      "excerpt": "Pennsylvania’s data center industry has promised economic growth and a revival of the state’s industrial strength. But a new report issued Tuesday finds little evidence of job growth and warns that adding more of the massive computer complexes could repeat a long history of industrial facilities exploiting the communities that house them. The research group […]",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:30.800511+06:00",
+      "last_seen": "2026-09-23T01:31:30.800516+06:00"
+    },
+    "statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development": {
+      "title": "STAT+: HHS issues new initiatives to reduce animal testing in drug development",
+      "url": "https://www.statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development/?utm_campaign=rss",
+      "canonical": "statnews.com/pharmalot/2026/09/22/hhs-initiatives-reduce-animal-testing-in-drug-development",
+      "published_dt": "2026-09-23T01:28:42+06:00",
+      "published_date": "2026-09-23T01:28:42+06:00",
+      "source": "STAT",
+      "region": "Science",
+      "excerpt": "For the second time this year, HHS announced new strategies to speed the away from animals in medical testing.",
+      "image": "https://www.statnews.com/wp-content/uploads/2018/05/GettyImages-115791062-1024x576.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:30.883148+06:00",
+      "last_seen": "2026-09-23T01:31:30.883155+06:00"
+    },
+    "statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win": {
+      "title": "STAT+: Did the Trump administration just cut Novo a huge financial win?",
+      "url": "https://www.statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win/?utm_campaign=rss",
+      "canonical": "statnews.com/2026/09/22/dc-diagnosis-did-trump-administration-cut-novo-huge-financial-win",
+      "published_dt": "2026-09-22T22:23:21+06:00",
+      "published_date": "2026-09-22T22:23:21+06:00",
+      "source": "STAT",
+      "region": "Science",
+      "excerpt": "The White House's GENEROUS plan was designed to make drugs more affordable for Medicaid users. There's one glaring potential exception.",
+      "image": "https://www.statnews.com/wp-content/uploads/2025/11/GettyImages-2245375234-1024x576.jpg",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:30.883411+06:00",
+      "last_seen": "2026-09-23T01:31:30.883415+06:00"
+    },
+    "nasa.gov/blogs/spacestation/2026/09/22/station-nears-upcoming-crew-swap-during-biomedicine-cargo-duties": {
+      "title": "Station Nears Upcoming Crew Swap During Biomedicine, Cargo Duties",
+      "url": "https://www.nasa.gov/blogs/spacestation/2026/09/22/station-nears-upcoming-crew-swap-during-biomedicine-cargo-duties/",
+      "canonical": "nasa.gov/blogs/spacestation/2026/09/22/station-nears-upcoming-crew-swap-during-biomedicine-cargo-duties",
+      "published_dt": "2026-09-23T00:17:28+06:00",
+      "published_date": "2026-09-23T00:17:28+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Four Expedition 75 crewmates are preparing for their return to Earth aboard a SpaceX Dragon next month as their replacement crew gets ready for launch. Meanwhile, aboard the International Space Station the orbital residents continued studying biomedicine, activating Earth imagery hardware, and unpacking a cargo craft. The post Station Nears Upcoming Crew Swap During Biomedicine, Cargo Duties appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:34.878899+06:00",
+      "last_seen": "2026-09-23T01:31:34.878907+06:00"
+    },
+    "science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat": {
+      "title": "NASA-Funded Research Finds Complex Life Defying Record Heat",
+      "url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+      "canonical": "science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat",
+      "published_dt": "2026-09-22T23:33:10+06:00",
+      "published_date": "2026-09-22T23:33:10+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Lee esta historia en español aquí. NASA-supported scientists have discovered an organism that lives at extreme temperatures previously thought impossible for complex life. High temperatures can cause the destruction of necessary cell components, which is a big problem for cells with complex parts like a nucleus encasing delicate genetic information. In the heated waters of […] The post NASA-Funded Research Finds Complex Life Defying Record Heat appeared first on NASA Science .",
+      "image": "https://assets.science.nasa.gov/content/dam/science/psd/astrobiology/research-images/MovieS12_60C_normalmotility_switching%201080p_Crop.mp4",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "posted",
+      "first_seen": "2026-09-23T01:31:34.879283+06:00",
+      "last_seen": "2026-09-23T01:31:34.879289+06:00",
+      "posted_at": "2026-09-23T01:35:20.505680+06:00"
+    },
+    "nasa.gov/legs-2": {
+      "title": "LEGS",
+      "url": "https://www.nasa.gov/legs-2/",
+      "canonical": "nasa.gov/legs-2",
+      "published_dt": "2026-09-22T23:17:34+06:00",
+      "published_date": "2026-09-22T23:17:34+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Lunar Exploration Ground Sites The post LEGS appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:34.879569+06:00",
+      "last_seen": "2026-09-23T01:31:34.879573+06:00"
+    },
+    "science.nasa.gov/researchers/solicitations/roses-2025/amendment-75-corrections-to-several-program-elements-regarding-sciencv-and-other-topics": {
+      "title": "Amendment 75: Corrections to several program elements regarding SciENcv and other topics",
+      "url": "https://science.nasa.gov/researchers/solicitations/roses-2025/amendment-75-corrections-to-several-program-elements-regarding-sciencv-and-other-topics/",
+      "canonical": "science.nasa.gov/researchers/solicitations/roses-2025/amendment-75-corrections-to-several-program-elements-regarding-sciencv-and-other-topics",
+      "published_dt": "2026-09-22T23:01:14+06:00",
+      "published_date": "2026-09-22T23:01:14+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Information about the required SciENcv format for biographical sketch and current and pending support was expanded/improved in A.13 Accelerating Earth Solutions, A.14 Atmosphere, A.15 Biosphere, A.16 Cryosphere, A.17 Hydrosphere, C.4 Planetary Science Enabling Facilities, and D.4 Theoretical and Computational Astrophysics Networks. Other corrections or improvements were also made, e.g., details on the redacted and anonymized […] The post Amendment 75: Corrections to several program elements regarding SciENcv and other topics appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:34.879869+06:00",
+      "last_seen": "2026-09-23T01:31:34.879875+06:00"
+    },
+    "nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy": {
+      "title": "NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy",
+      "url": "https://www.nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy/",
+      "canonical": "nasa.gov/image-article/nasas-chandra-finds-unusual-objects-in-pinwheel-galaxy",
+      "published_dt": "2026-09-22T21:40:48+06:00",
+      "published_date": "2026-09-22T21:40:48+06:00",
+      "source": "NASA Science",
+      "region": "Science",
+      "excerpt": "Using NASA’s Chandra X-ray Observatory, researchers found mysterious objects that give off unusually low-energy X-rays but intense levels of ultraviolet radiation. One of the galaxies they studied, M101, is pictured here in this image released on Sept. 9, 2026. Astronomers suggest these newly spotted objects in other galaxies may help solve not one, but two […] The post NASA’s Chandra Finds Unusual Objects in Pinwheel Galaxy appeared first on NASA Science .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:34.880191+06:00",
+      "last_seen": "2026-09-23T01:31:34.880196+06:00"
+    },
+    "astronomy.com/observing/how-to-become-a-variable-star-observer": {
+      "title": "How to become a variable star observer",
+      "url": "https://www.astronomy.com/observing/how-to-become-a-variable-star-observer/",
+      "canonical": "astronomy.com/observing/how-to-become-a-variable-star-observer",
+      "published_dt": "2026-09-22T22:00:00+06:00",
+      "published_date": "2026-09-22T22:00:00+06:00",
+      "source": "Astronomy Magazine",
+      "region": "Science",
+      "excerpt": "As an astrophotographer, you might feel that you will eventually run out of targets. I disagree — amateurs are discovering new targets all the time, and old targets can look brand new with better skills and different gear — but if you are looking for a fresh astronomical challenge, look no further than the American Continue reading \"How to become a variable star observer\" The post How to become a variable star observer appeared first on Astronomy Magazine .",
+      "image": "",
+      "discovery": "rss",
+      "date_estimated": false,
+      "status": "pending",
+      "first_seen": "2026-09-23T01:31:44.234566+06:00",
+      "last_seen": "2026-09-23T01:31:44.234573+06:00"
     }
   },
   "events": {
@@ -26771,6 +26690,81 @@
       "selected_at": "2026-09-22T21:33:47.042985+06:00",
       "status": "published",
       "message_id": 488
+    },
+    "complex_life_heat": {
+      "event_id": "complex_life_heat",
+      "canonical_url": "science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat",
+      "original_url": "https://science.nasa.gov/science-research/planetary-science/nasa-funded-research-finds-complex-life-defying-record-heat/",
+      "source": "NASA Science",
+      "region": "Science",
+      "topic": "Astrobiology",
+      "institution": "NASA",
+      "event_cluster_id": "evt_9922f47049",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Fire Amoeba Breaks Eukaryote Heat Record at 145°F, Expanding Astrobiology Horizons",
+      "summary": "Scientists discovered Incendiamoeba cascadensis reproducing at 145 °F (63 °C), setting a new upper limit for complex life on Earth.",
+      "highlights": [
+        "Incendiamoeba cascadensis reproduces at 145 °F (63 °C) and remains active up to 147 °F (64 °C)",
+        "The study, published in Cell, shows eukaryotes can survive higher temperatures than previously thought",
+        "Genome analysis revealed genes that stabilize DNA and maintain protein folding under extreme heat"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-09-22T23:33:10+06:00",
+      "selected_at": "2026-09-23T01:35:20.505824+06:00",
+      "status": "published",
+      "message_id": 489
+    },
+    "aquarius_iv_satellite_galaxy": {
+      "event_id": "aquarius_iv_satellite_galaxy",
+      "canonical_url": "livescience.com/space/astronomy/vera-rubin-observatory-detects-one-of-the-smallest-and-faintest-satellite-galaxies-ever-seen-before-the-telescopes-mission-even-began",
+      "original_url": "https://www.livescience.com/space/astronomy/vera-rubin-observatory-detects-one-of-the-smallest-and-faintest-satellite-galaxies-ever-seen-before-the-telescopes-mission-even-began",
+      "source": "Live Science",
+      "region": "Science",
+      "topic": "Astronomy",
+      "institution": "Vera C. Rubin Observatory",
+      "event_cluster_id": "evt_2dfe664f99",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Vera C. Rubin Observatory Uncovers Ultra‑Faint Satellite Aquarius IV Around the Milky Way",
+      "summary": "A new ultra‑faint dwarf galaxy, Aquarius IV, was detected in early Rubin test data, marking one of the smallest and dimmest Milky Way satellites ever found.",
+      "highlights": [
+        "Aquarius IV lies about 359,000 light‑years from the Galactic centre and has a mass of roughly 1,500 solar masses",
+        "The discovery reached an eight‑sigma significance, equivalent to a 1‑in‑1.6 quadrillion chance of being random",
+        "Rubin’s 3,200‑pixel camera can spot objects up to 100 million times dimmer than naked‑eye visibility"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-09-22T23:12:25+06:00",
+      "selected_at": "2026-09-23T01:35:26.237113+06:00",
+      "status": "published",
+      "message_id": 490
+    },
+    "early_rna_world_timing": {
+      "event_id": "early_rna_world_timing",
+      "canonical_url": "livescience.com/planet-earth/evolution/scientists-identify-sweet-spot-for-early-stage-of-life-on-earth-that-preceded-luca-the-ancestor-of-all-living-things",
+      "original_url": "https://www.livescience.com/planet-earth/evolution/scientists-identify-sweet-spot-for-early-stage-of-life-on-earth-that-preceded-luca-the-ancestor-of-all-living-things",
+      "source": "Live Science",
+      "region": "Science",
+      "topic": "Biology",
+      "institution": "Various (likely university consortium)",
+      "event_cluster_id": "evt_5c23020403",
+      "event_confidence": 0.6,
+      "event_source_count": 1,
+      "headline": "Scientists Pinpoint 4.33 Billion‑Year‑Old “Sweet Spot” for Earth’s Early RNA World",
+      "summary": "A new Nature Communications study narrows the onset of the RNA World to about 4.33 billion years ago, after intense asteroid bombardment ceased.",
+      "highlights": [
+        "Impact bombardment ended ~4.4 billion years ago, allowing hydrothermal vent clusters to form",
+        "Computer model links lunar cratering record to crustal conditions favorable for RNA synthesis",
+        "Optimal window identified at ~4.33 billion years ago, preceding LUCA by ~130 million years"
+      ],
+      "concepts": [],
+      "key_numbers": [],
+      "published_at": "2026-09-22T21:47:28+06:00",
+      "selected_at": "2026-09-23T01:35:31.634181+06:00",
+      "status": "published",
+      "message_id": 491
     }
   },
   "event_clusters": {
@@ -38364,7 +38358,7 @@
       ],
       "source_count": 1,
       "confidence": 0.6,
-      "last_seen": "2026-09-22T21:25:19.254948+06:00",
+      "last_seen": "2026-09-23T01:33:54.517505+06:00",
       "headline": "Hot spring amoeba breaks record for heat tolerance of complex life"
     },
     "evt_4dbaabf650": {
@@ -38400,7 +38394,7 @@
       ],
       "source_count": 1,
       "confidence": 0.6,
-      "last_seen": "2026-09-22T21:25:19.254962+06:00",
+      "last_seen": "2026-09-23T01:33:54.517497+06:00",
       "headline": "Liquid crystal takes page from steel in surprising phase transition"
     },
     "evt_5c868a1028": {
@@ -38412,7 +38406,7 @@
       ],
       "source_count": 1,
       "confidence": 0.6,
-      "last_seen": "2026-09-22T21:25:19.254964+06:00",
+      "last_seen": "2026-09-23T01:33:54.517519+06:00",
       "headline": "Quantum protocol securely verifies a device's position using stations 2 km apart"
     },
     "evt_4bb1bbd679": {
@@ -38444,12 +38438,12 @@
       "topic": "Astrophysics",
       "region": "Science",
       "sources": [
-        "Universe Today"
+        "Phys.org"
       ],
       "source_count": 1,
       "confidence": 0.6,
-      "last_seen": "2026-09-22T21:25:19.254972+06:00",
-      "headline": "3I/ATLAS Has An Extreme Taste For Heavy Water"
+      "last_seen": "2026-09-23T01:33:54.517536+06:00",
+      "headline": "3I/ATLAS has an extreme taste for heavy water"
     },
     "evt_fecbbf78e6": {
       "event_id": "evt_fecbbf78e6",
@@ -38486,6 +38480,186 @@
       "confidence": 0.6,
       "last_seen": "2026-09-22T21:25:19.254982+06:00",
       "headline": "'Once every 130 years': A huge new crater on the moon could be a giant leap for lunar science, researcher says"
+    },
+    "evt_9922f47049": {
+      "event_id": "evt_9922f47049",
+      "topic": "Astrobiology",
+      "region": "Science",
+      "sources": [
+        "NASA Science"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517477+06:00",
+      "headline": "NASA-Funded Research Finds Complex Life Defying Record Heat"
+    },
+    "evt_085e052726": {
+      "event_id": "evt_085e052726",
+      "topic": "Climate Science",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517490+06:00",
+      "headline": "Emissions from the past decade have made Europe's recent heat waves worse"
+    },
+    "evt_22f5748f44": {
+      "event_id": "evt_22f5748f44",
+      "topic": "Astronomy",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517494+06:00",
+      "headline": "Milky Way's first microblazar may produce fastest particles in the galaxy"
+    },
+    "evt_d5b0ae034f": {
+      "event_id": "evt_d5b0ae034f",
+      "topic": "Chemistry",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517502+06:00",
+      "headline": "Bacteria-killing polymers—a new class of antibiotic?"
+    },
+    "evt_568deb6f26": {
+      "event_id": "evt_568deb6f26",
+      "topic": "Materials Science",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517509+06:00",
+      "headline": "Carbon nanotube foams reveal a new kind of mechanical memory"
+    },
+    "evt_6e42da43d2": {
+      "event_id": "evt_6e42da43d2",
+      "topic": "Environmental Science",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517511+06:00",
+      "headline": "Brazil has made gains against Amazon deforestation, but lasting protection is a challenge"
+    },
+    "evt_620aa2d330": {
+      "event_id": "evt_620aa2d330",
+      "topic": "Space Science",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517514+06:00",
+      "headline": "Earth's chorus waves show limited link to rapid electron loss from radiation belts"
+    },
+    "evt_2dfe664f99": {
+      "event_id": "evt_2dfe664f99",
+      "topic": "Astronomy",
+      "region": "Science",
+      "sources": [
+        "Live Science"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517517+06:00",
+      "headline": "Vera C. Rubin Observatory detects one of the smallest and faintest satellite galaxies ever seen"
+    },
+    "evt_293b724c09": {
+      "event_id": "evt_293b724c09",
+      "topic": "Cell Biology",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517523+06:00",
+      "headline": "A single temporary stimulus may redirect cell fate without permanently altering genes"
+    },
+    "evt_aee6aa5892": {
+      "event_id": "evt_aee6aa5892",
+      "topic": "Biomedical Research",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517525+06:00",
+      "headline": "Gold nanoplasmonic chip tracks L-DOPA response in Parkinson's 'mini-brains'"
+    },
+    "evt_5c23020403": {
+      "event_id": "evt_5c23020403",
+      "topic": "Biology",
+      "region": "Science",
+      "sources": [
+        "Live Science"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517528+06:00",
+      "headline": "Scientists identify 'sweet spot' for early stage of life on Earth that preceded LUCA, the ancestor of all living things"
+    },
+    "evt_138b685fde": {
+      "event_id": "evt_138b685fde",
+      "topic": "Environmental Science",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517530+06:00",
+      "headline": "Planetary crises deepen global health inequality, paper warns"
+    },
+    "evt_95e9fcdec1": {
+      "event_id": "evt_95e9fcdec1",
+      "topic": "Astronomy",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517533+06:00",
+      "headline": "Largest dataset of its kind could clarify how massive stars shaped early galaxies"
+    },
+    "evt_b52b4db123": {
+      "event_id": "evt_b52b4db123",
+      "topic": "Microbiology",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517539+06:00",
+      "headline": "Methane beneath the Greenland ice sheet shapes microbial life and influences the carbon cycle"
+    },
+    "evt_76a0305bab": {
+      "event_id": "evt_76a0305bab",
+      "topic": "Condensed Matter",
+      "region": "Science",
+      "sources": [
+        "Phys.org"
+      ],
+      "source_count": 1,
+      "confidence": 0.6,
+      "last_seen": "2026-09-23T01:33:54.517543+06:00",
+      "headline": "Electrical control method tunes magnetic properties for next-generation spintronic memory"
     }
   },
   "posted_event_ids": [
@@ -38961,15 +39135,12 @@
     "evt_4bb1bbd679",
     "evt_e5d105478d",
     "evt_7bd661e4b5",
-    "evt_fecbbf78e6"
+    "evt_fecbbf78e6",
+    "evt_9922f47049",
+    "evt_2dfe664f99",
+    "evt_5c23020403"
   ],
   "recent_titles": [
-    "uc san diego shows natural rna polymerase reads eight letter dna alphabet",
-    "cold mode accretion needed to grow early supermassive black holes study finds",
-    "icecube finds no neutrino signal from 89 tidal disruption events",
-    "gluex photoproduction search uncovers two new exotic hadron structures",
-    "embl barcelona engineers self organizing bovine tissue for future cultivated steak",
-    "gaia rotation curve vs stellar stream models milky way mass discrepancy resolved",
     "flat band charge order in fe5gete2 offers route to memory devices",
     "lux zeplin may have captured first direct dark matter interaction",
     "lux zeplin experiment reports intriguing 2 6 sigma dark matter candidate",
@@ -39369,7 +39540,10 @@
     "amateur astronomer uncovers 390 million year old 25 km impact crater in quebec",
     "fire amoeba sets new heat tolerance record for eukaryotes",
     "interstellar visitor 3i atlas shows extreme heavy water and carbon isotope ratios",
-    "new zeolite bamboo biochar concrete boosts strength and captures co"
+    "new zeolite bamboo biochar concrete boosts strength and captures co",
+    "fire amoeba breaks eukaryote heat record at 145 f expanding astrobiology horizons",
+    "vera c rubin observatory uncovers ultra faint satellite aquarius iv around the milky way",
+    "scientists pinpoint 4 33 billion year old sweet spot for earth s early rna world"
   ],
   "category_coverage": {
     "Chemical Biology": "2026-08-29T23:25:24.818712+06:00",
@@ -39382,16 +39556,16 @@
     "Evolution": "2026-09-12T00:10:31.138443+06:00",
     "AI for Science": "2026-09-05T15:54:32.861912+06:00",
     "Molecular Biology": "2026-09-19T20:25:07.001744+06:00",
-    "Biology": "2026-09-22T21:33:36.340695+06:00",
+    "Biology": "2026-09-23T01:35:31.634200+06:00",
     "Microbiology": "2026-09-21T00:06:47.642408+06:00",
     "Planetary Science": "2026-09-22T17:02:32.989581+06:00",
     "Geology": "2026-09-22T21:33:31.200729+06:00",
-    "Astronomy": "2026-09-22T21:33:20.718661+06:00",
+    "Astronomy": "2026-09-23T01:35:26.237131+06:00",
     "Biomedical Research": "2026-09-21T00:07:07.323322+06:00",
     "Paleontology": "2026-09-16T21:34:47.148059+06:00",
     "Astrophysics": "2026-09-22T21:33:41.391327+06:00",
     "Condensed Matter": "2026-09-20T11:48:18.337433+06:00",
-    "Astrobiology": "2026-09-10T00:26:20.590477+06:00",
+    "Astrobiology": "2026-09-23T01:35:20.505845+06:00",
     "Mathematics": "2026-09-19T00:16:08.272287+06:00",
     "Environmental Science": "2026-09-10T00:26:31.187528+06:00",
     "Particle Physics": "2026-09-21T17:57:08.001181+06:00",
