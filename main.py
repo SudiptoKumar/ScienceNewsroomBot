@@ -2792,22 +2792,32 @@ def bold_terms_html(
 
 def dynamic_rich_html(story):
     terms = derive_bold_terms(story)
+    # POSTCARD FORMAT (network standard, Karn's pick 2026-10-30): photo,
+    # headline, the whole story in one bold line, then every detail inside a
+    # single tap-to-expand FULL STORY block. No visible section template.
     parts = [
         '<img src="tg://photo?id=newsphoto">',
         "<h1>" + escape_rich_html(story["headline"]) + "</h1>",
-        "<p>" + bold_terms_html(story["summary"], terms) + "</p>",
-        "<h2>KEY HIGHLIGHTS</h2>",
-        "<p>" + "<br>".join(
-            "• " + bold_terms_html(point, terms)
-            for point in story.get("highlights", [])
-        ) + "</p>",
-        "<blockquote expandable><b>THE CONTEXT</b><br>"
-        + bold_terms_html(story.get("the_context", ""), terms)
-        + "</blockquote>",
-        "<blockquote expandable><b>BOTTOM LINE</b><br>"
-        + bold_terms_html(story.get("bottom_line", ""), terms)
-        + "</blockquote>",
+        "<p><b>" + escape_rich_html(story["summary"]) + "</b></p>",
     ]
+
+    story_blocks = []
+    highlights = story.get("highlights", [])
+    if highlights:
+        story_blocks.append("<br>".join(
+            "• " + bold_terms_html(point, terms)
+            for point in highlights
+        ))
+    if story.get("the_context"):
+        story_blocks.append(bold_terms_html(story["the_context"], terms))
+    if story.get("bottom_line"):
+        story_blocks.append(bold_terms_html(story["bottom_line"], terms))
+    if story_blocks:
+        parts.append(
+            "<blockquote expandable><b>FULL STORY</b><br>"
+            + "<br><br>".join(story_blocks)
+            + "</blockquote>"
+        )
 
     hashtags = " ".join(category_hashtags(story))
     if hashtags:
@@ -4047,12 +4057,15 @@ def self_test():
     assert "**bold**" not in clean_generated_text("**bold** study result")
     assert "bold" in clean_generated_text("**bold** study result")
     assert complete_text("An incomplete sentence—") is False
-    assert "THE CONTEXT" in rendered
-    assert "BOTTOM LINE" in rendered
-    assert rendered.count('<blockquote expandable>') == 2
+    assert "KEY HIGHLIGHTS" not in rendered
+    assert "THE CONTEXT" not in rendered
+    assert "BOTTOM LINE" not in rendered
+    assert "<b>FULL STORY</b>" in rendered
+    assert rendered.count('<blockquote expandable>') == 1
     assert "<aside>" not in rendered
     assert rendered.count("• ") == 4
-    assert rendered.index("<h1>Telescope Finds") < rendered.index("KEY HIGHLIGHTS") < rendered.index("THE CONTEXT") < rendered.index("BOTTOM LINE")
+    assert "<p><b>" + sample["summary"] + "</b></p>" in rendered
+    assert rendered.index("<h1>Telescope Finds") < rendered.index("FULL STORY")
 
     sample_three = dict(sample)
     sample_three["highlights"] = sample_three["highlights"][:3]
@@ -4063,7 +4076,7 @@ def self_test():
     sample_five["highlights"] = sample_five["highlights"] + ["The result offers another test of current planet-formation models."]
     rendered_five = dynamic_rich_html(sample_five)
     assert rendered_five.count("• ") == 5
-    assert rendered.index("#Astronomy") > rendered.index("BOTTOM LINE")
+    assert rendered.index("#Astronomy") > rendered.index("FULL STORY")
     assert "<footer><b>Source:</b>" in rendered
     import inspect
     assert "@ScienceNewsroom" in inspect.getsource(branded_card)
